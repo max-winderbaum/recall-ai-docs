@@ -3,7 +3,7 @@ title: "Desktop SDKMoon (Dark Mode)Sun (Light Mode)"
 description: "The Desktop SDK lets you build a desktop app that records Zoom, Google Meet and Microsoft Teams meetings."
 source_file: "docs/desktop-sdk-beta.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:10.968Z"
+converted_at: "2025-06-10T18:47:15.038Z"
 api_parameters_count: "0"
 ---
 

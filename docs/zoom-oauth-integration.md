@@ -3,7 +3,7 @@ title: "Zoom OAuth IntegrationMoon (Dark Mode)Sun (Light Mode)"
 description: "📘 Automatic Recording Privileges: The Zoom OAuth integration is specifically for allowing bots to be able to record meetings without the host needing to manually grant recording access every meeting, as well as bypassing the waiting room. If you don't use this integration, Zoom bots will fall back ..."
 source_file: "docs/zoom-oauth-integration.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.881Z"
+converted_at: "2025-06-10T18:47:16.021Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:

@@ -3,7 +3,7 @@ title: "Bot FundamentalsMoon (Dark Mode)Sun (Light Mode)"
 description: "Scheduled vs. Ad Hoc Bots There are two different ways of using bots: Ad Hoc (\"On-demand\") bots - Bot joins call immediately. Very occasionally, the call to Create Bot may return a HTTP 507 . In this rare case, you can retry the call to Create Bot. Scheduled bots - Bot is scheduled to join a call in..."
 source_file: "docs/bot-fundamentals.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:10.670Z"
+converted_at: "2025-06-10T18:47:14.734Z"
 api_parameters_count: "0"
 ---
 # Scheduled vs. Ad Hoc Bots

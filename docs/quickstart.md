@@ -3,7 +3,7 @@ title: "Quickstart: Record a meeting using a botMoon (Dark Mode)Sun (Light Mode)
 description: "Learn how to send a bot to a meeting and retrieve the recording."
 source_file: "docs/quickstart.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.423Z"
+converted_at: "2025-06-10T18:47:15.538Z"
 api_parameters_count: "0"
 ---
 # 1\. Initial setup

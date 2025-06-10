@@ -3,7 +3,7 @@ title: "Resume RecordingMoon (Dark Mode)Sun (Light Mode)"
 description: "Instructs the bot to resume a paused recording. This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/bot_resume_recording_create.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:47:12.802Z"
+converted_at: "2025-06-10T18:52:03.972Z"
 api_parameters_count: "66"
 ---
 ## POST https://us-east-1.recall.ai/api/v1/bot/{id}/resume_recording/
@@ -87,3 +87,873 @@ For more information on bot recording behavior using this endpoint, see [Recordi
 | login_required | boolean \| null | No | Specify if the bot should always login to Google before joining the meeting. This value will override the default value set on bot's Google Meet login credentials on the account. When set to 'false', the bot will only login if required by the meeting. |
 | google_login_group_id | uuid \| null | No | The ID of the google login group to use for this meeting. If specified, the 'login_required' field value will be ignored and bot will use the 'login_mode' value on the login group. |
 | slack_team | object \| null | Yes |  |
+
+## Python Code Sample
+
+```python
+import requests
+url = "https://us-east-1.recall.ai/api/v1/bot/id/resume_recording/"
+headers = {"accept": "application/json"}
+response = requests.post(url, headers = headers)
+print(response.text)
+```
+
+## Sample Response
+
+```json
+{
+  "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "meeting_url": "string",
+  "bot_name": "Meeting Notetaker",
+  "join_at": "2025-06-10T18:51:55.168Z",
+  "recording_config": {
+    "transcript": {
+      "metadata": {
+        "additionalProp": "string"
+      },
+      "provider": {
+        "meeting_captions": {},
+        "assembly_ai_async_chunked": {
+          "boost_param": "string",
+          "content_safety": true,
+          "content_safety_confidence": 0,
+          "custom_spelling": [
+            {
+              "to": "string",
+              "from": [
+                "string"
+              ]
+            }
+          ],
+          "disfluencies": true,
+          "filter_profanity": true,
+          "format_text": true,
+          "language_code": "string",
+          "language_confidence_threshold": 0,
+          "language_detection": true,
+          "punctuate": true,
+          "redact_pii": true,
+          "redact_pii_policies": [
+            "string"
+          ],
+          "redact_pii_sub": "string",
+          "speaker_labels": true,
+          "speakers_expected": 0,
+          "speech_model": "string",
+          "speech_threshold": 0,
+          "word_boost": [
+            "string"
+          ],
+          "keyterms_prompt": [
+            "string"
+          ],
+          "chunk_minimum": 180,
+          "chunk_maximum": 300
+        },
+        "assembly_ai_streaming": {
+          "word_boost": [
+            "string"
+          ],
+          "disable_partial_transcripts": true
+        },
+        "deepgram_streaming": {
+          "tier": "string",
+          "model": "string",
+          "version": "string",
+          "language": "string",
+          "punctuate": true,
+          "filler_words": true,
+          "keyterm": [
+            "string"
+          ],
+          "profanity_filter": true,
+          "redact": [
+            "string"
+          ],
+          "diarize": true,
+          "diarize_version": "string",
+          "smart_format": true,
+          "ner": true,
+          "alternatives": 0,
+          "numerals": true,
+          "search": [
+            "string"
+          ],
+          "replace": [
+            "string"
+          ],
+          "keywords": [
+            "string"
+          ],
+          "interim_results": true,
+          "endpointing": 0,
+          "log_data": true,
+          "mip_opt_out": true
+        },
+        "gladia_v1_streaming": {
+          "language_behaviour": "manual",
+          "language": "string",
+          "transcription_hint": "string",
+          "endpointing": 0,
+          "model_type": "fast",
+          "audio_enhancer": true
+        },
+        "gladia_v2_streaming": {
+          "model": "string",
+          "endpointing": 0,
+          "maximum_duration_without_endpointing": 0,
+          "languages": [
+            "string"
+          ],
+          "code_switching": true,
+          "audio_enhancer": true,
+          "speech_threshold": 0,
+          "custom_vocabulary": true,
+          "custom_vocabulary_config": {
+            "default_intensity": 0,
+            "vocabulary": [
+              {
+                "value": "string",
+                "intensity": 0,
+                "pronunciations": [
+                  "string"
+                ],
+                "language": "string"
+              }
+            ]
+          },
+          "sentiment_analysis": true,
+          "region": "string"
+        },
+        "rev_streaming": {
+          "language": "string",
+          "metadata": "string",
+          "custom_vocabulary_id": "string",
+          "filter_profanity": true,
+          "remove_disfluencies": true,
+          "delete_after_seconds": 0,
+          "detailed_partials": true,
+          "start_ts": 0,
+          "max_segment_duration_seconds": 0,
+          "transcriber": "string",
+          "enable_speaker_switch": true,
+          "skip_postprocessing": true,
+          "priority": "string"
+        },
+        "aws_transcribe_streaming": {
+          "language_code": "string",
+          "content_redaction_type": "string",
+          "language_model_name": "string",
+          "language_options": "string",
+          "language_identification": true,
+          "identify_multiple_languages": true,
+          "partial_results_stability": "string",
+          "pii_entity_types": "string",
+          "preferred_language": "string",
+          "show_speaker_label": true,
+          "vocabulary_filter_method": "string",
+          "vocabulary_filter_names": "string",
+          "vocabulary_names": "string",
+          "vocabulary_name": "string"
+        },
+        "speechmatics_streaming": {
+          "language": "string",
+          "additional_vocab": [
+            {
+              "content": "string",
+              "sounds_like": [
+                "string"
+              ]
+            }
+          ],
+          "diarization": "string",
+          "speaker_diarization_config": {
+            "max_speakers": 0
+          },
+          "enable_partials": true,
+          "max_delay": 0,
+          "max_delay_mode": "string",
+          "output_locale": "string",
+          "punctuation_overrides": {
+            "permitted_marks": [
+              "string"
+            ],
+            "sensitivity": 0
+          },
+          "operating_point": "string",
+          "enable_entities": true
+        }
+      },
+      "diarization": {
+        "use_separate_streams_when_available": false
+      }
+    },
+    "realtime_endpoints": [
+      {
+        "metadata": {
+          "additionalProp": "string"
+        },
+        "type": "rtmp",
+        "url": "string",
+        "events": [
+          "video_mixed_flv.data"
+        ]
+      },
+      {
+        "metadata": {
+          "additionalProp": "string"
+        },
+        "type": "rtmp",
+        "url": "string",
+        "events": [
+          "participant_events.join"
+        ]
+      },
+      {
+        "metadata": {
+          "additionalProp": "string"
+        },
+        "type": "rtmp",
+        "url": "string",
+        "events": [
+          "participant_events.join"
+        ]
+      },
+      {
+        "metadata": {
+          "additionalProp": "string"
+        },
+        "type": "rtmp",
+        "events": [
+          "participant_events.join"
+        ]
+      }
+    ],
+    "retention": {
+      "type": "timed",
+      "hours": 168
+    },
+    "video_mixed_layout": "speaker_view",
+    "video_mixed_mp4": {
+      "metadata": {
+        "additionalProp": "string"
+      }
+    },
+    "participant_events": {
+      "metadata": {
+        "additionalProp": "string"
+      }
+    },
+    "meeting_metadata": {
+      "metadata": {
+        "additionalProp": "string"
+      }
+    },
+    "video_mixed_participant_video_when_screenshare": "overlap",
+    "start_recording_on": "participant_join",
+    "include_bot_in_recording": {
+      "audio": false
+    },
+    "metadata": {
+      "additionalProp": "string"
+    },
+    "audio_mixed_raw": {
+      "metadata": {
+        "additionalProp": "string"
+      }
+    },
+    "video_separate_mp4": {
+      "metadata": {
+        "additionalProp": "string"
+      }
+    },
+    "audio_separate_raw": {
+      "metadata": {
+        "additionalProp": "string"
+      }
+    },
+    "video_mixed_flv": {
+      "metadata": {
+        "additionalProp": "string"
+      }
+    },
+    "video_separate_png": {
+      "metadata": {
+        "additionalProp": "string"
+      }
+    }
+  },
+  "status_changes": [
+    {
+      "code": "string",
+      "message": "string",
+      "created_at": "2025-06-10T18:51:55.168Z",
+      "sub_code": "string"
+    }
+  ],
+  "recordings": [
+    {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "created_at": "2025-06-10T18:51:55.168Z",
+      "started_at": "2025-06-10T18:51:55.168Z",
+      "completed_at": "2025-06-10T18:51:55.168Z",
+      "expires_at": "2025-06-10T18:51:55.168Z",
+      "status": {
+        "code": "processing",
+        "sub_code": "string",
+        "updated_at": "2025-06-10T18:51:55.168Z"
+      },
+      "media_shortcuts": {
+        "video_mixed": {
+          "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "created_at": "2025-06-10T18:51:55.168Z",
+          "status": {
+            "code": "processing",
+            "sub_code": "string",
+            "updated_at": "2025-06-10T18:51:55.168Z"
+          },
+          "metadata": {
+            "additionalProp": "string"
+          },
+          "data": {
+            "download_url": "string"
+          },
+          "format": "mp4"
+        },
+        "transcript": {
+          "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "created_at": "2025-06-10T18:51:55.168Z",
+          "status": {
+            "code": "processing",
+            "sub_code": "string",
+            "updated_at": "2025-06-10T18:51:55.168Z"
+          },
+          "metadata": {
+            "additionalProp": "string"
+          },
+          "data": {
+            "download_url": "string",
+            "provider_data_download_url": "string"
+          },
+          "diarization": {
+            "use_separate_streams_when_available": true
+          },
+          "provider": {
+            "assembly_ai_async": {
+              "language": "string",
+              "audio_end_at": 0,
+              "audio_start_from": 0,
+              "auto_chapters": true,
+              "auto_highlights": true,
+              "boost_param": "string",
+              "content_safety": true,
+              "content_safety_confidence": 0,
+              "custom_spelling": [
+                {}
+              ],
+              "custom_topics": true,
+              "disfluencies": true,
+              "dual_channel": true,
+              "entity_detection": true,
+              "filter_profanity": true,
+              "format_text": true,
+              "iab_categories": true,
+              "language_code": "string",
+              "language_confidence_threshold": 0,
+              "language_detection": true,
+              "punctuate": true,
+              "redact_pii": true,
+              "redact_pii_audio": true,
+              "redact_pii_audio_quality": "string",
+              "redact_pii_policies": [
+                "string"
+              ],
+              "redact_pii_sub": "string",
+              "sentiment_analysis": true,
+              "speaker_labels": true,
+              "speakers_expected": 0,
+              "speech_model": "string",
+              "speech_threshold": 0,
+              "summarization": true,
+              "summary_model": "string",
+              "summary_type": "string",
+              "topics": [
+                "string"
+              ],
+              "word_boost": [
+                "string"
+              ],
+              "keyterms_prompt": [
+                "string"
+              ]
+            },
+            "deepgram_async": {
+              "tier": "string",
+              "model": "string",
+              "version": "string",
+              "language": "string",
+              "detect_language": true,
+              "punctuate": true,
+              "profanity_filter": true,
+              "redact": [
+                "string"
+              ],
+              "diarize": true,
+              "diarize_version": "string",
+              "smart_format": true,
+              "numerals": true,
+              "search": [
+                "string"
+              ],
+              "replace": [
+                "string"
+              ],
+              "keywords": [
+                "string"
+              ],
+              "keyterm": [
+                "string"
+              ],
+              "filler_words": true,
+              "summarize": true,
+              "detect_topics": true,
+              "tag": true,
+              "mip_opt_out": true,
+              "credential_id": "string"
+            },
+            "gladia_v1_async": {
+              "language_behaviour": "string",
+              "language": "string",
+              "toggle_noise_reduction": true,
+              "transcription_hint": "string",
+              "toggle_diarization": "string",
+              "toggle_direct_translate": true,
+              "target_translation_language": "string",
+              "diarization_num_speakers": 0,
+              "diarization_min_speakers": 0,
+              "diarization_max_speakers": 0
+            },
+            "gladia_v2_async": {
+              "context_prompt": "string",
+              "custom_vocabulary": "string",
+              "custom_vocabulary_config": {
+                "default_intensity": 0,
+                "vocabulary": [
+                  {
+                    "value": "string",
+                    "intensity": 0,
+                    "pronunciations": [
+                      "string"
+                    ],
+                    "language": "string"
+                  }
+                ]
+              },
+              "detect_language": true,
+              "enable_code_switching": true,
+              "code_switching_config": {
+                "languages": [
+                  "string"
+                ]
+              },
+              "language": "string",
+              "subtitles": true,
+              "subtitles_config": {
+                "formats": [
+                  "string"
+                ]
+              },
+              "diarization": true,
+              "diarization_config": {
+                "number_of_speakers": 0,
+                "min_speakers": 0,
+                "max_speakers": 0
+              },
+              "translation": true,
+              "translation_config": {
+                "target_languages": [
+                  "string"
+                ],
+                "model": "string"
+              },
+              "summarization": true,
+              "summarization_config": {
+                "type": "string"
+              },
+              "moderation": true,
+              "named_entity_recognition": true,
+              "chapterization": true,
+              "name_consistency": true,
+              "custom_spelling": true,
+              "structured_data_extraction": true,
+              "sentiment_analysis": true,
+              "audio_to_llm": true,
+              "audio_to_llm_config": {
+                "prompts": [
+                  "string"
+                ]
+              },
+              "sentences": true,
+              "display_mode": true,
+              "punctuation_enhanced": true
+            },
+            "rev_async": {
+              "detect_language": true,
+              "language": "string",
+              "skip_diarization": true,
+              "skip_postprocessing": true,
+              "skip_punctuation": true,
+              "remove_disfluencies": true,
+              "remove_atmospherics": true,
+              "filter_profanity": true,
+              "custom_vocabulary_id": "string",
+              "custom_vocabularies": [
+                "string"
+              ]
+            },
+            "speechmatics_async": {
+              "language": "string",
+              "domain": "string",
+              "output_locale": "string",
+              "operating_point": "string",
+              "additional_vocab": [
+                {
+                  "content": "string",
+                  "sounds_like": [
+                    "string"
+                  ]
+                }
+              ],
+              "language_identification_config": {
+                "expected_languages": [
+                  "string"
+                ],
+                "low_confidence_action": "string",
+                "default_language": "string"
+              },
+              "enable_entities": true
+            },
+            "assembly_ai_async_chunked": {
+              "boost_param": "string",
+              "content_safety": true,
+              "content_safety_confidence": 0,
+              "custom_spelling": [
+                {
+                  "to": "string",
+                  "from": [
+                    "string"
+                  ]
+                }
+              ],
+              "disfluencies": true,
+              "filter_profanity": true,
+              "format_text": true,
+              "language_code": "string",
+              "language_confidence_threshold": 0,
+              "language_detection": true,
+              "punctuate": true,
+              "redact_pii": true,
+              "redact_pii_policies": [
+                "string"
+              ],
+              "redact_pii_sub": "string",
+              "speaker_labels": true,
+              "speakers_expected": 0,
+              "speech_model": "string",
+              "speech_threshold": 0,
+              "word_boost": [
+                "string"
+              ],
+              "keyterms_prompt": [
+                "string"
+              ],
+              "chunk_minimum": 180,
+              "chunk_maximum": 300
+            },
+            "assembly_ai_streaming": {
+              "word_boost": [
+                "string"
+              ],
+              "disable_partial_transcripts": true
+            },
+            "deepgram_streaming": {
+              "tier": "string",
+              "model": "string",
+              "version": "string",
+              "language": "string",
+              "punctuate": true,
+              "filler_words": true,
+              "keyterm": [
+                "string"
+              ],
+              "profanity_filter": true,
+              "redact": [
+                "string"
+              ],
+              "diarize": true,
+              "diarize_version": "string",
+              "smart_format": true,
+              "ner": true,
+              "alternatives": 0,
+              "numerals": true,
+              "search": [
+                "string"
+              ],
+              "replace": [
+                "string"
+              ],
+              "keywords": [
+                "string"
+              ],
+              "interim_results": true,
+              "endpointing": 0,
+              "log_data": true,
+              "mip_opt_out": true
+            },
+            "gladia_v1_streaming": {
+              "language_behaviour": "manual",
+              "language": "string",
+              "transcription_hint": "string",
+              "endpointing": 0,
+              "model_type": "fast",
+              "audio_enhancer": true
+            },
+            "gladia_v2_streaming": {
+              "model": "string",
+              "endpointing": 0,
+              "maximum_duration_without_endpointing": 0,
+              "languages": [
+                "string"
+              ],
+              "code_switching": true,
+              "audio_enhancer": true,
+              "speech_threshold": 0,
+              "custom_vocabulary": true,
+              "custom_vocabulary_config": {
+                "default_intensity": 0,
+                "vocabulary": [
+                  {
+                    "value": "string",
+                    "intensity": 0,
+                    "pronunciations": [
+                      "string"
+                    ],
+                    "language": "string"
+                  }
+                ]
+              },
+              "sentiment_analysis": true,
+              "region": "string"
+            },
+            "rev_streaming": {
+              "language": "string",
+              "metadata": "string",
+              "custom_vocabulary_id": "string",
+              "filter_profanity": true,
+              "remove_disfluencies": true,
+              "delete_after_seconds": 0,
+              "detailed_partials": true,
+              "start_ts": 0,
+              "max_segment_duration_seconds": 0,
+              "transcriber": "string",
+              "enable_speaker_switch": true,
+              "skip_postprocessing": true,
+              "priority": "string"
+            },
+            "aws_transcribe_streaming": {
+              "language_code": "string",
+              "content_redaction_type": "string",
+              "language_model_name": "string",
+              "language_options": "string",
+              "language_identification": true,
+              "identify_multiple_languages": true,
+              "partial_results_stability": "string",
+              "pii_entity_types": "string",
+              "preferred_language": "string",
+              "show_speaker_label": true,
+              "vocabulary_filter_method": "string",
+              "vocabulary_filter_names": "string",
+              "vocabulary_names": "string",
+              "vocabulary_name": "string"
+            },
+            "speechmatics_streaming": {
+              "language": "string",
+              "additional_vocab": [
+                {
+                  "content": "string",
+                  "sounds_like": [
+                    "string"
+                  ]
+                }
+              ],
+              "diarization": "string",
+              "speaker_diarization_config": {
+                "max_speakers": 0
+              },
+              "enable_partials": true,
+              "max_delay": 0,
+              "max_delay_mode": "string",
+              "output_locale": "string",
+              "punctuation_overrides": {
+                "permitted_marks": [
+                  "string"
+                ],
+                "sensitivity": 0
+              },
+              "operating_point": "string",
+              "enable_entities": true
+            },
+            "meeting_captions": {}
+          }
+        },
+        "participant_events": {
+          "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "created_at": "2025-06-10T18:51:55.168Z",
+          "status": {
+            "code": "processing",
+            "sub_code": "string",
+            "updated_at": "2025-06-10T18:51:55.168Z"
+          },
+          "metadata": {
+            "additionalProp": "string"
+          },
+          "data": {
+            "participant_events_download_url": "string",
+            "speaker_timeline_download_url": "string",
+            "participants_download_url": "string"
+          }
+        },
+        "meeting_metadata": {
+          "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "created_at": "2025-06-10T18:51:55.168Z",
+          "status": {
+            "code": "processing",
+            "sub_code": "string",
+            "updated_at": "2025-06-10T18:51:55.168Z"
+          },
+          "metadata": {
+            "additionalProp": "string"
+          },
+          "data": {
+            "title": "string",
+            "zoom": {
+              "meeting_uuid": "string"
+            }
+          }
+        }
+      },
+      "metadata": {
+        "additionalProp": "string"
+      }
+    }
+  ],
+  "output_media": {
+    "camera": {
+      "kind": "webpage",
+      "config": {
+        "url": "string"
+      }
+    },
+    "screenshare": {
+      "kind": "webpage",
+      "config": {
+        "url": "string"
+      }
+    }
+  },
+  "automatic_video_output": {
+    "in_call_recording": {
+      "kind": "jpeg"
+    },
+    "in_call_not_recording": {
+      "kind": "jpeg"
+    }
+  },
+  "automatic_audio_output": {
+    "in_call_recording": {
+      "data": {
+        "kind": "mp3"
+      },
+      "replay_on_participant_join": {
+        "debounce_mode": "trailing",
+        "debounce_interval": 0,
+        "disable_after": 0
+      }
+    }
+  },
+  "chat": {
+    "on_bot_join": {
+      "send_to": "host",
+      "message": "string",
+      "pin": false
+    },
+    "on_participant_join": {
+      "message": "string",
+      "exclude_host": true
+    }
+  },
+  "automatic_leave": {
+    "waiting_room_timeout": 1200,
+    "noone_joined_timeout": 1200,
+    "everyone_left_timeout": {
+      "timeout": 2,
+      "activate_after": 0
+    },
+    "in_call_not_recording_timeout": 3600,
+    "in_call_recording_timeout": 0,
+    "recording_permission_denied_timeout": 30,
+    "silence_detection": {
+      "timeout": 3600,
+      "activate_after": 1200
+    },
+    "bot_detection": {
+      "using_participant_events": {
+        "timeout": 600,
+        "activate_after": 1200
+      },
+      "using_participant_names": {
+        "timeout": 0,
+        "activate_after": 0,
+        "matches": [
+          "string"
+        ]
+      }
+    }
+  },
+  "variant": {
+    "zoom": "web",
+    "google_meet": "web",
+    "microsoft_teams": "web",
+    "webex": "web"
+  },
+  "calendar_meetings": [
+    {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "start_time": "2025-06-10T18:51:55.168Z",
+      "end_time": "2025-06-10T18:51:55.168Z",
+      "calendar_user": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "external_id": "string"
+      }
+    }
+  ],
+  "zoom": {
+    "join_token_url": "string",
+    "zak_url": "string",
+    "user_email": "user@example.com"
+  },
+  "google_meet": {
+    "login_required": true,
+    "google_login_group_id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+  },
+  "slack_team": {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "metadata": {
+      "additionalProp": "string"
+    }
+  },
+  "metadata": {
+    "additionalProp": "string"
+  }
+}
+```

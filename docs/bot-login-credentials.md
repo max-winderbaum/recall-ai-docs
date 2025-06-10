@@ -3,7 +3,7 @@ title: "Bot Login CredentialsMoon (Dark Mode)Sun (Light Mode)"
 description: "❗️ This method for setting up authenticated Google Meet bots has been deprecated. Please refer to the guide in below link to setup authenticated Google Meet bots:: Setup Authenticated Google Meet Bot By default the Google Meet bot joins every meeting as a guest participant. This can lead to certain ..."
 source_file: "docs/bot-login-credentials.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:10.682Z"
+converted_at: "2025-06-10T18:47:14.747Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:

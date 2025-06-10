@@ -3,7 +3,7 @@ title: "Step 2 Alternative: Customer-Managed OAuthMoon (Dark Mode)Sun (Light Mod
 description: "Manage users' OAuth tokens on your server and provide them to Recall"
 source_file: "docs/step-2-alternative-customer-managed-oauth.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.676Z"
+converted_at: "2025-06-10T18:47:15.796Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:

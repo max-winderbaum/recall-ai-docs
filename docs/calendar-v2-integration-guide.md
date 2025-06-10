@@ -3,7 +3,7 @@ title: "Integration GuideMoon (Dark Mode)Sun (Light Mode)"
 description: "Initial setup Create an API Key in the Recall dashboard . This will be used for API authentication. 2. Setup OAuth Clients for Providers Setup OAuth Providers for the calendar platforms you are planning to support. Google Calendar Microsoft Outlook Keep note of CLIENT_ID &amp; CLIENT_SECRET values a..."
 source_file: "docs/calendar-v2-integration-guide.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:10.876Z"
+converted_at: "2025-06-10T18:47:14.937Z"
 api_parameters_count: "0"
 ---
 # 1\. Initial setup

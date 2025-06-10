@@ -3,7 +3,7 @@ title: "Calendar Event Platform DataMoon (Dark Mode)Sun (Light Mode)"
 description: "Calendar event platform data for Calendar V2 events."
 source_file: "reference/calendar-event-platform-data.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:47:13.049Z"
+converted_at: "2025-06-10T18:53:17.727Z"
 api_parameters_count: "0"
 ---
 Calendar event platform data for Calendar V2 events.

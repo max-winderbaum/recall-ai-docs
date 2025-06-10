@@ -3,7 +3,7 @@ title: "Transcription Best PracticesMoon (Dark Mode)Sun (Light Mode)"
 description: "There are a few common issues you can run into when enabling transcription for your meeting bots. Below are some common transcription questions along with answers and resources to go deeper: Q: How do I improve transcription quality? Recall does not have direct control over the quality of the transc..."
 source_file: "docs/transcription-best-practices.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.774Z"
+converted_at: "2025-06-10T18:47:15.917Z"
 api_parameters_count: "0"
 ---
 There are a few common issues you can run into when enabling transcription for your meeting bots. Below are some common transcription questions along with answers and resources to go deeper:

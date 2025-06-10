@@ -3,7 +3,7 @@ title: "Native BotsMoon (Dark Mode)Sun (Light Mode)"
 description: "Bots come in two varieties: Native and Web . Web bots: The default meeting bot. Recommended for a vast majority of use cases. Native bots: A distinct type of bot that enables native-specific features specifically for Zoom. Only for a small minority of use cases. Web bots are enabled by default and t..."
 source_file: "docs/native-bots.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.347Z"
+converted_at: "2025-06-10T18:47:15.437Z"
 api_parameters_count: "0"
 ---
 Bots come in two varieties: **Native** and **Web**.

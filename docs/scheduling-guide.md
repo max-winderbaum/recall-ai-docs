@@ -3,7 +3,7 @@ title: "Scheduling GuideMoon (Dark Mode)Sun (Light Mode)"
 description: "Once you've successfully created a calendar in Recall , you can start scheduling bots to calendar events for the same using the below steps: 1. Sync Events Once a calendar is connected, you will start receiving calendar sync events webhooks whenever an event is added/updated/removed for the calendar..."
 source_file: "docs/scheduling-guide.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.586Z"
+converted_at: "2025-06-10T18:47:15.711Z"
 api_parameters_count: "0"
 ---
 Once you've [successfully created a calendar in Recall](/docs/calendar-v2-integration-guide#4-create-calendar.md), you can start scheduling bots to calendar events for the same using the below steps:

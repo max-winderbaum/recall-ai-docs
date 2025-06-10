@@ -3,7 +3,7 @@ title: "Media ShortcutsMoon (Dark Mode)Sun (Light Mode)"
 description: "Once a recording has completed, Recall will expose the most commonly used media types in the Retrieve Recording response under the media_shortcuts key. This is primarily aimed at getting unified access to relevant media objects in one response without having to make separate API calls for each media..."
 source_file: "docs/media-shortcuts.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.257Z"
+converted_at: "2025-06-10T18:47:15.338Z"
 api_parameters_count: "0"
 ---
 Once a recording has completed, Recall will expose the most commonly used media types in the [Retrieve Recording](/reference/recording_retrieve.md) response under the `media_shortcuts` key. This is primarily aimed at getting unified access to relevant media objects in one response without having to make separate API calls for each media object.

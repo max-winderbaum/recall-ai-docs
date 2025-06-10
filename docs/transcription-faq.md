@@ -3,7 +3,7 @@ title: "Transcription FAQMoon (Dark Mode)Sun (Light Mode)"
 description: "Frequently asked questions about transcription."
 source_file: "docs/transcription-faq.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.780Z"
+converted_at: "2025-06-10T18:47:15.924Z"
 api_parameters_count: "0"
 ---
 ## How do I match words with calendar participants or email addresses?

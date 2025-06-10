@@ -3,7 +3,7 @@ title: "Zoom OAuth Setup: Legacy ScopesMoon (Dark Mode)Sun (Light Mode)"
 description: "📘 Legacy scopes: This guide is only for Zoom apps using Zoom's Legacy scopes. For Zoom apps created after March 21, 2024, see Zoom OAuth Setup: Granular Scopes . Requesting the Required Scopes You'll need to request a few scopes on your OAuth app in order to use this integration. If you already hav..."
 source_file: "docs/integration-guide-zoom-oauth-legacy-scopes.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.223Z"
+converted_at: "2025-06-10T18:47:15.301Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:

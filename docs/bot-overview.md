@@ -3,7 +3,7 @@ title: "Bot OverviewMoon (Dark Mode)Sun (Light Mode)"
 description: "Bot Overview"
 source_file: "docs/bot-overview.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:10.690Z"
+converted_at: "2025-06-10T18:47:14.756Z"
 api_parameters_count: "0"
 ---
 A **bot** is the fundamental entity for accessing a given meeting's data.

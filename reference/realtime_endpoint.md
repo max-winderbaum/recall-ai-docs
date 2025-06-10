@@ -3,7 +3,7 @@ title: "List Realtime EndpointsMoon (Dark Mode)Sun (Light Mode)"
 description: "This endpoint is rate limited to: 60 requests per min per workspace"
 source_file: "reference/realtime_endpoint.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:47:14.198Z"
+converted_at: "2025-06-10T19:01:06.726Z"
 api_parameters_count: "16"
 ---
 ## GET https://us-east-1.recall.ai/api/v1/realtime_endpoint/
@@ -30,3 +30,47 @@ This endpoint is rate limited to: 60 requests per min per workspace
 | status | object | Yes |  |
 | url | uri | Yes |  |
 | events | array of strings | Yes |  |
+
+## Python Code Sample
+
+```python
+import requests
+url = "https://us-east-1.recall.ai/api/v1/realtime_endpoint/"
+headers = {"accept": "application/json"}
+response = requests.get(url, headers = headers)
+print(response.text)
+```
+
+## Sample Response
+
+```json
+{
+  "next": "string",
+  "previous": "string",
+  "results": [
+    {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "created_at": "2025-06-10T19:00:58.024Z",
+      "recording": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "metadata": {
+          "additionalProp": "string"
+        }
+      },
+      "metadata": {
+        "additionalProp": "string"
+      },
+      "type": "string",
+      "status": {
+        "code": "running",
+        "sub_code": "string",
+        "updated_at": "2025-06-10T19:00:58.024Z"
+      },
+      "url": "string",
+      "events": [
+        "string"
+      ]
+    }
+  ]
+}
+```

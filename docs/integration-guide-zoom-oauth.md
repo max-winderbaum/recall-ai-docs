@@ -3,7 +3,7 @@ title: "Zoom OAuth SetupMoon (Dark Mode)Sun (Light Mode)"
 description: "Set up the Recall Zoom OAuth integration."
 source_file: "docs/integration-guide-zoom-oauth.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.235Z"
+converted_at: "2025-06-10T18:47:15.315Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:

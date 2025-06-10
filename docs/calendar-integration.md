@@ -3,7 +3,7 @@ title: "Getting StartedMoon (Dark Mode)Sun (Light Mode)"
 description: "Integrate bots with your users' Google Calendar or Microsoft Outlook events."
 source_file: "docs/calendar-integration.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:10.787Z"
+converted_at: "2025-06-10T18:47:14.840Z"
 api_parameters_count: "0"
 ---
 Recall supports integrating directly with your user's calendar to simplify sending bots and syncing them with calendar events. These integrations provide a simple way to take care of event updates, bot deduplication, and other complexities that come with integrating bots with calendars.

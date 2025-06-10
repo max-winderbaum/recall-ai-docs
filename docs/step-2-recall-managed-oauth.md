@@ -3,7 +3,7 @@ title: "Step 2: Recall-Managed OAuthMoon (Dark Mode)Sun (Light Mode)"
 description: "OAuth your customers' Zoom Account using Recall-managed OAuth."
 source_file: "docs/step-2-recall-managed-oauth.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.686Z"
+converted_at: "2025-06-10T18:47:15.807Z"
 api_parameters_count: "0"
 ---
 The last step in the Zoom OAuth integration process is to actually direct your users through the OAuth authorization flow.

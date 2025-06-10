@@ -3,7 +3,7 @@ title: "Stream Audio/Video from Webpage to a MeetingMoon (Dark Mode)Sun (Light M
 description: "Use Recall.ai's Output Media API to stream audio and video from a webpage directly to a meeting"
 source_file: "docs/stream-media.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.716Z"
+converted_at: "2025-06-10T18:47:15.841Z"
 api_parameters_count: "0"
 ---
 Recall supports streaming a webpage's audio and video to meetings via the bot's camera and microphone. This set of APIs is the perfect combination to build interactive AI agents that listen to the meeting and react in realtime. Some of our customers use this functionality to build AI-powered sales agents, coaches, recruiters, meeting planners and more.

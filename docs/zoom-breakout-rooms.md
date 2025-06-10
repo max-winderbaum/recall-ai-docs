@@ -3,7 +3,7 @@ title: "Zoom Breakout Rooms (Beta)Moon (Dark Mode)Sun (Light Mode)"
 description: "Seamlessly capture conversation data from breakout rooms in Zoom"
 source_file: "docs/zoom-breakout-rooms.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.847Z"
+converted_at: "2025-06-10T18:47:15.984Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:

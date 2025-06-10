@@ -3,7 +3,7 @@ title: "Zoom Webinars & Registration-Required MeetingsMoon (Dark Mode)Sun (Light
 description: "Recall supports sending bots to registration-required Zoom meetings and webinars. Few things to note: This feature is only supported by web bots For Webinars, bots must be added as a panelist When calling the Create Bot api, you should ensure: The meeting URL contains the tk parameter. This paramete..."
 source_file: "docs/zoom-webinars.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.922Z"
+converted_at: "2025-06-10T18:47:16.061Z"
 api_parameters_count: "0"
 ---
 Recall supports sending bots to registration-required Zoom meetings and webinars.

@@ -3,7 +3,7 @@ title: "FAQs: WebhooksMoon (Dark Mode)Sun (Light Mode)"
 description: "Retry schedule for bot status change webhooks events."
 source_file: "docs/faq-webhooks.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.064Z"
+converted_at: "2025-06-10T18:47:15.129Z"
 api_parameters_count: "0"
 ---
 ## 1\. How are webhooks retried?

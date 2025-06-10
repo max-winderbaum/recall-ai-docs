@@ -3,7 +3,7 @@ title: "Getting Started with RecallMoon (Dark Mode)Sun (Light Mode)"
 description: "Record meetings, stream audio and video, generate transcripts, and so much more."
 source_file: "docs/getting-started.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.081Z"
+converted_at: "2025-06-10T18:47:15.160Z"
 api_parameters_count: "0"
 ---
 [Recall](https://recall.ai) is a unified API for meeting bots.

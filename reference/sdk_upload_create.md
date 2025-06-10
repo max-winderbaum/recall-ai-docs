@@ -3,7 +3,7 @@ title: "Create Desktop SDK UploadMoon (Dark Mode)Sun (Light Mode)"
 description: "Create a new Desktop SDK upload. This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/sdk_upload_create.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:47:14.461Z"
+converted_at: "2025-06-10T19:02:53.511Z"
 api_parameters_count: "10"
 ---
 ## POST https://us-east-1.recall.ai/api/v1/sdk-upload/
@@ -26,3 +26,101 @@ Create a new Desktop SDK upload
 | recording_id | string | Yes |  |
 | upload_token | string | Yes |  |
 | created_at | date-time | Yes |  |
+
+## Python Code Sample
+
+```python
+import requests
+url = "https://us-east-1.recall.ai/api/v1/sdk-upload/"
+payload = {
+"recording_config": {
+"video_mixed_mp4": { "metadata": { "additionalProp": "string" } },
+"participant_events": { "metadata": { "additionalProp": "string" } },
+"transcript": {
+"metadata": { "additionalProp": "string" },
+"provider": {
+"assembly_ai_streaming": {
+"word_boost": ["string"],
+"disable_partial_transcripts": True
+},
+"deepgram_streaming": {
+"tier": "string",
+"model": "string",
+"version": "string",
+"language": "string",
+"punctuate": True,
+"filler_words": True,
+"keyterm": ["string"],
+"profanity_filter": True,
+"redact": ["string"],
+"diarize": True,
+"diarize_version": "string",
+"smart_format": True,
+"ner": True,
+"alternatives": 0,
+"numerals": True,
+"search": ["string"],
+"replace": ["string"],
+"keywords": ["string"],
+"interim_results": True,
+"endpointing": 0,
+"log_data": True,
+"mip_opt_out": True
+}
+}
+},
+"realtime_endpoints": [
+{
+"metadata": { "additionalProp": "string" },
+"type": "rtmp",
+"url": "string",
+"events": ["video_mixed_flv.data"]
+},
+{
+"metadata": { "additionalProp": "string" },
+"type": "rtmp",
+"url": "string",
+"events": ["participant_events.join"]
+},
+{
+"metadata": { "additionalProp": "string" },
+"type": "rtmp",
+"url": "string",
+"events": ["participant_events.join"]
+},
+{
+"metadata": { "additionalProp": "string" },
+"type": "rtmp",
+"events": ["participant_events.join"]
+}
+],
+"metadata": { "additionalProp": "string" }
+},
+"metadata": { "additionalProp": "string" }
+}
+headers = {
+"accept": "application/json",
+"content-type": "application/json"
+}
+response = requests.post(url, json = payload, headers = headers)
+print(response.text)
+```
+
+## Sample Response
+
+```json
+{
+  "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "status": {
+    "code": "pending",
+    "sub_code": "string",
+    "updated_at": "2025-06-10T19:02:41.173Z"
+  },
+  "recording_id": "string",
+  "upload_token": "string",
+  "created_at": "2025-06-10T19:02:41.173Z",
+  "metadata": {
+    "additionalProp": "string"
+  }
+}
+```

@@ -3,7 +3,7 @@ title: "Meeting MetadataMoon (Dark Mode)Sun (Light Mode)"
 description: "Recall.ai exposes metadata for a given meeting as media object on a recording. Examples of meeting metadata include meeting title and unique identifiers, though the specific metadata available depends on the platform. Configuration To configure a bot to record meeting metadata, provide a meeting_met..."
 source_file: "docs/meeting-metadata-and-participants.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.278Z"
+converted_at: "2025-06-10T18:47:15.361Z"
 api_parameters_count: "0"
 ---
 Recall.ai exposes metadata for a given meeting as media object on a recording.

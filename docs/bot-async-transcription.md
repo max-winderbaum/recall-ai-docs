@@ -3,7 +3,7 @@ title: "Bot Async TranscriptionMoon (Dark Mode)Sun (Light Mode)"
 description: "In addition to real-time transcription, Recall.ai also supports transcribing asynchronously after the call has ended. Quicklinks Create Async Transcript Bot Webhooks Quickstart Receive the recording.done webhook You'll be notified when a bot's recording is completed for transcription by receiving a ..."
 source_file: "docs/bot-async-transcription.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:10.652Z"
+converted_at: "2025-06-10T18:47:14.715Z"
 api_parameters_count: "0"
 ---
 In addition to real-time transcription, Recall.ai also supports transcribing asynchronously after the call has ended.

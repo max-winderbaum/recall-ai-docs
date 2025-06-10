@@ -3,7 +3,7 @@ title: "API v1.11: Release NotesMoon (Dark Mode)Sun (Light Mode)"
 description: "This document highlights some key updates included in the the API v1.11 release Added support for Desktop SDK . Recordings are fundamental source of data capture Recordings and Media New status change webhooks for Recordings &amp; Media objects webhooks Improvements to realtime data delivery Adding ..."
 source_file: "docs/api-v111-release-notes.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:10.606Z"
+converted_at: "2025-06-10T18:47:14.647Z"
 api_parameters_count: "0"
 ---
 This document highlights some key updates included in the the API v1.11 release

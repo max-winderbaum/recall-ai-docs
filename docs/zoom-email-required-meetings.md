@@ -3,7 +3,7 @@ title: "Email Required MeetingsMoon (Dark Mode)Sun (Light Mode)"
 description: "Enable bots to join email-required Zoom meetings and webinars."
 source_file: "docs/zoom-email-required-meetings.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.854Z"
+converted_at: "2025-06-10T18:47:15.992Z"
 api_parameters_count: "0"
 ---
 Certain Zoom meetings and webinars require an email in order to join.

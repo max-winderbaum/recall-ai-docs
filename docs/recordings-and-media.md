@@ -3,7 +3,7 @@ title: "Recordings and MediaMoon (Dark Mode)Sun (Light Mode)"
 description: "Recordings Recordings are the fundamental entity for capturing and storing conversation data. A recording serves as a container that encapsulates various types of conversation data and metadata, providing both real-time data streams through Real-Time Endpoints and comprehensive snapshots of meetings..."
 source_file: "docs/recordings-and-media.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.559Z"
+converted_at: "2025-06-10T18:47:15.684Z"
 api_parameters_count: "0"
 ---
 # Recordings

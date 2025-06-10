@@ -3,7 +3,7 @@ title: "Calendar V1 FAQMoon (Dark Mode)Sun (Light Mode)"
 description: "Calendar V1 FAQ"
 source_file: "docs/calendar-v1-faq.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:10.804Z"
+converted_at: "2025-06-10T18:47:14.859Z"
 api_parameters_count: "0"
 ---
 ## When do I have to call the Refresh Calendar Meetings endpoint?

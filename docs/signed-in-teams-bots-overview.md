@@ -3,7 +3,7 @@ title: "OverviewMoon (Dark Mode)Sun (Light Mode)"
 description: "Sign-In your Teams bots into a Microsoft account."
 source_file: "docs/signed-in-teams-bots-overview.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.637Z"
+converted_at: "2025-06-10T18:47:15.752Z"
 api_parameters_count: "0"
 ---
 By default the Teams bot will join meeting as an anonymous guest participant.

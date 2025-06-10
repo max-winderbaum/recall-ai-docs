@@ -3,7 +3,7 @@ title: "AI TranscriptionMoon (Dark Mode)Sun (Light Mode)"
 description: "Use one of Recall's AI transcription partners to generate meeting transcripts"
 source_file: "docs/ai-transcription.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:10.593Z"
+converted_at: "2025-06-10T18:47:14.630Z"
 api_parameters_count: "0"
 ---
 In addition to meeting caption transcriptions, Recall also integrates with several AI transcription partners as a solution for producing transcripts, as well as meeting intelligence such as summarization and sentiment analysis.

@@ -3,7 +3,7 @@ title: "Receive Real-Time Audio From BotMoon (Dark Mode)Sun (Light Mode)"
 description: "Receive real-time audio from a bot."
 source_file: "docs/real-time-audio-protocol.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.435Z"
+converted_at: "2025-06-10T18:47:15.551Z"
 api_parameters_count: "0"
 ---
 To receive raw audio in real-time from a bot, you can leverage [Real-Time Websocket Endpoints](/docs/real-time-websocket-endpoints.md).

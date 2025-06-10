@@ -3,7 +3,7 @@ title: "List Participant EventsMoon (Dark Mode)Sun (Light Mode)"
 description: "This endpoint is rate limited to: 60 requests per min per workspace"
 source_file: "reference/participant_events_list.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:47:14.123Z"
+converted_at: "2025-06-10T19:00:33.192Z"
 api_parameters_count: "14"
 ---
 ## GET https://us-east-1.recall.ai/api/v1/participant_events/
@@ -28,3 +28,47 @@ This endpoint is rate limited to: 60 requests per min per workspace
 | status | object | Yes |  |
 | metadata | object | Yes |  |
 | data | object | Yes |  |
+
+## Python Code Sample
+
+```python
+import requests
+url = "https://us-east-1.recall.ai/api/v1/participant_events/"
+headers = {"accept": "application/json"}
+response = requests.get(url, headers = headers)
+print(response.text)
+```
+
+## Sample Response
+
+```json
+{
+  "next": "string",
+  "previous": "string",
+  "results": [
+    {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "recording": {
+        "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "metadata": {
+          "additionalProp": "string"
+        }
+      },
+      "created_at": "2025-06-10T19:00:24.623Z",
+      "status": {
+        "code": "processing",
+        "sub_code": "string",
+        "updated_at": "2025-06-10T19:00:24.623Z"
+      },
+      "metadata": {
+        "additionalProp": "string"
+      },
+      "data": {
+        "participant_events_download_url": "string",
+        "speaker_timeline_download_url": "string",
+        "participants_download_url": "string"
+      }
+    }
+  ]
+}
+```

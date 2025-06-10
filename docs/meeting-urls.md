@@ -3,7 +3,7 @@ title: "Meeting URL'sMoon (Dark Mode)Sun (Light Mode)"
 description: "🚧 API Reference under construction: We're working on fixing how meeting_url is documented in our API reference. In the meantime, here is a reference for the shapes of various platform meeting URL's. Zoom \"meeting_url\": { \"meeting_id\": string, \"meeting_password\": string | null, \"platform\": \"zoom\" } ..."
 source_file: "docs/meeting-urls.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.310Z"
+converted_at: "2025-06-10T18:47:15.396Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:

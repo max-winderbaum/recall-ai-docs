@@ -3,7 +3,7 @@ title: "Bypass the Teams LobbyMoon (Dark Mode)Sun (Light Mode)"
 description: "Enable bots to bypass the Microsoft Teams lobby."
 source_file: "docs/teams-bots-bypass-the-lobby.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.755Z"
+converted_at: "2025-06-10T18:47:15.895Z"
 api_parameters_count: "0"
 ---
 There are two ways for Microsoft Teams bots to be able to bypass the lobby:

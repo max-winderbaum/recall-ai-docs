@@ -3,7 +3,7 @@ title: "Bots FAQMoon (Dark Mode)Sun (Light Mode)"
 description: "Frequently asked questions about bots"
 source_file: "docs/faq.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.073Z"
+converted_at: "2025-06-10T18:47:15.148Z"
 api_parameters_count: "0"
 ---
 ## What does the sub code `timeout_exceeded_only_bots_in_call` mean ?

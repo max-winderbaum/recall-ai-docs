@@ -3,7 +3,7 @@ title: "Setting up Signed-in Bots for Microsoft TeamsMoon (Dark Mode)Sun (Light 
 description: "How to sign in your bot into a Microsoft teams account"
 source_file: "docs/setting-up-signed-in-bots-for-microsoft-teams.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.623Z"
+converted_at: "2025-06-10T18:47:15.738Z"
 api_parameters_count: "0"
 ---
 **This guide is for you if:**

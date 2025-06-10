@@ -3,7 +3,7 @@ title: "Retrieve Audio SeparateMoon (Dark Mode)Sun (Light Mode)"
 description: "This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/audio_separate_retrieve.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:47:12.194Z"
+converted_at: "2025-06-10T18:48:45.319Z"
 api_parameters_count: "11"
 ---
 ## GET https://us-east-1.recall.ai/api/v1/audio_separate/{id}/
@@ -25,3 +25,40 @@ This endpoint is rate limited to: 300 requests per min per workspace
 | data | object | Yes | Download all audio separate parts for the recording. See response format here |
 | download_url | uri \| null | Yes | Download all audio separate parts for the recording. See response format here |
 | format | string | Yes | raw - Raw  raw |
+
+## Python Code Sample
+
+```python
+import requests
+url = "https://us-east-1.recall.ai/api/v1/audio_separate/id/"
+headers = {"accept": "application/json"}
+response = requests.get(url, headers = headers)
+print(response.text)
+```
+
+## Sample Response
+
+```json
+{
+  "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "recording": {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "metadata": {
+      "additionalProp": "string"
+    }
+  },
+  "created_at": "2025-06-10T18:48:36.710Z",
+  "status": {
+    "code": "processing",
+    "sub_code": "string",
+    "updated_at": "2025-06-10T18:48:36.710Z"
+  },
+  "metadata": {
+    "additionalProp": "string"
+  },
+  "data": {
+    "download_url": "string"
+  },
+  "format": "raw"
+}
+```

@@ -3,7 +3,7 @@ title: "Video LayoutsMoon (Dark Mode)Sun (Light Mode)"
 description: "Configure the video layout for your bot's recording."
 source_file: "docs/video-layouts.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.806Z"
+converted_at: "2025-06-10T18:47:15.943Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:

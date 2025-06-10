@@ -3,7 +3,7 @@ title: "Registration-Required Meetings & WebinarsMoon (Dark Mode)Sun (Light Mode
 description: "Send bots to Zoom registration-required meetings and webinars."
 source_file: "docs/registration-required-meetings-webinars.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.574Z"
+converted_at: "2025-06-10T18:47:15.698Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:

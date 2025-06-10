@@ -3,7 +3,7 @@ title: "List Bot ScreenshotsMoon (Dark Mode)Sun (Light Mode)"
 description: "Get a list of all screenshots of the bot This endpoint is rate limited to: 60 requests per min per workspace"
 source_file: "reference/bot-screenshots.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:47:12.278Z"
+converted_at: "2025-06-10T18:49:16.251Z"
 api_parameters_count: "9"
 ---
 ## GET https://us-east-1.recall.ai/api/v1/bot/{bot_id}/screenshots/
@@ -34,3 +34,25 @@ Because of this, screenshots do not include participant video.
 | id | string | Yes |  |
 | recorded_at | date-time | Yes |  |
 | url | uri | Yes |  |
+
+## Python Code Sample
+
+```python
+import requests
+url = "https://us-east-1.recall.ai/api/v1/bot/bot_id/screenshots/"
+headers = {"accept": "application/json"}
+response = requests.get(url, headers = headers)
+print(response.text)
+```
+
+## Sample Response
+
+```json
+[
+  {
+    "id": "string",
+    "recorded_at": "2025-06-10T18:49:07.690Z",
+    "url": "string"
+  }
+]
+```

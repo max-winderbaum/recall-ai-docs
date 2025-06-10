@@ -3,7 +3,7 @@ title: "Bot DetectionMoon (Dark Mode)Sun (Light Mode)"
 description: "Recall provides multiple ways to mitigate instances of meetings where participants are bots leading to longer recording lengths and processing times. There are various heuristics that can be enabled/configured depending on usage pattern and requirements. Using Silence Detection This heuristic uses p..."
 source_file: "docs/bot-detection.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:10.661Z"
+converted_at: "2025-06-10T18:47:14.726Z"
 api_parameters_count: "0"
 ---
 Recall provides multiple ways to mitigate instances of meetings where participants are bots leading to longer recording lengths and processing times. There are various heuristics that can be enabled/configured depending on usage pattern and requirements.

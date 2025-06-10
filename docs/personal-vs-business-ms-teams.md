@@ -3,7 +3,7 @@ title: "Personal vs Business MS TeamsMoon (Dark Mode)Sun (Light Mode)"
 description: "There are 2 distinct versions of Microsoft Teams. Business MS Teams This is also known as \"Teams for Work or School\". This is the version of MS Teams every company uses. Meeting links will have the form https://teams.microsoft.com/... . You can sign up for a free Business MS Teams account by followi..."
 source_file: "docs/personal-vs-business-ms-teams.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.402Z"
+converted_at: "2025-06-10T18:47:15.517Z"
 api_parameters_count: "0"
 ---
 There are 2 distinct versions of Microsoft Teams.

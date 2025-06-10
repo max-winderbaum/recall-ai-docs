@@ -3,7 +3,7 @@ title: "Receiving Chat MessagesMoon (Dark Mode)Sun (Light Mode)"
 description: "Platform Support Platform Supported Limitations Zoom ✅ Receiving chat messages in the Zoom Native Bot is not currently supported Google Meet ✅ Microsoft Teams ✅ Bots can only receive chat messages if the meeting chat is accessible to anonymous participants. Cisco Webex ❌ Slack Huddles ❌ Setup &amp; ..."
 source_file: "docs/receiving-chat-messages.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.536Z"
+converted_at: "2025-06-10T18:47:15.659Z"
 api_parameters_count: "0"
 ---
 # Platform Support

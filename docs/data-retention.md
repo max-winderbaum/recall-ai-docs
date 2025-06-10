@@ -3,7 +3,7 @@ title: "Storage and PlaybackMoon (Dark Mode)Sun (Light Mode)"
 description: "All bots follow Recall's data retention policy."
 source_file: "docs/data-retention.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:10.934Z"
+converted_at: "2025-06-10T18:47:15.001Z"
 api_parameters_count: "0"
 ---
 By default, all media associated with a recording is retained for 7 days following the end of a call, after which it's deleted **permanently**.

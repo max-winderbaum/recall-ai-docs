@@ -3,7 +3,7 @@ title: "Custom MetadataMoon (Dark Mode)Sun (Light Mode)"
 description: "Attach custom metadata to Recall resources"
 source_file: "docs/custom-metadata.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:10.917Z"
+converted_at: "2025-06-10T18:47:14.982Z"
 api_parameters_count: "0"
 ---
 You can attach custom metadata to [Recordings](/docs/recordings-and-media.md), [Media](/docs/recordings-and-media#media.md), and data sources (such as [Bots](/docs/bot-overview.md)) through their corresponding `metadata` field.

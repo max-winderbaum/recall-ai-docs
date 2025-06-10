@@ -3,7 +3,7 @@ title: "Integration GuideMoon (Dark Mode)Sun (Light Mode)"
 description: "The calendar integration allows every unique user in your app to connect their Google/Microsoft calendars and have Recall bots join their meetings automatically. Integrate Recall APIs directly into your Web/Mobile applications. Refer to our demo app for an example integration ( source code here ) Th..."
 source_file: "docs/calendar-v1-integration-guide.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:10.824Z"
+converted_at: "2025-06-10T18:47:14.881Z"
 api_parameters_count: "0"
 ---
 The calendar integration allows every unique user in your app to connect their Google/Microsoft calendars and have Recall bots join their meetings automatically.

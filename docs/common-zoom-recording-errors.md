@@ -3,7 +3,7 @@ title: "Common Zoom Recording ErrorsMoon (Dark Mode)Sun (Light Mode)"
 description: "Common situations in Zoom that prevent a bot from recording."
 source_file: "docs/common-zoom-recording-errors.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:10.911Z"
+converted_at: "2025-06-10T18:47:14.976Z"
 api_parameters_count: "0"
 ---
 # Host was not present

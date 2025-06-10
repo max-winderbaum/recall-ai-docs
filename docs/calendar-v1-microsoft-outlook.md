@@ -3,7 +3,7 @@ title: "Microsoft OutlookMoon (Dark Mode)Sun (Light Mode)"
 description: "Recall allows your users to sync their outlook calendar and set auto recording preferences for their meetings. Creating Microsoft OAuth App To enable this feature, follow the steps listed below Register Microsoft OAuth App. More info on this here https://docs.microsoft.com/en-us/azure/active-directo..."
 source_file: "docs/calendar-v1-microsoft-outlook.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:10.835Z"
+converted_at: "2025-06-10T18:47:14.893Z"
 api_parameters_count: "0"
 ---
 Recall allows your users to sync their outlook calendar and set auto recording preferences for their meetings.

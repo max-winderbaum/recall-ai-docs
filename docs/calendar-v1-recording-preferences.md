@@ -3,7 +3,7 @@ title: "Recording Preferences & Bot DeduplicationMoon (Dark Mode)Sun (Light Mode
 description: "Calendar V1 recording preferences and bot deduplication"
 source_file: "docs/calendar-v1-recording-preferences.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:10.848Z"
+converted_at: "2025-06-10T18:47:14.907Z"
 api_parameters_count: "0"
 ---
 # Recording Preferences

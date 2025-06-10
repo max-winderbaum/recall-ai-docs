@@ -3,7 +3,7 @@ title: "Bot RecordingMoon (Dark Mode)Sun (Light Mode)"
 description: "Configure a bot to record an mp4 When calling Create Bot , you can configure a bot to generate a recording artifact by specifying this in the recording_config object: curl -X POST \"https://us-east-1.recall.ai/api/v1/bot/\" \ -H \"Authorization: $RECALLAI_API_KEY\" \ -H \"accept: application/json\" \ -H \"..."
 source_file: "docs/receive-a-recording.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.527Z"
+converted_at: "2025-06-10T18:47:15.649Z"
 api_parameters_count: "0"
 ---
 # Configure a bot to record an mp4

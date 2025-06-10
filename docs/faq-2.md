@@ -3,7 +3,7 @@ title: "Slack Huddles FAQMoon (Dark Mode)Sun (Light Mode)"
 description: "Frequently asked questions about Slack huddles bots."
 source_file: "docs/faq-2.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.056Z"
+converted_at: "2025-06-10T18:47:15.123Z"
 api_parameters_count: "0"
 ---
 ## 1\. Can the Slack Bot join multiple huddles at once?

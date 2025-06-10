@@ -3,7 +3,7 @@ title: "Create Zoom OAuth CredentialMoon (Dark Mode)Sun (Light Mode)"
 description: "Create a new Zoom OAuth Credential. This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/zoom_oauth_credentials_create.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:47:15.371Z"
+converted_at: "2025-06-10T19:09:01.298Z"
 api_parameters_count: "12"
 ---
 ## POST https://us-east-1.recall.ai/api/v2/zoom-oauth-credentials/
@@ -35,3 +35,35 @@ For more information, see:
 | detail | string | Yes |  |
 | conflicting_zoom_account_id | string | No | The Zoom account ID of the conflicting credential, if any. |
 | conflicting_zoom_user_id | string | No | The Zoom user ID of the conflicting credential, if any. |
+
+## Python Code Sample
+
+```python
+import requests
+url = "https://us-east-1.recall.ai/api/v2/zoom-oauth-credentials/"
+payload = {
+"oauth_app": "3faf64-57-42-bfc-2cf6afa6",
+"authorization_code": {
+"code": "string",
+"redirect_uri": "string",
+"code_verifier": "string"
+},
+"access_token_callback_url": "string"
+}
+headers = {
+"accept": "application/json",
+"content-type": "application/json"
+}
+response = requests.post(url, json = payload, headers = headers)
+print(response.text)
+```
+
+## Sample Response
+
+```json
+{
+  "detail": "string",
+  "conflicting_zoom_account_id": "string",
+  "conflicting_zoom_user_id": "string"
+}
+```

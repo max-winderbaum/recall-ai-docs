@@ -3,7 +3,7 @@ title: "Bot TranscriptionMoon (Dark Mode)Sun (Light Mode)"
 description: "📘 Transcription must be enabled: Bots do not generate transcripts by default. To generate a transcript, a bot must be configured to use a transcription method . Transcription Methods There are two methods bots can use to generate transcriptions: Meeting Caption Transcription : Using native meeting ..."
 source_file: "docs/bot-transcription.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:10.755Z"
+converted_at: "2025-06-10T18:47:14.808Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:

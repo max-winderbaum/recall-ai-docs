@@ -3,7 +3,7 @@ title: "Bot Sub CodesMoon (Dark Mode)Sun (Light Mode)"
 description: "Sub codes are a field ( sub_code ) added to certain bot status change events to provide extra context. Here's an example of a status change object structure: { \"code\": \"call_ended\", \"sub_code\": \"bot_kicked_from_call\", \"updated_at\": \"2023-04-28T08:51:37.741790Z\" } Here, we can interpret this status c..."
 source_file: "docs/sub-codes.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.742Z"
+converted_at: "2025-06-10T18:47:15.870Z"
 api_parameters_count: "0"
 ---
 Sub codes are a field (`sub_code`) added to certain [bot status change](/reference/bot-status-change-events.md) events to provide extra context.

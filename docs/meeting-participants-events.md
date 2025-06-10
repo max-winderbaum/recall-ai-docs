@@ -3,7 +3,7 @@ title: "Meeting Participants & EventsMoon (Dark Mode)Sun (Light Mode)"
 description: "Most recordings typically have associated meeting participants and participant events. Recall.ai's API exposes these through a variety of endpoints outlined below. Participants Recall.ai records and exposes participants for recordings automatically, so no configuration is needed. Retrieving Particip..."
 source_file: "docs/meeting-participants-events.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.295Z"
+converted_at: "2025-06-10T18:47:15.381Z"
 api_parameters_count: "0"
 ---
 Most recordings typically have associated meeting participants and participant events. Recall.ai's API exposes these through a variety of endpoints outlined below.

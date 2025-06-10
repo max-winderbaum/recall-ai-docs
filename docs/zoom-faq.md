@@ -3,7 +3,7 @@ title: "Zoom FAQMoon (Dark Mode)Sun (Light Mode)"
 description: "Frequently asked questions about Zoom bots."
 source_file: "docs/zoom-faq.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.860Z"
+converted_at: "2025-06-10T18:47:16.000Z"
 api_parameters_count: "0"
 ---
 ## What if Zoom returns an internal error?

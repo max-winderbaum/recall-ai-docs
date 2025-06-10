@@ -3,7 +3,7 @@ title: "Recording WebhooksMoon (Dark Mode)Sun (Light Mode)"
 description: "Recording Status Webhook This webhook is sent whenever the recording's status is changed and is delivered via Svix to the endpoints configured in your Recall dashboard . { \"event\": \"recording.processing\", // recording.done, recording.failed, recording.deleted \"data\": { \"data\": { \"code\": string, \"sub..."
 source_file: "docs/recording-webhooks.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.553Z"
+converted_at: "2025-06-10T18:47:15.676Z"
 api_parameters_count: "0"
 ---
 ## Recording Status Webhook

@@ -3,7 +3,7 @@ title: "Microsoft OutlookMoon (Dark Mode)Sun (Light Mode)"
 description: "Setup OAuth 2.0 Client Register Microsoft OAuth App. More info on this here https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app . Choose Accounts in any organizational directory (Any Azure AD directory - Multitenant) and personal Microsoft accounts (e.g. Skype, Xb..."
 source_file: "docs/calendar-v2-microsoft-outlook.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:10.884Z"
+converted_at: "2025-06-10T18:47:14.945Z"
 api_parameters_count: "0"
 ---
 # Setup OAuth 2.0 Client

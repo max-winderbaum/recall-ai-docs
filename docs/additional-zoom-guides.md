@@ -3,7 +3,7 @@ title: "Zoom Signed-in BotsMoon (Dark Mode)Sun (Light Mode)"
 description: "Zoom Web bots will emit a fatal error indicating \"Sign In Required\" if they attempt to join a Zoom meeting where the host has enabled \"Only Authenticated Users can Join\" : Enabling this setting means that only users who are logged in to a Zoom account are permitted to join the meeting. Because the b..."
 source_file: "docs/additional-zoom-guides.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:10.570Z"
+converted_at: "2025-06-10T18:47:14.604Z"
 api_parameters_count: "0"
 ---
 [Zoom Web bots](https://recallai.readme.io/reference/zoom#zoom-web) will emit a `fatal`error indicating "Sign In Required" if they attempt to join a Zoom meeting where the host has enabled ["Only Authenticated Users can Join"](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0063837):

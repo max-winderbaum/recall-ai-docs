@@ -3,7 +3,7 @@ title: "Output an ImageMoon (Dark Mode)Sun (Light Mode)"
 description: "Output an image for your bot to customize the experience."
 source_file: "docs/output-video-in-meetings.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.378Z"
+converted_at: "2025-06-10T18:47:15.499Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:

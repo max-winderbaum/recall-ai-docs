@@ -3,7 +3,7 @@ title: "Automatic Leaving BehaviorMoon (Dark Mode)Sun (Light Mode)"
 description: "Control when your bot should automatically leave calls."
 source_file: "docs/automatic-leaving-behavior.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:10.637Z"
+converted_at: "2025-06-10T18:47:14.683Z"
 api_parameters_count: "0"
 ---
 There are certain scenarios where you might want your bot to automatically leave calls.

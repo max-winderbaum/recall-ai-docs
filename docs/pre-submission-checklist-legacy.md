@@ -3,7 +3,7 @@ title: "Pre-Submission Checklist (Legacy)Moon (Dark Mode)Sun (Light Mode)"
 description: "Zoom SDK App pre-submission checklist for legacy Recall customers."
 source_file: "docs/pre-submission-checklist-legacy.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.408Z"
+converted_at: "2025-06-10T18:47:15.525Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:

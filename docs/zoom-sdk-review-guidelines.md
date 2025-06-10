@@ -3,7 +3,7 @@ title: "Technical Questions & DetailsMoon (Dark Mode)Sun (Light Mode)"
 description: "Follow these guidelines before submitting your Zoom SDK App for review."
 source_file: "docs/zoom-sdk-review-guidelines.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.907Z"
+converted_at: "2025-06-10T18:47:16.046Z"
 api_parameters_count: "0"
 ---
 As part of submitting your Zoom SDK App, you must answer some questions regarding your app's technology, security, and privacy.

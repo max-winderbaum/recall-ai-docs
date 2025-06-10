@@ -3,7 +3,7 @@ title: "Calendar V2 WebhooksMoon (Dark Mode)Sun (Light Mode)"
 description: "Calendar V2 Webhooks"
 source_file: "docs/calendar-v2-webhooks.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:10.890Z"
+converted_at: "2025-06-10T18:47:14.953Z"
 api_parameters_count: "0"
 ---
 The Calendar V2 API produces two types of webhooks, each scoped to a specific calendar and sent via Svix.

@@ -3,7 +3,7 @@ title: "Real-Time Websocket EndpointsMoon (Dark Mode)Sun (Light Mode)"
 description: "Receive recording data and events in real-time via websockets"
 source_file: "docs/real-time-websocket-endpoints.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.509Z"
+converted_at: "2025-06-10T18:47:15.628Z"
 api_parameters_count: "0"
 ---
 In addition to [Webhooks](/docs/real-time-webhook-endpoints.md), Recall.ai supports receiving data in real-time via a websocket connection.

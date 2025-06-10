@@ -3,7 +3,7 @@ title: "Retrieve CalendarMoon (Dark Mode)Sun (Light Mode)"
 description: "Get a calendar instance. This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/calendars_retrieve.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:47:13.566Z"
+converted_at: "2025-06-10T18:56:56.488Z"
 api_parameters_count: "12"
 ---
 ## GET https://us-east-1.recall.ai/api/v2/calendars/{id}/
@@ -33,3 +33,30 @@ For more information, see [Calendar V2](/docs/v2.md).
 | status_changes | string | Yes |  |
 | created_at | date-time | Yes |  |
 | updated_at | date-time | Yes |  |
+
+## Python Code Sample
+
+```python
+import requests
+url = "https://us-east-1.recall.ai/api/v2/calendars/id/"
+headers = {"accept": "application/json"}
+response = requests.get(url, headers = headers)
+print(response.text)
+```
+
+## Sample Response
+
+```json
+{
+  "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "oauth_client_id": "string",
+  "oauth_client_secret": "string",
+  "oauth_refresh_token": "string",
+  "platform": "google_calendar",
+  "oauth_email": "user@example.com",
+  "platform_email": "string",
+  "status": "string",
+  "created_at": "2025-06-10T18:56:47.884Z",
+  "updated_at": "2025-06-10T18:56:47.884Z"
+}
+```

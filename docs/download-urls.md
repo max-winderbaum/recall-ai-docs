@@ -3,7 +3,7 @@ title: "Download SchemasMoon (Dark Mode)Sun (Light Mode)"
 description: "Schema for responses from media download urls"
 source_file: "docs/download-urls.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.034Z"
+converted_at: "2025-06-10T18:47:15.099Z"
 api_parameters_count: "0"
 ---
 Download URLs are populated once the relevant media object has transitioned to `done` status. For accessing media data during recording, you can use [Real-Time Endpoints](/docs/real-time-endpoints.md)

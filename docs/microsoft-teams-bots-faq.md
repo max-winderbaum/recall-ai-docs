@@ -3,7 +3,7 @@ title: "Microsoft Teams: FAQMoon (Dark Mode)Sun (Light Mode)"
 description: "Frequently asked questions: Microsoft Teams bots"
 source_file: "docs/microsoft-teams-bots-faq.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.333Z"
+converted_at: "2025-06-10T18:47:15.422Z"
 api_parameters_count: "0"
 ---
 ## Why does the bot have Unverified after the name?

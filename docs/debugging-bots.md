@@ -3,7 +3,7 @@ title: "Debugging BotsMoon (Dark Mode)Sun (Light Mode)"
 description: "Figure out why your bot didn't behave as expected."
 source_file: "docs/debugging-bots.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:10.942Z"
+converted_at: "2025-06-10T18:47:15.010Z"
 api_parameters_count: "0"
 ---
 There are a number of places a bot can run into trouble, and it's not always obvious why a bot was unable to join a call or failed to record.

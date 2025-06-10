@@ -3,7 +3,7 @@ title: "API ErrorsMoon (Dark Mode)Sun (Light Mode)"
 description: "API Error Codes Recall's API uses the following HTTP codes: Error Code Meaning 200 OK -- Everything worked as expected. 201 Bot created successfully. 400 There was something wrong with your request. Check the response body for a detailed error message. For the error message reference, go here . 401 ..."
 source_file: "reference/errors.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:47:13.611Z"
+converted_at: "2025-06-10T18:57:09.382Z"
 api_parameters_count: "0"
 ---
 API Error Codes Recall's API uses the following HTTP codes: Error Code Meaning 200 OK -- Everything worked as expected. 201 Bot created successfully. 400 There was something wrong with your request. Check the response body for a detailed error message. For the error message reference, go here . 401 ...

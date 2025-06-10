@@ -3,7 +3,7 @@ title: "Sending Chat MessagesMoon (Dark Mode)Sun (Light Mode)"
 description: "Platform Support Platform Available Supported Recipients Limitations Zoom ✅ everyone , host , everyone_except_host 4096 character limit Google Meet ✅ everyone 500 character limit Microsoft Teams ✅ everyone 4096 character limit Slack Huddles ✅ everyone Cisco Webex ❌ 📘 Note about Microsoft Teams: The..."
 source_file: "docs/chat-messages.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:10.901Z"
+converted_at: "2025-06-10T18:47:14.966Z"
 api_parameters_count: "0"
 ---
 # Platform Support

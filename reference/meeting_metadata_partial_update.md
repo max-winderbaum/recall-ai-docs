@@ -3,7 +3,7 @@ title: "Update Meeting MetadataMoon (Dark Mode)Sun (Light Mode)"
 description: "This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/meeting_metadata_partial_update.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:47:14.042Z"
+converted_at: "2025-06-10T19:00:00.608Z"
 api_parameters_count: "11"
 ---
 ## PATCH https://us-east-1.recall.ai/api/v1/meeting_metadata/{id}/
@@ -25,3 +25,46 @@ This endpoint is rate limited to: 300 requests per min per workspace
 | data | object | Yes |  |
 | title | string \| null | Yes |  |
 | zoom | object \| null | Yes |  |
+
+## Python Code Sample
+
+```python
+import requests
+url = "https://us-east-1.recall.ai/api/v1/meeting_metadata/id/"
+payload = { "metadata": { "additionalProp": "string" } }
+headers = {
+"accept": "application/json",
+"content-type": "application/json"
+}
+response = requests.patch(url, json = payload, headers = headers)
+print(response.text)
+```
+
+## Sample Response
+
+```json
+{
+  "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "recording": {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "metadata": {
+      "additionalProp": "string"
+    }
+  },
+  "created_at": "2025-06-10T18:59:49.917Z",
+  "status": {
+    "code": "processing",
+    "sub_code": "string",
+    "updated_at": "2025-06-10T18:59:49.917Z"
+  },
+  "metadata": {
+    "additionalProp": "string"
+  },
+  "data": {
+    "title": "string",
+    "zoom": {
+      "meeting_uuid": "string"
+    }
+  }
+}
+```

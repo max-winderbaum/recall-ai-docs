@@ -3,7 +3,7 @@ title: "List Zoom OAuth CredentialsMoon (Dark Mode)Sun (Light Mode)"
 description: "Get a list of all Zoom OAuth Credentials This endpoint is rate limited to: 60 requests per min per workspace"
 source_file: "reference/zoom_oauth_credentials_list.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:47:15.412Z"
+converted_at: "2025-06-10T19:09:16.116Z"
 api_parameters_count: "15"
 ---
 ## GET https://us-east-1.recall.ai/api/v2/zoom-oauth-credentials/
@@ -36,3 +36,34 @@ For more information, see:
 | id | uuid | Yes |  |
 | access_token_callback_url | string \| null | No | The url to retrieve access token from. Applicable for Customer Managed OAuth flow. |
 | created_at | date-time | Yes |  |
+
+## Python Code Sample
+
+```python
+import requests
+url = "https://us-east-1.recall.ai/api/v2/zoom-oauth-credentials/"
+headers = {"accept": "application/json"}
+response = requests.get(url, headers = headers)
+print(response.text)
+```
+
+## Sample Response
+
+```json
+{
+  "next": "string",
+  "previous": "string",
+  "results": [
+    {
+      "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "oauth_app": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "status": "healthy",
+      "user_id": "string",
+      "account_id": "string",
+      "access_token_callback_url": "string",
+      "created_at": "2025-06-10T19:09:07.527Z",
+      "meeting_sync_status": "not_started"
+    }
+  ]
+}
+```

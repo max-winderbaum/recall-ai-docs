@@ -3,7 +3,7 @@ title: "Perfect DiarizationMoon (Dark Mode)Sun (Light Mode)"
 description: "📘 Supported Platforms: Perfect diarization is currently supported for Zoom Native and Teams Web bots. Perfect diarization is a feature designed to address the problem of inaccurate speaker attribution in meeting transcripts. Meeting platforms can sometimes attribute words to the wrong speaker, espe..."
 source_file: "docs/perfect-diarization.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.394Z"
+converted_at: "2025-06-10T18:47:15.511Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:

@@ -3,7 +3,7 @@ title: "Zoom 3rd Party Recording TokenMoon (Dark Mode)Sun (Light Mode)"
 description: "Enable Zoom bots to record without using local recording permissions."
 source_file: "docs/zoom-3rd-party-recording-token.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.832Z"
+converted_at: "2025-06-10T18:47:15.968Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:

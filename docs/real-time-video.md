@@ -3,7 +3,7 @@ title: "Receive Real-Time Video: WebsocketsMoon (Dark Mode)Sun (Light Mode)"
 description: "Receive real-time video streams from a bot via websockets."
 source_file: "docs/real-time-video.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.483Z"
+converted_at: "2025-06-10T18:47:15.602Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:

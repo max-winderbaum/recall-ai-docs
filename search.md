@@ -3,7 +3,7 @@ title: "404 Not Found"
 description: "Recall.ai is the universal API for meeting bots."
 source_file: "search.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:15.493Z"
+converted_at: "2025-06-10T19:09:36.207Z"
 api_parameters_count: "0"
 ---
 ![](https://files.readme.io/4e0e1b8-recall-beta-logo-dark_1.svg)

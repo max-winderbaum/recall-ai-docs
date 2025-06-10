@@ -3,7 +3,7 @@ title: "Slack Huddle Bots Integration GuideMoon (Dark Mode)Sun (Light Mode)"
 description: "This guide walks you through integrating a Slack bot with Recall.ai to capture Slack Huddle data. You’ll set up a bot, configure webhooks, and activate it to join a Slack workspace and listen to huddles Pre-requisites Slack Workspace : A workspace where you have permission to invite participants Dom..."
 source_file: "docs/slack-huddle-bots-integration-guide.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.650Z"
+converted_at: "2025-06-10T18:47:15.766Z"
 api_parameters_count: "0"
 ---
 This guide walks you through integrating a Slack bot with Recall.ai to capture Slack Huddle data. You’ll set up a bot, configure webhooks, and activate it to join a Slack workspace and listen to huddles

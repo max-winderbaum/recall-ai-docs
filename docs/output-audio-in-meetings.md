@@ -3,7 +3,7 @@ title: "Output AudioMoon (Dark Mode)Sun (Light Mode)"
 description: "There are two primary methods of outputting audio from bots: Automatic audio output Calling the Output Audio endpoint Streaming audio into a call is can now be done with Output Media Platform Support Platform Available Zoom ✅ Google Meet ✅ Microsoft Teams ✅ Cisco Webex ✅ Slack Huddles ❌ Zoom Native ..."
 source_file: "docs/output-audio-in-meetings.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.357Z"
+converted_at: "2025-06-10T18:47:15.448Z"
 api_parameters_count: "0"
 ---
 There are two primary methods of outputting audio from bots:

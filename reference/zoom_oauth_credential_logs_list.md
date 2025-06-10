@@ -3,7 +3,7 @@ title: "List Zoom OAuth Credential LogsMoon (Dark Mode)Sun (Light Mode)"
 description: "Get a list of all Zoom OAuth Credential Logs. Any warnings or errors related to the OAuth Credential will be logged here, and this can be helpful for debugging. This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/zoom_oauth_credential_logs_list.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:47:15.327Z"
+converted_at: "2025-06-10T19:08:40.616Z"
 api_parameters_count: "10"
 ---
 ## GET https://us-east-1.recall.ai/api/v2/zoom-oauth-credential-logs/
@@ -33,3 +33,29 @@ For more information, see:
 | results | array of objects | No |  |
 | message | string | Yes |  |
 | created_at | date-time | Yes |  |
+
+## Python Code Sample
+
+```python
+import requests
+url = "https://us-east-1.recall.ai/api/v2/zoom-oauth-credential-logs/"
+headers = {"accept": "application/json"}
+response = requests.get(url, headers = headers)
+print(response.text)
+```
+
+## Sample Response
+
+```json
+{
+  "next": "string",
+  "previous": "string",
+  "results": [
+    {
+      "credential": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "message": "string",
+      "created_at": "2025-06-10T19:08:32.003Z"
+    }
+  ]
+}
+```

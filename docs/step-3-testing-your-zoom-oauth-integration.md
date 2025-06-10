@@ -3,7 +3,7 @@ title: "Step 3: Testing Your Zoom OAuth IntegrationMoon (Dark Mode)Sun (Light Mo
 description: "Test and debug your Zoom OAuth integration."
 source_file: "docs/step-3-testing-your-zoom-oauth-integration.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:47:11.694Z"
+converted_at: "2025-06-10T18:47:15.816Z"
 api_parameters_count: "0"
 ---
 Once you've gone through the [Zoom OAuth Setup](/docs/integration-guide-zoom-oauth.md) and either [Recall-Managed](/docs/recall-managed-oauth.md) or [Customer Managed OAuth](/docs/customer-managed-oauth.md), you should test your integration.
