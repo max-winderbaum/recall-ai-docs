@@ -1,0 +1,2298 @@
+{
+  "timestamp": "2025-06-10T14:00:10.889Z",
+  "input_directory": "/Users/maxwinderbaum/sources/personal/recall-ai/html",
+  "output_directory": "/Users/maxwinderbaum/sources/personal/recall-ai/markdown",
+  "total_files": 286,
+  "successful": 285,
+  "failed": 0,
+  "files": {
+    "docs/additional-zoom-guides.html": {
+      "markdown_path": "docs/additional-zoom-guides.md",
+      "title": "Zoom Signed-in BotsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 3042,
+      "converted_at": "2025-06-10T14:00:10.944Z"
+    },
+    "docs/ai-transcription.html": {
+      "markdown_path": "docs/ai-transcription.md",
+      "title": "AI TranscriptionMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 2002,
+      "converted_at": "2025-06-10T14:00:10.966Z"
+    },
+    "docs/api-v111-release-notes.html": {
+      "markdown_path": "docs/api-v111-release-notes.md",
+      "title": "API v1.11: Release NotesMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 704,
+      "converted_at": "2025-06-10T14:00:10.978Z"
+    },
+    "docs/asynchronous-transcription.html": {
+      "markdown_path": "docs/asynchronous-transcription.md",
+      "title": "Asynchronous TranscriptionMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 5040,
+      "converted_at": "2025-06-10T14:00:10.997Z"
+    },
+    "docs/automatic-leaving-behavior.html": {
+      "markdown_path": "docs/automatic-leaving-behavior.md",
+      "title": "Automatic Leaving BehaviorMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 5992,
+      "converted_at": "2025-06-10T14:00:11.014Z"
+    },
+    "docs/bot-async-transcription.html": {
+      "markdown_path": "docs/bot-async-transcription.md",
+      "title": "Bot Async TranscriptionMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 5422,
+      "converted_at": "2025-06-10T14:00:11.029Z"
+    },
+    "docs/bot-detection.html": {
+      "markdown_path": "docs/bot-detection.md",
+      "title": "Bot DetectionMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 2801,
+      "converted_at": "2025-06-10T14:00:11.039Z"
+    },
+    "docs/bot-fundamentals.html": {
+      "markdown_path": "docs/bot-fundamentals.md",
+      "title": "Bot FundamentalsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 2524,
+      "converted_at": "2025-06-10T14:00:11.046Z"
+    },
+    "docs/bot-login-credentials.html": {
+      "markdown_path": "docs/bot-login-credentials.md",
+      "title": "Bot Login CredentialsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 5752,
+      "converted_at": "2025-06-10T14:00:11.058Z"
+    },
+    "docs/bot-overview.html": {
+      "markdown_path": "docs/bot-overview.md",
+      "title": "Bot OverviewMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 653,
+      "converted_at": "2025-06-10T14:00:11.067Z"
+    },
+    "docs/bot-real-time-transcription.html": {
+      "markdown_path": "docs/bot-real-time-transcription.md",
+      "title": "Bot Real-time TranscriptionMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 8654,
+      "converted_at": "2025-06-10T14:00:11.106Z"
+    },
+    "docs/bot-status-change-events.html": {
+      "markdown_path": "docs/bot-status-change-events.md",
+      "title": "Bot WebhooksMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 4829,
+      "converted_at": "2025-06-10T14:00:11.121Z"
+    },
+    "docs/bot-transcription.html": {
+      "markdown_path": "docs/bot-transcription.md",
+      "title": "Bot TranscriptionMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 541,
+      "converted_at": "2025-06-10T14:00:11.132Z"
+    },
+    "docs/bot-usage.html": {
+      "markdown_path": "docs/bot-usage.md",
+      "title": "Bot UsageMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 198,
+      "converted_at": "2025-06-10T14:00:11.147Z"
+    },
+    "docs/calendar-integration-faq.html": {
+      "markdown_path": "docs/calendar-integration-faq.md",
+      "title": "Calendar Integration FAQMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 2415,
+      "converted_at": "2025-06-10T14:00:11.158Z"
+    },
+    "docs/calendar-integration.html": {
+      "markdown_path": "docs/calendar-integration.md",
+      "title": "Getting StartedMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 2324,
+      "converted_at": "2025-06-10T14:00:11.167Z"
+    },
+    "docs/calendar-v1-1.html": {
+      "markdown_path": "docs/calendar-v1-1.md",
+      "title": "Integration GuideMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 4216,
+      "converted_at": "2025-06-10T14:00:11.177Z"
+    },
+    "docs/calendar-v1-faq.html": {
+      "markdown_path": "docs/calendar-v1-faq.md",
+      "title": "Calendar V1 FAQMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 5524,
+      "converted_at": "2025-06-10T14:00:11.185Z"
+    },
+    "docs/calendar-v1-google-calendar.html": {
+      "markdown_path": "docs/calendar-v1-google-calendar.md",
+      "title": "Google CalendarMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 5822,
+      "converted_at": "2025-06-10T14:00:11.196Z"
+    },
+    "docs/calendar-v1-integration-guide.html": {
+      "markdown_path": "docs/calendar-v1-integration-guide.md",
+      "title": "Integration GuideMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 4216,
+      "converted_at": "2025-06-10T14:00:11.206Z"
+    },
+    "docs/calendar-v1-microsoft-outlook.html": {
+      "markdown_path": "docs/calendar-v1-microsoft-outlook.md",
+      "title": "Microsoft OutlookMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 5768,
+      "converted_at": "2025-06-10T14:00:11.217Z"
+    },
+    "docs/calendar-v1-recording-preferences.html": {
+      "markdown_path": "docs/calendar-v1-recording-preferences.md",
+      "title": "Recording Preferences & Bot DeduplicationMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 6698,
+      "converted_at": "2025-06-10T14:00:11.230Z"
+    },
+    "docs/calendar-v2-faq.html": {
+      "markdown_path": "docs/calendar-v2-faq.md",
+      "title": "Calendar V2 FAQMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 5472,
+      "converted_at": "2025-06-10T14:00:11.240Z"
+    },
+    "docs/calendar-v2-google-calendar.html": {
+      "markdown_path": "docs/calendar-v2-google-calendar.md",
+      "title": "Google CalendarMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 2750,
+      "converted_at": "2025-06-10T14:00:11.247Z"
+    },
+    "docs/calendar-v2-integration-guide.html": {
+      "markdown_path": "docs/calendar-v2-integration-guide.md",
+      "title": "Integration GuideMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 4028,
+      "converted_at": "2025-06-10T14:00:11.258Z"
+    },
+    "docs/calendar-v2-microsoft-outlook.html": {
+      "markdown_path": "docs/calendar-v2-microsoft-outlook.md",
+      "title": "Microsoft OutlookMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 1719,
+      "converted_at": "2025-06-10T14:00:11.266Z"
+    },
+    "docs/calendar-v2-webhooks.html": {
+      "markdown_path": "docs/calendar-v2-webhooks.md",
+      "title": "Calendar V2 WebhooksMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 2344,
+      "converted_at": "2025-06-10T14:00:11.273Z"
+    },
+    "docs/chat-messages.html": {
+      "markdown_path": "docs/chat-messages.md",
+      "title": "Sending Chat MessagesMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 4703,
+      "converted_at": "2025-06-10T14:00:11.285Z"
+    },
+    "docs/common-zoom-recording-errors.html": {
+      "markdown_path": "docs/common-zoom-recording-errors.md",
+      "title": "Common Zoom Recording ErrorsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 4884,
+      "converted_at": "2025-06-10T14:00:11.295Z"
+    },
+    "docs/custom-metadata.html": {
+      "markdown_path": "docs/custom-metadata.md",
+      "title": "Custom MetadataMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 1266,
+      "converted_at": "2025-06-10T14:00:11.302Z"
+    },
+    "docs/customer-managed-oauth.html": {
+      "markdown_path": "docs/customer-managed-oauth.md",
+      "title": "Customer Managed OAuthMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 3348,
+      "converted_at": "2025-06-10T14:00:11.309Z"
+    },
+    "docs/data-retention.html": {
+      "markdown_path": "docs/data-retention.md",
+      "title": "Storage and PlaybackMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 3279,
+      "converted_at": "2025-06-10T14:00:11.318Z"
+    },
+    "docs/debugging-bots.html": {
+      "markdown_path": "docs/debugging-bots.md",
+      "title": "Debugging BotsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 2933,
+      "converted_at": "2025-06-10T14:00:11.327Z"
+    },
+    "docs/desktop-sdk-beta.html": {
+      "markdown_path": "docs/desktop-sdk-beta.md",
+      "title": "Desktop SDKMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 15519,
+      "converted_at": "2025-06-10T14:00:11.357Z"
+    },
+    "docs/desktop-sdk.html": {
+      "markdown_path": "docs/desktop-sdk.md",
+      "title": "Desktop SDKMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 15519,
+      "converted_at": "2025-06-10T14:00:11.381Z"
+    },
+    "docs/diarization.html": {
+      "markdown_path": "docs/diarization.md",
+      "title": "DiarizationMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 3645,
+      "converted_at": "2025-06-10T14:00:11.403Z"
+    },
+    "docs/download-schemas.html": {
+      "markdown_path": "docs/download-schemas.md",
+      "title": "Download SchemasMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 6144,
+      "converted_at": "2025-06-10T14:00:11.414Z"
+    },
+    "docs/download-urls.html": {
+      "markdown_path": "docs/download-urls.md",
+      "title": "Download SchemasMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 6144,
+      "converted_at": "2025-06-10T14:00:11.428Z"
+    },
+    "docs/environments.html": {
+      "markdown_path": "docs/environments.md",
+      "title": "Organization ManagementMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 2130,
+      "converted_at": "2025-06-10T14:00:11.435Z"
+    },
+    "docs/explorer-dashboard.html": {
+      "markdown_path": "docs/explorer-dashboard.md",
+      "title": "Explorer DashboardMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 729,
+      "converted_at": "2025-06-10T14:00:11.441Z"
+    },
+    "docs/faq-2.html": {
+      "markdown_path": "docs/faq-2.md",
+      "title": "Slack Huddles FAQMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 3312,
+      "converted_at": "2025-06-10T14:00:11.449Z"
+    },
+    "docs/faq-webhooks.html": {
+      "markdown_path": "docs/faq-webhooks.md",
+      "title": "FAQs: WebhooksMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 2345,
+      "converted_at": "2025-06-10T14:00:11.456Z"
+    },
+    "docs/faq.html": {
+      "markdown_path": "docs/faq.md",
+      "title": "Bots FAQMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 4628,
+      "converted_at": "2025-06-10T14:00:11.464Z"
+    },
+    "docs/getting-started.html": {
+      "markdown_path": "docs/getting-started.md",
+      "title": "Getting Started with RecallMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 3003,
+      "converted_at": "2025-06-10T14:00:11.473Z"
+    },
+    "docs/go-to-meeting-overview.html": {
+      "markdown_path": "docs/go-to-meeting-overview.md",
+      "title": "Go-To Meeting OverviewMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 675,
+      "converted_at": "2025-06-10T14:00:11.479Z"
+    },
+    "docs/google-meet-faq.html": {
+      "markdown_path": "docs/google-meet-faq.md",
+      "title": "Google Meet FAQMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 5776,
+      "converted_at": "2025-06-10T14:00:11.488Z"
+    },
+    "docs/google-meet-login-getting-started.html": {
+      "markdown_path": "docs/google-meet-login-getting-started.md",
+      "title": "Signed-In Google Google Meet BotsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 11410,
+      "converted_at": "2025-06-10T14:00:11.501Z"
+    },
+    "docs/google-meet.html": {
+      "markdown_path": "docs/google-meet.md",
+      "title": "Google Meet OverviewMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 1557,
+      "converted_at": "2025-06-10T14:00:11.508Z"
+    },
+    "docs/guides.html": {
+      "markdown_path": "docs/guides.md",
+      "title": "Bypass the Teams LobbyMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 607,
+      "converted_at": "2025-06-10T14:00:11.513Z"
+    },
+    "docs/how-to-get-separate-audio-per-participant-async.html": {
+      "markdown_path": "docs/how-to-get-separate-audio-per-participant-async.md",
+      "title": "How to get Separate Audio per Participant (Async)Moon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 15833,
+      "converted_at": "2025-06-10T14:00:11.540Z"
+    },
+    "docs/how-to-get-separate-audio-per-participant-realtime.html": {
+      "markdown_path": "docs/how-to-get-separate-audio-per-participant-realtime.md",
+      "title": "How to get Separate Audio per Participant (Realtime)Moon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 4123,
+      "converted_at": "2025-06-10T14:00:11.550Z"
+    },
+    "docs/how-to-get-separate-videos-per-participant-async.html": {
+      "markdown_path": "docs/how-to-get-separate-videos-per-participant-async.md",
+      "title": "How to get Separate Videos per Participant (Async)Moon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 16325,
+      "converted_at": "2025-06-10T14:00:11.578Z"
+    },
+    "docs/how-to-get-separate-videos-per-participant-realtime.html": {
+      "markdown_path": "docs/how-to-get-separate-videos-per-participant-realtime.md",
+      "title": "How to get Separate Videos per Participant (Realtime)Moon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 3875,
+      "converted_at": "2025-06-10T14:00:11.588Z"
+    },
+    "docs/identify-meeting-participants-uniquely.html": {
+      "markdown_path": "docs/identify-meeting-participants-uniquely.md",
+      "title": "Identify Meeting Participants UniquelyMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 994,
+      "converted_at": "2025-06-10T14:00:11.603Z"
+    },
+    "docs/integration-guide-zoom-oauth-legacy-scopes.html": {
+      "markdown_path": "docs/integration-guide-zoom-oauth-legacy-scopes.md",
+      "title": "Zoom OAuth Setup: Legacy ScopesMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 6535,
+      "converted_at": "2025-06-10T14:00:11.613Z"
+    },
+    "docs/integration-guide-zoom-oauth.html": {
+      "markdown_path": "docs/integration-guide-zoom-oauth.md",
+      "title": "Zoom OAuth SetupMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 9269,
+      "converted_at": "2025-06-10T14:00:11.626Z"
+    },
+    "docs/joining-sign-in-required-zoom-meetings.html": {
+      "markdown_path": "docs/joining-sign-in-required-zoom-meetings.md",
+      "title": "Sign-In Required Zoom MeetingsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 2852,
+      "converted_at": "2025-06-10T14:00:11.633Z"
+    },
+    "docs/local-webhook-development.html": {
+      "markdown_path": "docs/local-webhook-development.md",
+      "title": "Local Webhook DevelopmentMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 2501,
+      "converted_at": "2025-06-10T14:00:11.641Z"
+    },
+    "docs/media-shortcuts.html": {
+      "markdown_path": "docs/media-shortcuts.md",
+      "title": "Media ShortcutsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 1331,
+      "converted_at": "2025-06-10T14:00:11.647Z"
+    },
+    "docs/meeting-caption-transcription.html": {
+      "markdown_path": "docs/meeting-caption-transcription.md",
+      "title": "Meeting Caption TranscriptionMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 7830,
+      "converted_at": "2025-06-10T14:00:11.661Z"
+    },
+    "docs/meeting-metadata-and-participants.html": {
+      "markdown_path": "docs/meeting-metadata-and-participants.md",
+      "title": "Meeting MetadataMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 2164,
+      "converted_at": "2025-06-10T14:00:11.669Z"
+    },
+    "docs/meeting-metadata.html": {
+      "markdown_path": "docs/meeting-metadata.md",
+      "title": "Meeting MetadataMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 2164,
+      "converted_at": "2025-06-10T14:00:11.678Z"
+    },
+    "docs/meeting-participants-events.html": {
+      "markdown_path": "docs/meeting-participants-events.md",
+      "title": "Meeting Participants & EventsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 5118,
+      "converted_at": "2025-06-10T14:00:11.688Z"
+    },
+    "docs/meeting-platforms.html": {
+      "markdown_path": "docs/meeting-platforms.md",
+      "title": "Meeting PlatformsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 578,
+      "converted_at": "2025-06-10T14:00:11.695Z"
+    },
+    "docs/meeting-urls.html": {
+      "markdown_path": "docs/meeting-urls.md",
+      "title": "Meeting URL'sMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 1608,
+      "converted_at": "2025-06-10T14:00:11.702Z"
+    },
+    "docs/microsoft-teams-bot-login-getting-started.html": {
+      "markdown_path": "docs/microsoft-teams-bot-login-getting-started.md",
+      "title": "Setup GuideMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 4494,
+      "converted_at": "2025-06-10T14:00:11.712Z"
+    },
+    "docs/microsoft-teams-bot-login.html": {
+      "markdown_path": "docs/microsoft-teams-bot-login.md",
+      "title": "OverviewMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 2165,
+      "converted_at": "2025-06-10T14:00:11.720Z"
+    },
+    "docs/microsoft-teams-bots-faq.html": {
+      "markdown_path": "docs/microsoft-teams-bots-faq.md",
+      "title": "Microsoft Teams: FAQMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 1688,
+      "converted_at": "2025-06-10T14:00:11.725Z"
+    },
+    "docs/microsoft-teams.html": {
+      "markdown_path": "docs/microsoft-teams.md",
+      "title": "Teams OverviewMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 1631,
+      "converted_at": "2025-06-10T14:00:11.733Z"
+    },
+    "docs/native-bots.html": {
+      "markdown_path": "docs/native-bots.md",
+      "title": "Native BotsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 1408,
+      "converted_at": "2025-06-10T14:00:11.741Z"
+    },
+    "docs/output-audio-in-meetings.html": {
+      "markdown_path": "docs/output-audio-in-meetings.md",
+      "title": "Output AudioMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 4362,
+      "converted_at": "2025-06-10T14:00:11.751Z"
+    },
+    "docs/output-video-in-meetings.html": {
+      "markdown_path": "docs/output-video-in-meetings.md",
+      "title": "Output an ImageMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 134535,
+      "converted_at": "2025-06-10T14:00:11.774Z"
+    },
+    "docs/perfect-diarization.html": {
+      "markdown_path": "docs/perfect-diarization.md",
+      "title": "Perfect DiarizationMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 1864,
+      "converted_at": "2025-06-10T14:00:11.789Z"
+    },
+    "docs/personal-vs-business-ms-teams.html": {
+      "markdown_path": "docs/personal-vs-business-ms-teams.md",
+      "title": "Personal vs Business MS TeamsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 721,
+      "converted_at": "2025-06-10T14:00:11.795Z"
+    },
+    "docs/pre-submission-checklist-legacy.html": {
+      "markdown_path": "docs/pre-submission-checklist-legacy.md",
+      "title": "Pre-Submission Checklist (Legacy)Moon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 2057,
+      "converted_at": "2025-06-10T14:00:11.801Z"
+    },
+    "docs/quickstart.html": {
+      "markdown_path": "docs/quickstart.md",
+      "title": "Quickstart: Record a meeting using a botMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 8169,
+      "converted_at": "2025-06-10T14:00:11.816Z"
+    },
+    "docs/real-time-audio-protocol.html": {
+      "markdown_path": "docs/real-time-audio-protocol.md",
+      "title": "Receive Real-Time Audio From BotMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 5942,
+      "converted_at": "2025-06-10T14:00:11.828Z"
+    },
+    "docs/real-time-endpoints.html": {
+      "markdown_path": "docs/real-time-endpoints.md",
+      "title": "Real-Time EndpointsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 491,
+      "converted_at": "2025-06-10T14:00:11.834Z"
+    },
+    "docs/real-time-event-payloads.html": {
+      "markdown_path": "docs/real-time-event-payloads.md",
+      "title": "Real-Time Event PayloadsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 4902,
+      "converted_at": "2025-06-10T14:00:11.847Z"
+    },
+    "docs/real-time-media.html": {
+      "markdown_path": "docs/real-time-media.md",
+      "title": "Receive Real-Time Audio From BotMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 5942,
+      "converted_at": "2025-06-10T14:00:11.858Z"
+    },
+    "docs/real-time-transcription.html": {
+      "markdown_path": "docs/real-time-transcription.md",
+      "title": "Real-Time TranscriptionMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 172,
+      "converted_at": "2025-06-10T14:00:11.863Z"
+    },
+    "docs/real-time-video.html": {
+      "markdown_path": "docs/real-time-video.md",
+      "title": "Receive Real-Time Video: WebsocketsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 6428,
+      "converted_at": "2025-06-10T14:00:11.877Z"
+    },
+    "docs/real-time-vs-async-transcription.html": {
+      "markdown_path": "docs/real-time-vs-async-transcription.md",
+      "title": "Real-Time TranscriptionMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 172,
+      "converted_at": "2025-06-10T14:00:11.883Z"
+    },
+    "docs/real-time-webhook-endpoints.html": {
+      "markdown_path": "docs/real-time-webhook-endpoints.md",
+      "title": "Real-Time Webhook EndpointsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 3947,
+      "converted_at": "2025-06-10T14:00:11.893Z"
+    },
+    "docs/real-time-websocket-endpoints.html": {
+      "markdown_path": "docs/real-time-websocket-endpoints.md",
+      "title": "Real-Time Websocket EndpointsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 3897,
+      "converted_at": "2025-06-10T14:00:11.903Z"
+    },
+    "docs/recall-managed-oauth.html": {
+      "markdown_path": "docs/recall-managed-oauth.md",
+      "title": "Recall-Managed OAuthMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 8021,
+      "converted_at": "2025-06-10T14:00:11.915Z"
+    },
+    "docs/receive-a-recording.html": {
+      "markdown_path": "docs/receive-a-recording.md",
+      "title": "Bot RecordingMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 2629,
+      "converted_at": "2025-06-10T14:00:11.923Z"
+    },
+    "docs/receiving-chat-messages.html": {
+      "markdown_path": "docs/receiving-chat-messages.md",
+      "title": "Receiving Chat MessagesMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 2613,
+      "converted_at": "2025-06-10T14:00:11.931Z"
+    },
+    "docs/recording-control.html": {
+      "markdown_path": "docs/recording-control.md",
+      "title": "Recording ControlMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 3242,
+      "converted_at": "2025-06-10T14:00:11.939Z"
+    },
+    "docs/recording-webhooks.html": {
+      "markdown_path": "docs/recording-webhooks.md",
+      "title": "Recording WebhooksMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 2363,
+      "converted_at": "2025-06-10T14:00:11.949Z"
+    },
+    "docs/recordings-and-media.html": {
+      "markdown_path": "docs/recordings-and-media.md",
+      "title": "Recordings and MediaMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 2526,
+      "converted_at": "2025-06-10T14:00:11.956Z"
+    },
+    "docs/regions.html": {
+      "markdown_path": "docs/regions.md",
+      "title": "RegionsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 816,
+      "converted_at": "2025-06-10T14:00:11.962Z"
+    },
+    "docs/registration-required-meetings-webinars.html": {
+      "markdown_path": "docs/registration-required-meetings-webinars.md",
+      "title": "Registration-Required Meetings & WebinarsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 1308,
+      "converted_at": "2025-06-10T14:00:11.970Z"
+    },
+    "docs/scheduling-guide.html": {
+      "markdown_path": "docs/scheduling-guide.md",
+      "title": "Scheduling GuideMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 13861,
+      "converted_at": "2025-06-10T14:00:11.983Z"
+    },
+    "docs/sending-chat-messages.html": {
+      "markdown_path": "docs/sending-chat-messages.md",
+      "title": "Sending Chat MessagesMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 4703,
+      "converted_at": "2025-06-10T14:00:12.006Z"
+    },
+    "docs/setting-up-signed-in-bots-for-microsoft-teams.html": {
+      "markdown_path": "docs/setting-up-signed-in-bots-for-microsoft-teams.md",
+      "title": "Setting up Signed-in Bots for Microsoft TeamsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 14624,
+      "converted_at": "2025-06-10T14:00:12.019Z"
+    },
+    "docs/signed-in-bots.html": {
+      "markdown_path": "docs/signed-in-bots.md",
+      "title": "Signed-In BotsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 687,
+      "converted_at": "2025-06-10T14:00:12.025Z"
+    },
+    "docs/signed-in-teams-bots-overview.html": {
+      "markdown_path": "docs/signed-in-teams-bots-overview.md",
+      "title": "OverviewMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 2165,
+      "converted_at": "2025-06-10T14:00:12.033Z"
+    },
+    "docs/slack-huddle-bots-integration-guide.html": {
+      "markdown_path": "docs/slack-huddle-bots-integration-guide.md",
+      "title": "Slack Huddle Bots Integration GuideMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 10449,
+      "converted_at": "2025-06-10T14:00:12.045Z"
+    },
+    "docs/slack-huddle-bots-overview.html": {
+      "markdown_path": "docs/slack-huddle-bots-overview.md",
+      "title": "Slack Huddle Bots OverviewMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 1990,
+      "converted_at": "2025-06-10T14:00:12.053Z"
+    },
+    "docs/speaker-timeline.html": {
+      "markdown_path": "docs/speaker-timeline.md",
+      "title": "Speaker TimelinesMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 771,
+      "converted_at": "2025-06-10T14:00:12.059Z"
+    },
+    "docs/status-change-webhooks-setup-verification.html": {
+      "markdown_path": "docs/status-change-webhooks-setup-verification.md",
+      "title": "Status Change Webhooks: Setup & VerificationMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 1781,
+      "converted_at": "2025-06-10T14:00:12.067Z"
+    },
+    "docs/step-2-alternative-customer-managed-oauth.html": {
+      "markdown_path": "docs/step-2-alternative-customer-managed-oauth.md",
+      "title": "Step 2 Alternative: Customer-Managed OAuthMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 3348,
+      "converted_at": "2025-06-10T14:00:12.075Z"
+    },
+    "docs/step-2-recall-managed-oauth.html": {
+      "markdown_path": "docs/step-2-recall-managed-oauth.md",
+      "title": "Step 2: Recall-Managed OAuthMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 6915,
+      "converted_at": "2025-06-10T14:00:12.085Z"
+    },
+    "docs/step-3-testing-your-zoom-oauth-integration.html": {
+      "markdown_path": "docs/step-3-testing-your-zoom-oauth-integration.md",
+      "title": "Step 3: Testing Your Zoom OAuth IntegrationMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 3746,
+      "converted_at": "2025-06-10T14:00:12.092Z"
+    },
+    "docs/storage-and-playback.html": {
+      "markdown_path": "docs/storage-and-playback.md",
+      "title": "Storage and PlaybackMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 3279,
+      "converted_at": "2025-06-10T14:00:12.101Z"
+    },
+    "docs/stream-media.html": {
+      "markdown_path": "docs/stream-media.md",
+      "title": "Stream Audio/Video from Webpage to a MeetingMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 9426,
+      "converted_at": "2025-06-10T14:00:12.116Z"
+    },
+    "docs/stream-real-time-video-rtmp.html": {
+      "markdown_path": "docs/stream-real-time-video-rtmp.md",
+      "title": "Real-time Video: RTMPMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 1308,
+      "converted_at": "2025-06-10T14:00:12.123Z"
+    },
+    "docs/sub-codes.html": {
+      "markdown_path": "docs/sub-codes.md",
+      "title": "Bot Sub CodesMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 14908,
+      "converted_at": "2025-06-10T14:00:12.144Z"
+    },
+    "docs/teams-blacklisted-tenant-ids.html": {
+      "markdown_path": "docs/teams-blacklisted-tenant-ids.md",
+      "title": "Teams Blacklisted Tenant IDsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 433,
+      "converted_at": "2025-06-10T14:00:12.150Z"
+    },
+    "docs/teams-bots-bypass-the-lobby.html": {
+      "markdown_path": "docs/teams-bots-bypass-the-lobby.md",
+      "title": "Bypass the Teams LobbyMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 607,
+      "converted_at": "2025-06-10T14:00:12.157Z"
+    },
+    "docs/testing-webhooks-locally.html": {
+      "markdown_path": "docs/testing-webhooks-locally.md",
+      "title": "Testing Webhooks LocallyMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 5160,
+      "converted_at": "2025-06-10T14:00:12.169Z"
+    },
+    "docs/transcription-best-practices.html": {
+      "markdown_path": "docs/transcription-best-practices.md",
+      "title": "Transcription Best PracticesMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 6062,
+      "converted_at": "2025-06-10T14:00:12.178Z"
+    },
+    "docs/transcription-faq.html": {
+      "markdown_path": "docs/transcription-faq.md",
+      "title": "Transcription FAQMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 1780,
+      "converted_at": "2025-06-10T14:00:12.184Z"
+    },
+    "docs/v2.html": {
+      "markdown_path": "docs/v2.md",
+      "title": "Integration GuideMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 4028,
+      "converted_at": "2025-06-10T14:00:12.193Z"
+    },
+    "docs/video-layouts.html": {
+      "markdown_path": "docs/video-layouts.md",
+      "title": "Video LayoutsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 1119,
+      "converted_at": "2025-06-10T14:00:12.213Z"
+    },
+    "docs/webex-bot-setup.html": {
+      "markdown_path": "docs/webex-bot-setup.md",
+      "title": "Webex Bot SetupMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 1206,
+      "converted_at": "2025-06-10T14:00:12.219Z"
+    },
+    "docs/webex.html": {
+      "markdown_path": "docs/webex.md",
+      "title": "Webex OverviewMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 1319,
+      "converted_at": "2025-06-10T14:00:12.226Z"
+    },
+    "docs/zoom-3rd-party-recording-token.html": {
+      "markdown_path": "docs/zoom-3rd-party-recording-token.md",
+      "title": "Zoom 3rd Party Recording TokenMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 7597,
+      "converted_at": "2025-06-10T14:00:12.237Z"
+    },
+    "docs/zoom-app-submission-required-urls.html": {
+      "markdown_path": "docs/zoom-app-submission-required-urls.md",
+      "title": "Zoom App Submission: Required URL'sMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 5367,
+      "converted_at": "2025-06-10T14:00:12.247Z"
+    },
+    "docs/zoom-breakout-rooms.html": {
+      "markdown_path": "docs/zoom-breakout-rooms.md",
+      "title": "Zoom Breakout Rooms (Beta)Moon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 3716,
+      "converted_at": "2025-06-10T14:00:12.253Z"
+    },
+    "docs/zoom-email-required-meetings.html": {
+      "markdown_path": "docs/zoom-email-required-meetings.md",
+      "title": "Email Required MeetingsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 879,
+      "converted_at": "2025-06-10T14:00:12.260Z"
+    },
+    "docs/zoom-faq.html": {
+      "markdown_path": "docs/zoom-faq.md",
+      "title": "Zoom FAQMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 2193,
+      "converted_at": "2025-06-10T14:00:12.267Z"
+    },
+    "docs/zoom-native-bots.html": {
+      "markdown_path": "docs/zoom-native-bots.md",
+      "title": "Zoom Native BotsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 353,
+      "converted_at": "2025-06-10T14:00:12.273Z"
+    },
+    "docs/zoom-oauth-faqs.html": {
+      "markdown_path": "docs/zoom-oauth-faqs.md",
+      "title": "Zoom OAuth FAQsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 3970,
+      "converted_at": "2025-06-10T14:00:12.281Z"
+    },
+    "docs/zoom-oauth-integration.html": {
+      "markdown_path": "docs/zoom-oauth-integration.md",
+      "title": "Zoom OAuth IntegrationMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 2923,
+      "converted_at": "2025-06-10T14:00:12.289Z"
+    },
+    "docs/zoom-oauth-sync-status-and-debugging.html": {
+      "markdown_path": "docs/zoom-oauth-sync-status-and-debugging.md",
+      "title": "Testing Your Zoom OAuth IntegrationMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 3746,
+      "converted_at": "2025-06-10T14:00:12.296Z"
+    },
+    "docs/zoom-overview.html": {
+      "markdown_path": "docs/zoom-overview.md",
+      "title": "Zoom OverviewMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 687,
+      "converted_at": "2025-06-10T14:00:12.303Z"
+    },
+    "docs/zoom-sdk-review-guidelines.html": {
+      "markdown_path": "docs/zoom-sdk-review-guidelines.md",
+      "title": "Technical Questions & DetailsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 9636,
+      "converted_at": "2025-06-10T14:00:12.314Z"
+    },
+    "docs/zoom-signed-in-bots.html": {
+      "markdown_path": "docs/zoom-signed-in-bots.md",
+      "title": "Zoom Signed-in BotsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 3042,
+      "converted_at": "2025-06-10T14:00:12.322Z"
+    },
+    "docs/zoom-webinars.html": {
+      "markdown_path": "docs/zoom-webinars.md",
+      "title": "Zoom Webinars & Registration-Required MeetingsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 1768,
+      "converted_at": "2025-06-10T14:00:12.329Z"
+    },
+    "docs.html": {
+      "markdown_path": "docs.md",
+      "title": "Getting Started with RecallMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 3003,
+      "converted_at": "2025-06-10T14:00:12.337Z"
+    },
+    "index.html": {
+      "markdown_path": "index.md",
+      "title": "Recall.aiMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 2107,
+      "converted_at": "2025-06-10T14:00:12.344Z"
+    },
+    "page/tutorials.html": {
+      "markdown_path": "page/tutorials.md",
+      "title": "TutorialsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 2843,
+      "converted_at": "2025-06-10T14:00:12.350Z"
+    },
+    "reference/audio_mixed.html": {
+      "markdown_path": "reference/audio_mixed.md",
+      "title": "List Audio MixedMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 15,
+      "size_bytes": 808,
+      "converted_at": "2025-06-10T14:00:12.379Z"
+    },
+    "reference/audio_mixed_destroy.html": {
+      "markdown_path": "reference/audio_mixed_destroy.md",
+      "title": "Delete Audio MixedMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 1,
+      "size_bytes": 291,
+      "converted_at": "2025-06-10T14:00:12.402Z"
+    },
+    "reference/audio_mixed_list.html": {
+      "markdown_path": "reference/audio_mixed_list.md",
+      "title": "List Audio MixedMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 15,
+      "size_bytes": 808,
+      "converted_at": "2025-06-10T14:00:12.448Z"
+    },
+    "reference/audio_mixed_partial_update.html": {
+      "markdown_path": "reference/audio_mixed_partial_update.md",
+      "title": "Update Audio MixedMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 11,
+      "size_bytes": 831,
+      "converted_at": "2025-06-10T14:00:12.469Z"
+    },
+    "reference/audio_mixed_retrieve.html": {
+      "markdown_path": "reference/audio_mixed_retrieve.md",
+      "title": "Retrieve Audio MixedMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 11,
+      "size_bytes": 838,
+      "converted_at": "2025-06-10T14:00:12.491Z"
+    },
+    "reference/audio_separate.html": {
+      "markdown_path": "reference/audio_separate.md",
+      "title": "List Audio SeparateMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 15,
+      "size_bytes": 811,
+      "converted_at": "2025-06-10T14:00:12.515Z"
+    },
+    "reference/audio_separate_destroy.html": {
+      "markdown_path": "reference/audio_separate_destroy.md",
+      "title": "Delete Audio SeparateMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 1,
+      "size_bytes": 297,
+      "converted_at": "2025-06-10T14:00:12.535Z"
+    },
+    "reference/audio_separate_list.html": {
+      "markdown_path": "reference/audio_separate_list.md",
+      "title": "List Audio SeparateMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 15,
+      "size_bytes": 811,
+      "converted_at": "2025-06-10T14:00:12.557Z"
+    },
+    "reference/audio_separate_partial_update.html": {
+      "markdown_path": "reference/audio_separate_partial_update.md",
+      "title": "Update Audio SeparateMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 11,
+      "size_bytes": 991,
+      "converted_at": "2025-06-10T14:00:12.580Z"
+    },
+    "reference/audio_separate_retrieve.html": {
+      "markdown_path": "reference/audio_separate_retrieve.md",
+      "title": "Retrieve Audio SeparateMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 11,
+      "size_bytes": 998,
+      "converted_at": "2025-06-10T14:00:12.601Z"
+    },
+    "reference/authentication.html": {
+      "markdown_path": "reference/authentication.md",
+      "title": "AuthenticationMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 0,
+      "size_bytes": 1298,
+      "converted_at": "2025-06-10T14:00:12.624Z"
+    },
+    "reference/billing.html": {
+      "markdown_path": "reference/billing.md",
+      "title": "Get UsageMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 3,
+      "size_bytes": 374,
+      "converted_at": "2025-06-10T14:00:12.645Z"
+    },
+    "reference/billing_usage_retrieve.html": {
+      "markdown_path": "reference/billing_usage_retrieve.md",
+      "title": "Get UsageMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 3,
+      "size_bytes": 374,
+      "converted_at": "2025-06-10T14:00:12.664Z"
+    },
+    "reference/bot-screenshots.html": {
+      "markdown_path": "reference/bot-screenshots.md",
+      "title": "List Bot ScreenshotsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 9,
+      "size_bytes": 1143,
+      "converted_at": "2025-06-10T14:00:12.688Z"
+    },
+    "reference/bot.html": {
+      "markdown_path": "reference/bot.md",
+      "title": "List BotsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 38,
+      "size_bytes": 4382,
+      "converted_at": "2025-06-10T14:00:12.720Z"
+    },
+    "reference/bot_create.html": {
+      "markdown_path": "reference/bot_create.md",
+      "title": "Create BotMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 66,
+      "size_bytes": 9246,
+      "converted_at": "2025-06-10T14:00:12.757Z"
+    },
+    "reference/bot_delete_media_create.html": {
+      "markdown_path": "reference/bot_delete_media_create.md",
+      "title": "Delete Bot MediaMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 66,
+      "size_bytes": 9254,
+      "converted_at": "2025-06-10T14:00:12.789Z"
+    },
+    "reference/bot_destroy.html": {
+      "markdown_path": "reference/bot_destroy.md",
+      "title": "Delete Scheduled BotMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 1,
+      "size_bytes": 341,
+      "converted_at": "2025-06-10T14:00:12.809Z"
+    },
+    "reference/bot_leave_call_create.html": {
+      "markdown_path": "reference/bot_leave_call_create.md",
+      "title": "Remove Bot From CallMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 66,
+      "size_bytes": 9141,
+      "converted_at": "2025-06-10T14:00:12.842Z"
+    },
+    "reference/bot_list.html": {
+      "markdown_path": "reference/bot_list.md",
+      "title": "List BotsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 38,
+      "size_bytes": 4382,
+      "converted_at": "2025-06-10T14:00:12.869Z"
+    },
+    "reference/bot_output_audio_create.html": {
+      "markdown_path": "reference/bot_output_audio_create.md",
+      "title": "Output AudioMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 68,
+      "size_bytes": 9546,
+      "converted_at": "2025-06-10T14:00:12.902Z"
+    },
+    "reference/bot_output_audio_destroy.html": {
+      "markdown_path": "reference/bot_output_audio_destroy.md",
+      "title": "Output AudioMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 1,
+      "size_bytes": 398,
+      "converted_at": "2025-06-10T14:00:12.943Z"
+    },
+    "reference/bot_output_media_create.html": {
+      "markdown_path": "reference/bot_output_media_create.md",
+      "title": "Output MediaMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 66,
+      "size_bytes": 9221,
+      "converted_at": "2025-06-10T14:00:12.980Z"
+    },
+    "reference/bot_output_media_destroy.html": {
+      "markdown_path": "reference/bot_output_media_destroy.md",
+      "title": "Output MediaMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 3,
+      "size_bytes": 452,
+      "converted_at": "2025-06-10T14:00:13.000Z"
+    },
+    "reference/bot_output_screenshare_create.html": {
+      "markdown_path": "reference/bot_output_screenshare_create.md",
+      "title": "Start ScreenshareMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 68,
+      "size_bytes": 9333,
+      "converted_at": "2025-06-10T14:00:13.031Z"
+    },
+    "reference/bot_output_screenshare_destroy.html": {
+      "markdown_path": "reference/bot_output_screenshare_destroy.md",
+      "title": "Start ScreenshareMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 1,
+      "size_bytes": 309,
+      "converted_at": "2025-06-10T14:00:13.049Z"
+    },
+    "reference/bot_output_video_create.html": {
+      "markdown_path": "reference/bot_output_video_create.md",
+      "title": "Output VideoMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 68,
+      "size_bytes": 9620,
+      "converted_at": "2025-06-10T14:00:13.080Z"
+    },
+    "reference/bot_output_video_destroy.html": {
+      "markdown_path": "reference/bot_output_video_destroy.md",
+      "title": "Output VideoMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 1,
+      "size_bytes": 408,
+      "converted_at": "2025-06-10T14:00:13.099Z"
+    },
+    "reference/bot_partial_update.html": {
+      "markdown_path": "reference/bot_partial_update.md",
+      "title": "Update Scheduled BotMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 66,
+      "size_bytes": 9356,
+      "converted_at": "2025-06-10T14:00:13.132Z"
+    },
+    "reference/bot_pause_recording_create.html": {
+      "markdown_path": "reference/bot_pause_recording_create.md",
+      "title": "Pause RecordingMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 66,
+      "size_bytes": 9307,
+      "converted_at": "2025-06-10T14:00:13.164Z"
+    },
+    "reference/bot_request_recording_permission_create.html": {
+      "markdown_path": "reference/bot_request_recording_permission_create.md",
+      "title": "Request Recording PermissionMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 66,
+      "size_bytes": 9158,
+      "converted_at": "2025-06-10T14:00:13.195Z"
+    },
+    "reference/bot_resume_recording_create.html": {
+      "markdown_path": "reference/bot_resume_recording_create.md",
+      "title": "Resume RecordingMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 66,
+      "size_bytes": 9306,
+      "converted_at": "2025-06-10T14:00:13.226Z"
+    },
+    "reference/bot_retrieve.html": {
+      "markdown_path": "reference/bot_retrieve.md",
+      "title": "Retrieve BotMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 66,
+      "size_bytes": 9559,
+      "converted_at": "2025-06-10T14:00:13.259Z"
+    },
+    "reference/bot_screenshots_list.html": {
+      "markdown_path": "reference/bot_screenshots_list.md",
+      "title": "List Bot ScreenshotsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 9,
+      "size_bytes": 1143,
+      "converted_at": "2025-06-10T14:00:13.279Z"
+    },
+    "reference/bot_screenshots_retrieve.html": {
+      "markdown_path": "reference/bot_screenshots_retrieve.md",
+      "title": "Retrieve Bot ScreenshotMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 4,
+      "size_bytes": 768,
+      "converted_at": "2025-06-10T14:00:13.300Z"
+    },
+    "reference/bot_send_chat_message_create.html": {
+      "markdown_path": "reference/bot_send_chat_message_create.md",
+      "title": "Send Chat MessageMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 68,
+      "size_bytes": 9789,
+      "converted_at": "2025-06-10T14:00:13.334Z"
+    },
+    "reference/bot_start_recording_create.html": {
+      "markdown_path": "reference/bot_start_recording_create.md",
+      "title": "Start RecordingMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 66,
+      "size_bytes": 9689,
+      "converted_at": "2025-06-10T14:00:13.403Z"
+    },
+    "reference/bot_stop_recording_create.html": {
+      "markdown_path": "reference/bot_stop_recording_create.md",
+      "title": "Stop RecordingMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 66,
+      "size_bytes": 9302,
+      "converted_at": "2025-06-10T14:00:13.433Z"
+    },
+    "reference/calendar-accounts.html": {
+      "markdown_path": "reference/calendar-accounts.md",
+      "title": "/api/v2/calendar-accounts/{uuid}/Moon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 4,
+      "size_bytes": 310,
+      "converted_at": "2025-06-10T14:00:13.453Z"
+    },
+    "reference/calendar-event-platform-data.html": {
+      "markdown_path": "reference/calendar-event-platform-data.md",
+      "title": "Calendar Event Platform DataMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 0,
+      "size_bytes": 6140,
+      "converted_at": "2025-06-10T14:00:13.481Z"
+    },
+    "reference/calendar-v1.html": {
+      "markdown_path": "reference/calendar-v1.md",
+      "title": "Get Calendar Auth TokenMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 2,
+      "size_bytes": 676,
+      "converted_at": "2025-06-10T14:00:13.502Z"
+    },
+    "reference/calendar-v2.html": {
+      "markdown_path": "reference/calendar-v2.md",
+      "title": "List Calendar EventsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 23,
+      "size_bytes": 1762,
+      "converted_at": "2025-06-10T14:00:13.527Z"
+    },
+    "reference/calendar_accounts_access_token_retrieve.html": {
+      "markdown_path": "reference/calendar_accounts_access_token_retrieve.md",
+      "title": "Get Access TokenMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 4,
+      "size_bytes": 535,
+      "converted_at": "2025-06-10T14:00:13.546Z"
+    },
+    "reference/calendar_accounts_retrieve.html": {
+      "markdown_path": "reference/calendar_accounts_retrieve.md",
+      "title": "/api/v2/calendar-accounts/{uuid}/Moon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 4,
+      "size_bytes": 310,
+      "converted_at": "2025-06-10T14:00:13.566Z"
+    },
+    "reference/calendar_authenticate_create.html": {
+      "markdown_path": "reference/calendar_authenticate_create.md",
+      "title": "Get Calendar Auth TokenMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 2,
+      "size_bytes": 676,
+      "converted_at": "2025-06-10T14:00:13.587Z"
+    },
+    "reference/calendar_events_bot_create.html": {
+      "markdown_path": "reference/calendar_events_bot_create.md",
+      "title": "Schedule Bot For Calendar EventMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 17,
+      "size_bytes": 2519,
+      "converted_at": "2025-06-10T14:00:13.608Z"
+    },
+    "reference/calendar_events_bot_destroy.html": {
+      "markdown_path": "reference/calendar_events_bot_destroy.md",
+      "title": "Schedule Bot For Calendar EventMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 16,
+      "size_bytes": 1376,
+      "converted_at": "2025-06-10T14:00:13.630Z"
+    },
+    "reference/calendar_events_list.html": {
+      "markdown_path": "reference/calendar_events_list.md",
+      "title": "List Calendar EventsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 23,
+      "size_bytes": 1762,
+      "converted_at": "2025-06-10T14:00:13.652Z"
+    },
+    "reference/calendar_events_retrieve.html": {
+      "markdown_path": "reference/calendar_events_retrieve.md",
+      "title": "Retrieve Calendar EventMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 16,
+      "size_bytes": 1068,
+      "converted_at": "2025-06-10T14:00:13.675Z"
+    },
+    "reference/calendar_meetings_list.html": {
+      "markdown_path": "reference/calendar_meetings_list.md",
+      "title": "List Calendar MeetingsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 30,
+      "size_bytes": 1985,
+      "converted_at": "2025-06-10T14:00:13.698Z"
+    },
+    "reference/calendar_meetings_refresh_create.html": {
+      "markdown_path": "reference/calendar_meetings_refresh_create.md",
+      "title": "Refresh Calendar MeetingsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 28,
+      "size_bytes": 2040,
+      "converted_at": "2025-06-10T14:00:13.721Z"
+    },
+    "reference/calendar_meetings_retrieve.html": {
+      "markdown_path": "reference/calendar_meetings_retrieve.md",
+      "title": "Retrieve Calendar MeetingMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 38,
+      "size_bytes": 2436,
+      "converted_at": "2025-06-10T14:00:13.745Z"
+    },
+    "reference/calendar_meetings_update.html": {
+      "markdown_path": "reference/calendar_meetings_update.md",
+      "title": "Update Calendar MeetingMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 38,
+      "size_bytes": 2501,
+      "converted_at": "2025-06-10T14:00:13.770Z"
+    },
+    "reference/calendar_user_destroy.html": {
+      "markdown_path": "reference/calendar_user_destroy.md",
+      "title": "Delete Calendar UserMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 0,
+      "size_bytes": 268,
+      "converted_at": "2025-06-10T14:00:13.790Z"
+    },
+    "reference/calendar_user_disconnect_create.html": {
+      "markdown_path": "reference/calendar_user_disconnect_create.md",
+      "title": "Disconnect Calendar PlatformMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 14,
+      "size_bytes": 864,
+      "converted_at": "2025-06-10T14:00:13.813Z"
+    },
+    "reference/calendar_user_retrieve.html": {
+      "markdown_path": "reference/calendar_user_retrieve.md",
+      "title": "Get Calendar UserMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 14,
+      "size_bytes": 786,
+      "converted_at": "2025-06-10T14:00:13.852Z"
+    },
+    "reference/calendar_user_update.html": {
+      "markdown_path": "reference/calendar_user_update.md",
+      "title": "Update Recording PreferencesMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 14,
+      "size_bytes": 889,
+      "converted_at": "2025-06-10T14:00:13.873Z"
+    },
+    "reference/calendar_users_list.html": {
+      "markdown_path": "reference/calendar_users_list.md",
+      "title": "List Calendar UsersMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 8,
+      "size_bytes": 652,
+      "converted_at": "2025-06-10T14:00:13.895Z"
+    },
+    "reference/calendars_create.html": {
+      "markdown_path": "reference/calendars_create.md",
+      "title": "Create CalendarMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 12,
+      "size_bytes": 786,
+      "converted_at": "2025-06-10T14:00:13.918Z"
+    },
+    "reference/calendars_destroy.html": {
+      "markdown_path": "reference/calendars_destroy.md",
+      "title": "Delete CalendarMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 1,
+      "size_bytes": 395,
+      "converted_at": "2025-06-10T14:00:13.937Z"
+    },
+    "reference/calendars_list.html": {
+      "markdown_path": "reference/calendars_list.md",
+      "title": "List CalendarsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 18,
+      "size_bytes": 1197,
+      "converted_at": "2025-06-10T14:00:13.959Z"
+    },
+    "reference/calendars_partial_update.html": {
+      "markdown_path": "reference/calendars_partial_update.md",
+      "title": "Update CalendarMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 12,
+      "size_bytes": 834,
+      "converted_at": "2025-06-10T14:00:13.981Z"
+    },
+    "reference/calendars_retrieve.html": {
+      "markdown_path": "reference/calendars_retrieve.md",
+      "title": "Retrieve CalendarMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 12,
+      "size_bytes": 867,
+      "converted_at": "2025-06-10T14:00:14.001Z"
+    },
+    "reference/dashboard_platforms_bots_screenshots_list.html": {
+      "markdown_path": "reference/dashboard_platforms_bots_screenshots_list.md",
+      "title": "List Bot ScreenshotsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 9,
+      "size_bytes": 843,
+      "converted_at": "2025-06-10T14:00:14.023Z"
+    },
+    "reference/errors.html": {
+      "markdown_path": "reference/errors.md",
+      "title": "API ErrorsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 0,
+      "size_bytes": 5597,
+      "converted_at": "2025-06-10T14:00:14.049Z"
+    },
+    "reference/google-login-group.html": {
+      "markdown_path": "reference/google-login-group.md",
+      "title": "List Google Login GroupsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 18,
+      "size_bytes": 1646,
+      "converted_at": "2025-06-10T14:00:14.071Z"
+    },
+    "reference/google-login.html": {
+      "markdown_path": "reference/google-login.md",
+      "title": "List Google LoginsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 14,
+      "size_bytes": 1093,
+      "converted_at": "2025-06-10T14:00:14.092Z"
+    },
+    "reference/google_login_groups_create.html": {
+      "markdown_path": "reference/google_login_groups_create.md",
+      "title": "Create Google Login GroupMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 12,
+      "size_bytes": 1342,
+      "converted_at": "2025-06-10T14:00:14.115Z"
+    },
+    "reference/google_login_groups_destroy.html": {
+      "markdown_path": "reference/google_login_groups_destroy.md",
+      "title": "Destroy Google Login GroupMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 1,
+      "size_bytes": 445,
+      "converted_at": "2025-06-10T14:00:14.134Z"
+    },
+    "reference/google_login_groups_list.html": {
+      "markdown_path": "reference/google_login_groups_list.md",
+      "title": "List Google Login GroupsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 18,
+      "size_bytes": 1646,
+      "converted_at": "2025-06-10T14:00:14.156Z"
+    },
+    "reference/google_login_groups_partial_update.html": {
+      "markdown_path": "reference/google_login_groups_partial_update.md",
+      "title": "Partial Update Google Login GroupMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 12,
+      "size_bytes": 1410,
+      "converted_at": "2025-06-10T14:00:14.179Z"
+    },
+    "reference/google_login_groups_retrieve.html": {
+      "markdown_path": "reference/google_login_groups_retrieve.md",
+      "title": "Retrieve Google Login GroupMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 12,
+      "size_bytes": 1424,
+      "converted_at": "2025-06-10T14:00:14.201Z"
+    },
+    "reference/google_login_groups_update.html": {
+      "markdown_path": "reference/google_login_groups_update.md",
+      "title": "Update Google Login GroupMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 12,
+      "size_bytes": 1404,
+      "converted_at": "2025-06-10T14:00:14.225Z"
+    },
+    "reference/google_logins_create.html": {
+      "markdown_path": "reference/google_logins_create.md",
+      "title": "Create Google LoginMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 9,
+      "size_bytes": 1209,
+      "converted_at": "2025-06-10T14:00:14.270Z"
+    },
+    "reference/google_logins_destroy.html": {
+      "markdown_path": "reference/google_logins_destroy.md",
+      "title": "Destroy Google LoginMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 1,
+      "size_bytes": 427,
+      "converted_at": "2025-06-10T14:00:14.289Z"
+    },
+    "reference/google_logins_list.html": {
+      "markdown_path": "reference/google_logins_list.md",
+      "title": "List Google LoginsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 14,
+      "size_bytes": 1093,
+      "converted_at": "2025-06-10T14:00:14.312Z"
+    },
+    "reference/google_logins_partial_update.html": {
+      "markdown_path": "reference/google_logins_partial_update.md",
+      "title": "Partial Update Google LoginMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 9,
+      "size_bytes": 1089,
+      "converted_at": "2025-06-10T14:00:14.334Z"
+    },
+    "reference/google_logins_retrieve.html": {
+      "markdown_path": "reference/google_logins_retrieve.md",
+      "title": "Retrieve Google LoginMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 9,
+      "size_bytes": 1081,
+      "converted_at": "2025-06-10T14:00:14.355Z"
+    },
+    "reference/google_logins_update.html": {
+      "markdown_path": "reference/google_logins_update.md",
+      "title": "Update Google LoginMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 9,
+      "size_bytes": 1086,
+      "converted_at": "2025-06-10T14:00:14.377Z"
+    },
+    "reference/idempotency.html": {
+      "markdown_path": "reference/idempotency.md",
+      "title": "IdempotencyMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 0,
+      "size_bytes": 2835,
+      "converted_at": "2025-06-10T14:00:14.405Z"
+    },
+    "reference/meeting_metadata.html": {
+      "markdown_path": "reference/meeting_metadata.md",
+      "title": "List Meeting MetadataMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 14,
+      "size_bytes": 756,
+      "converted_at": "2025-06-10T14:00:14.426Z"
+    },
+    "reference/meeting_metadata_destroy.html": {
+      "markdown_path": "reference/meeting_metadata_destroy.md",
+      "title": "Delete Meeting MetadataMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 1,
+      "size_bytes": 301,
+      "converted_at": "2025-06-10T14:00:14.445Z"
+    },
+    "reference/meeting_metadata_list.html": {
+      "markdown_path": "reference/meeting_metadata_list.md",
+      "title": "List Meeting MetadataMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 14,
+      "size_bytes": 756,
+      "converted_at": "2025-06-10T14:00:14.467Z"
+    },
+    "reference/meeting_metadata_partial_update.html": {
+      "markdown_path": "reference/meeting_metadata_partial_update.md",
+      "title": "Update Meeting MetadataMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 11,
+      "size_bytes": 829,
+      "converted_at": "2025-06-10T14:00:14.487Z"
+    },
+    "reference/meeting_metadata_retrieve.html": {
+      "markdown_path": "reference/meeting_metadata_retrieve.md",
+      "title": "Retrieve Meeting MetadataMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 11,
+      "size_bytes": 836,
+      "converted_at": "2025-06-10T14:00:14.508Z"
+    },
+    "reference/participant_events.html": {
+      "markdown_path": "reference/participant_events.md",
+      "title": "List Participant EventsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 14,
+      "size_bytes": 758,
+      "converted_at": "2025-06-10T14:00:14.529Z"
+    },
+    "reference/participant_events_destroy.html": {
+      "markdown_path": "reference/participant_events_destroy.md",
+      "title": "Delete Participant EventsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 1,
+      "size_bytes": 305,
+      "converted_at": "2025-06-10T14:00:14.548Z"
+    },
+    "reference/participant_events_list.html": {
+      "markdown_path": "reference/participant_events_list.md",
+      "title": "List Participant EventsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 14,
+      "size_bytes": 758,
+      "converted_at": "2025-06-10T14:00:14.570Z"
+    },
+    "reference/participant_events_partial_update.html": {
+      "markdown_path": "reference/participant_events_partial_update.md",
+      "title": "Update Participant EventsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 12,
+      "size_bytes": 1219,
+      "converted_at": "2025-06-10T14:00:14.592Z"
+    },
+    "reference/participant_events_retrieve.html": {
+      "markdown_path": "reference/participant_events_retrieve.md",
+      "title": "Retrieve Participant EventsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 12,
+      "size_bytes": 1226,
+      "converted_at": "2025-06-10T14:00:14.613Z"
+    },
+    "reference/product-best-practices.html": {
+      "markdown_path": "reference/product-best-practices.md",
+      "title": "Best PracticesMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 0,
+      "size_bytes": 651,
+      "converted_at": "2025-06-10T14:00:14.625Z"
+    },
+    "reference/realtime_endpoint.html": {
+      "markdown_path": "reference/realtime_endpoint.md",
+      "title": "List Realtime EndpointsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 16,
+      "size_bytes": 907,
+      "converted_at": "2025-06-10T14:00:14.646Z"
+    },
+    "reference/realtime_endpoint_list.html": {
+      "markdown_path": "reference/realtime_endpoint_list.md",
+      "title": "List Realtime EndpointsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 16,
+      "size_bytes": 907,
+      "converted_at": "2025-06-10T14:00:14.669Z"
+    },
+    "reference/realtime_endpoint_partial_update.html": {
+      "markdown_path": "reference/realtime_endpoint_partial_update.md",
+      "title": "Update Realtime EndpointsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 11,
+      "size_bytes": 795,
+      "converted_at": "2025-06-10T14:00:14.713Z"
+    },
+    "reference/realtime_endpoint_retrieve.html": {
+      "markdown_path": "reference/realtime_endpoint_retrieve.md",
+      "title": "Retrieve Realtime EndpointsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 11,
+      "size_bytes": 802,
+      "converted_at": "2025-06-10T14:00:14.734Z"
+    },
+    "reference/recording.html": {
+      "markdown_path": "reference/recording.md",
+      "title": "List RecordingsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 20,
+      "size_bytes": 1047,
+      "converted_at": "2025-06-10T14:00:14.756Z"
+    },
+    "reference/recording_create_transcript_create.html": {
+      "markdown_path": "reference/recording_create_transcript_create.md",
+      "title": "Create Async TranscriptMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 29,
+      "size_bytes": 2563,
+      "converted_at": "2025-06-10T14:00:14.782Z"
+    },
+    "reference/recording_destroy.html": {
+      "markdown_path": "reference/recording_destroy.md",
+      "title": "Delete RecordingMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 1,
+      "size_bytes": 278,
+      "converted_at": "2025-06-10T14:00:14.802Z"
+    },
+    "reference/recording_list.html": {
+      "markdown_path": "reference/recording_list.md",
+      "title": "List RecordingsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 20,
+      "size_bytes": 1047,
+      "converted_at": "2025-06-10T14:00:14.826Z"
+    },
+    "reference/recording_partial_update.html": {
+      "markdown_path": "reference/recording_partial_update.md",
+      "title": "Update RecordingMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 18,
+      "size_bytes": 1199,
+      "converted_at": "2025-06-10T14:00:14.847Z"
+    },
+    "reference/recording_retrieve.html": {
+      "markdown_path": "reference/recording_retrieve.md",
+      "title": "Retrieve RecordingMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 18,
+      "size_bytes": 1198,
+      "converted_at": "2025-06-10T14:00:14.871Z"
+    },
+    "reference/sdk-upload.html": {
+      "markdown_path": "reference/sdk-upload.md",
+      "title": "List Desktop SDK UploadsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 6,
+      "size_bytes": 432,
+      "converted_at": "2025-06-10T14:00:14.891Z"
+    },
+    "reference/sdk_upload_create.html": {
+      "markdown_path": "reference/sdk_upload_create.md",
+      "title": "Create Desktop SDK UploadMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 10,
+      "size_bytes": 829,
+      "converted_at": "2025-06-10T14:00:14.912Z"
+    },
+    "reference/sdk_upload_list.html": {
+      "markdown_path": "reference/sdk_upload_list.md",
+      "title": "List Desktop SDK UploadsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 6,
+      "size_bytes": 432,
+      "converted_at": "2025-06-10T14:00:14.933Z"
+    },
+    "reference/sdk_upload_retrieve.html": {
+      "markdown_path": "reference/sdk_upload_retrieve.md",
+      "title": "Retrieve Desktop SDK UploadMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 9,
+      "size_bytes": 746,
+      "converted_at": "2025-06-10T14:00:14.952Z"
+    },
+    "reference/slack-teams.html": {
+      "markdown_path": "reference/slack-teams.md",
+      "title": "List Slack TeamsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 13,
+      "size_bytes": 1776,
+      "converted_at": "2025-06-10T14:00:14.974Z"
+    },
+    "reference/slack_teams_create.html": {
+      "markdown_path": "reference/slack_teams_create.md",
+      "title": "Create Slack TeamMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 39,
+      "size_bytes": 3897,
+      "converted_at": "2025-06-10T14:00:15.001Z"
+    },
+    "reference/slack_teams_destroy.html": {
+      "markdown_path": "reference/slack_teams_destroy.md",
+      "title": "Delete Slack TeamMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 1,
+      "size_bytes": 370,
+      "converted_at": "2025-06-10T14:00:15.020Z"
+    },
+    "reference/slack_teams_list.html": {
+      "markdown_path": "reference/slack_teams_list.md",
+      "title": "List Slack TeamsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 13,
+      "size_bytes": 1776,
+      "converted_at": "2025-06-10T14:00:15.042Z"
+    },
+    "reference/slack_teams_partial_update.html": {
+      "markdown_path": "reference/slack_teams_partial_update.md",
+      "title": "Partial Update Slack TeamMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 39,
+      "size_bytes": 3898,
+      "converted_at": "2025-06-10T14:00:15.070Z"
+    },
+    "reference/slack_teams_retrieve.html": {
+      "markdown_path": "reference/slack_teams_retrieve.md",
+      "title": "Retrieve Slack TeamMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 39,
+      "size_bytes": 3903,
+      "converted_at": "2025-06-10T14:00:15.094Z"
+    },
+    "reference/slack_teams_update.html": {
+      "markdown_path": "reference/slack_teams_update.md",
+      "title": "Update Slack TeamMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 39,
+      "size_bytes": 4008,
+      "converted_at": "2025-06-10T14:00:15.122Z"
+    },
+    "reference/subcodes.html": {
+      "markdown_path": "reference/subcodes.md",
+      "title": "Bot Sub CodesMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 0,
+      "size_bytes": 311,
+      "converted_at": "2025-06-10T14:00:15.160Z"
+    },
+    "reference/transcript.html": {
+      "markdown_path": "reference/transcript.md",
+      "title": "List TranscriptMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 16,
+      "size_bytes": 823,
+      "converted_at": "2025-06-10T14:00:15.182Z"
+    },
+    "reference/transcript_destroy.html": {
+      "markdown_path": "reference/transcript_destroy.md",
+      "title": "Delete TranscriptMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 1,
+      "size_bytes": 289,
+      "converted_at": "2025-06-10T14:00:15.202Z"
+    },
+    "reference/transcript_list.html": {
+      "markdown_path": "reference/transcript_list.md",
+      "title": "List TranscriptMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 16,
+      "size_bytes": 823,
+      "converted_at": "2025-06-10T14:00:15.225Z"
+    },
+    "reference/transcript_partial_update.html": {
+      "markdown_path": "reference/transcript_partial_update.md",
+      "title": "Update TranscriptMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 29,
+      "size_bytes": 2635,
+      "converted_at": "2025-06-10T14:00:15.249Z"
+    },
+    "reference/transcript_retrieve.html": {
+      "markdown_path": "reference/transcript_retrieve.md",
+      "title": "Retrieve TranscriptMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 29,
+      "size_bytes": 2642,
+      "converted_at": "2025-06-10T14:00:15.274Z"
+    },
+    "reference/video_mixed.html": {
+      "markdown_path": "reference/video_mixed.md",
+      "title": "List Video MixedMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 15,
+      "size_bytes": 808,
+      "converted_at": "2025-06-10T14:00:15.296Z"
+    },
+    "reference/video_mixed_destroy.html": {
+      "markdown_path": "reference/video_mixed_destroy.md",
+      "title": "Delete Video MixedMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 1,
+      "size_bytes": 291,
+      "converted_at": "2025-06-10T14:00:15.315Z"
+    },
+    "reference/video_mixed_list.html": {
+      "markdown_path": "reference/video_mixed_list.md",
+      "title": "List Video MixedMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 15,
+      "size_bytes": 808,
+      "converted_at": "2025-06-10T14:00:15.339Z"
+    },
+    "reference/video_mixed_partial_update.html": {
+      "markdown_path": "reference/video_mixed_partial_update.md",
+      "title": "Update Video MixedMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 11,
+      "size_bytes": 831,
+      "converted_at": "2025-06-10T14:00:15.360Z"
+    },
+    "reference/video_mixed_retrieve.html": {
+      "markdown_path": "reference/video_mixed_retrieve.md",
+      "title": "Retrieve Video MixedMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 11,
+      "size_bytes": 838,
+      "converted_at": "2025-06-10T14:00:15.382Z"
+    },
+    "reference/video_separate.html": {
+      "markdown_path": "reference/video_separate.md",
+      "title": "List Video SeparateMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 15,
+      "size_bytes": 811,
+      "converted_at": "2025-06-10T14:00:15.402Z"
+    },
+    "reference/video_separate_destroy.html": {
+      "markdown_path": "reference/video_separate_destroy.md",
+      "title": "Delete Video SeparateMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 1,
+      "size_bytes": 297,
+      "converted_at": "2025-06-10T14:00:15.421Z"
+    },
+    "reference/video_separate_list.html": {
+      "markdown_path": "reference/video_separate_list.md",
+      "title": "List Video SeparateMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 15,
+      "size_bytes": 811,
+      "converted_at": "2025-06-10T14:00:15.443Z"
+    },
+    "reference/video_separate_partial_update.html": {
+      "markdown_path": "reference/video_separate_partial_update.md",
+      "title": "Update Video SeparateMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 11,
+      "size_bytes": 991,
+      "converted_at": "2025-06-10T14:00:15.464Z"
+    },
+    "reference/video_separate_retrieve.html": {
+      "markdown_path": "reference/video_separate_retrieve.md",
+      "title": "Retrieve Video SeparateMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 11,
+      "size_bytes": 998,
+      "converted_at": "2025-06-10T14:00:15.485Z"
+    },
+    "reference/webhooks-overview.html": {
+      "markdown_path": "reference/webhooks-overview.md",
+      "title": "WebhooksMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 0,
+      "size_bytes": 1289,
+      "converted_at": "2025-06-10T14:00:15.506Z"
+    },
+    "reference/zoom-meetings-to-credentials.html": {
+      "markdown_path": "reference/zoom-meetings-to-credentials.md",
+      "title": "List Zoom Meeting to OAuth Credential MappingsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 10,
+      "size_bytes": 1276,
+      "converted_at": "2025-06-10T14:00:15.526Z"
+    },
+    "reference/zoom-new-bot-requirements.html": {
+      "markdown_path": "reference/zoom-new-bot-requirements.md",
+      "title": "Zoom Announces New Bot RequirementsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 0,
+      "size_bytes": 550,
+      "converted_at": "2025-06-10T14:00:15.538Z"
+    },
+    "reference/zoom-oauth-apps.html": {
+      "markdown_path": "reference/zoom-oauth-apps.md",
+      "title": "List Zoom OAuth App LogsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 10,
+      "size_bytes": 875,
+      "converted_at": "2025-06-10T14:00:15.560Z"
+    },
+    "reference/zoom-oauth-credentials.html": {
+      "markdown_path": "reference/zoom-oauth-credentials.md",
+      "title": "List Zoom OAuth Credential LogsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 10,
+      "size_bytes": 1024,
+      "converted_at": "2025-06-10T14:00:15.599Z"
+    },
+    "reference/zoom-oauth-getting-started.html": {
+      "markdown_path": "reference/zoom-oauth-getting-started.md",
+      "title": "Getting Started: Zoom OAuth IntegrationMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 0,
+      "size_bytes": 769,
+      "converted_at": "2025-06-10T14:00:15.610Z"
+    },
+    "reference/zoom-sdk-app-submission-guide.html": {
+      "markdown_path": "reference/zoom-sdk-app-submission-guide.md",
+      "title": "App Submission GuideMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 0,
+      "size_bytes": 118,
+      "converted_at": "2025-06-10T14:00:15.621Z"
+    },
+    "reference/zoom_meetings_to_credentials_list.html": {
+      "markdown_path": "reference/zoom_meetings_to_credentials_list.md",
+      "title": "List Zoom Meeting to OAuth Credential MappingsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 10,
+      "size_bytes": 1276,
+      "converted_at": "2025-06-10T14:00:15.641Z"
+    },
+    "reference/zoom_oauth_app_logs_list.html": {
+      "markdown_path": "reference/zoom_oauth_app_logs_list.md",
+      "title": "List Zoom OAuth App LogsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 10,
+      "size_bytes": 875,
+      "converted_at": "2025-06-10T14:00:15.663Z"
+    },
+    "reference/zoom_oauth_apps_create.html": {
+      "markdown_path": "reference/zoom_oauth_apps_create.md",
+      "title": "Create Zoom OAuth AppMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 7,
+      "size_bytes": 636,
+      "converted_at": "2025-06-10T14:00:15.684Z"
+    },
+    "reference/zoom_oauth_apps_destroy.html": {
+      "markdown_path": "reference/zoom_oauth_apps_destroy.md",
+      "title": "Destroy Zoom OAuth AppMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 1,
+      "size_bytes": 409,
+      "converted_at": "2025-06-10T14:00:15.704Z"
+    },
+    "reference/zoom_oauth_apps_list.html": {
+      "markdown_path": "reference/zoom_oauth_apps_list.md",
+      "title": "List Zoom OAuth AppsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 16,
+      "size_bytes": 1098,
+      "converted_at": "2025-06-10T14:00:15.726Z"
+    },
+    "reference/zoom_oauth_apps_partial_update.html": {
+      "markdown_path": "reference/zoom_oauth_apps_partial_update.md",
+      "title": "Update Zoom OAuth AppMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 7,
+      "size_bytes": 625,
+      "converted_at": "2025-06-10T14:00:15.747Z"
+    },
+    "reference/zoom_oauth_apps_retrieve.html": {
+      "markdown_path": "reference/zoom_oauth_apps_retrieve.md",
+      "title": "Retrieve Zoom OAuth AppMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 7,
+      "size_bytes": 706,
+      "converted_at": "2025-06-10T14:00:15.769Z"
+    },
+    "reference/zoom_oauth_credential_logs_list.html": {
+      "markdown_path": "reference/zoom_oauth_credential_logs_list.md",
+      "title": "List Zoom OAuth Credential LogsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 10,
+      "size_bytes": 1024,
+      "converted_at": "2025-06-10T14:00:15.790Z"
+    },
+    "reference/zoom_oauth_credentials_access_token_retrieve.html": {
+      "markdown_path": "reference/zoom_oauth_credentials_access_token_retrieve.md",
+      "title": "Get Access TokenMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 3,
+      "size_bytes": 589,
+      "converted_at": "2025-06-10T14:00:15.810Z"
+    },
+    "reference/zoom_oauth_credentials_create.html": {
+      "markdown_path": "reference/zoom_oauth_credentials_create.md",
+      "title": "Create Zoom OAuth CredentialMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 12,
+      "size_bytes": 1421,
+      "converted_at": "2025-06-10T14:00:15.832Z"
+    },
+    "reference/zoom_oauth_credentials_destroy.html": {
+      "markdown_path": "reference/zoom_oauth_credentials_destroy.md",
+      "title": "Destroy Zoom OAuth CredentialMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 1,
+      "size_bytes": 556,
+      "converted_at": "2025-06-10T14:00:15.852Z"
+    },
+    "reference/zoom_oauth_credentials_list.html": {
+      "markdown_path": "reference/zoom_oauth_credentials_list.md",
+      "title": "List Zoom OAuth CredentialsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 15,
+      "size_bytes": 1550,
+      "converted_at": "2025-06-10T14:00:15.875Z"
+    },
+    "reference/zoom_oauth_credentials_retrieve.html": {
+      "markdown_path": "reference/zoom_oauth_credentials_retrieve.md",
+      "title": "Retrieve Zoom OAuth CredentialMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 8,
+      "size_bytes": 1091,
+      "converted_at": "2025-06-10T14:00:15.895Z"
+    },
+    "reference/zoom_oauth_credentials_sync_meetings_create.html": {
+      "markdown_path": "reference/zoom_oauth_credentials_sync_meetings_create.md",
+      "title": "Manually Resync MeetingsMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 1,
+      "size_bytes": 657,
+      "converted_at": "2025-06-10T14:00:15.915Z"
+    },
+    "reference/zoom_oauth_credentials_validate_create.html": {
+      "markdown_path": "reference/zoom_oauth_credentials_validate_create.md",
+      "title": "Manually Revalidate CredentialMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": true,
+      "api_parameters_count": 1,
+      "size_bytes": 562,
+      "converted_at": "2025-06-10T14:00:15.934Z"
+    },
+    "reference.html": {
+      "markdown_path": "reference.md",
+      "title": "AuthenticationMoon (Dark Mode)Sun (Light Mode)",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 1256,
+      "converted_at": "2025-06-10T14:00:15.950Z"
+    },
+    "search.html": {
+      "markdown_path": "search.md",
+      "title": "404 Not Found",
+      "is_api_reference": false,
+      "api_parameters_count": 0,
+      "size_bytes": 6434,
+      "converted_at": "2025-06-10T14:00:15.961Z"
+    }
+  }
+}
