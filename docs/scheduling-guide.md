@@ -3,20 +3,20 @@ title: "Scheduling GuideMoon (Dark Mode)Sun (Light Mode)"
 description: "Once you've successfully created a calendar in Recall , you can start scheduling bots to calendar events for the same using the below steps: 1. Sync Events Once a calendar is connected, you will start receiving calendar sync events webhooks whenever an event is added/updated/removed for the calendar..."
 source_file: "docs/scheduling-guide.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.982Z"
+converted_at: "2025-06-10T14:47:11.586Z"
 api_parameters_count: "0"
 ---
-Once you've [successfully created a calendar in Recall](/docs/calendar-v2-integration-guide#4-create-calendar), you can start scheduling bots to calendar events for the same using the below steps:
+Once you've [successfully created a calendar in Recall](/docs/calendar-v2-integration-guide#4-create-calendar.md), you can start scheduling bots to calendar events for the same using the below steps:
 
 # 1\. Sync Events
 
 [](#1-sync-events)
 
-Once a calendar is connected, you will start receiving [calendar sync events](/reference/calendar-v2-webhooks#calendar-sync-events) webhooks whenever an event is added/updated/removed for the calendar. For each web-hook, you should (re)fetch the calendar events via [List Calendar Events](/reference/calendar_events_list). You can choose to do either a full sync or use the `last_updated_ts` field in the payload (pass as `updated_at__gte` query parameter) to do an incremental sync(recommended).
+Once a calendar is connected, you will start receiving [calendar sync events](/reference/calendar-v2-webhooks#calendar-sync-events.md) webhooks whenever an event is added/updated/removed for the calendar. For each web-hook, you should (re)fetch the calendar events via [List Calendar Events](/reference/calendar_events_list.md). You can choose to do either a full sync or use the `last_updated_ts` field in the payload (pass as `updated_at__gte` query parameter) to do an incremental sync(recommended).
 
 Use the `is_deleted` field on the calendar event object to know if the event has been removed from the calendar or not. Recall does not delete any calendar events, and the consumer is expected to filter out events on basis of `is_deleted` attribute when syncing/displaying them to the end user.
 
-*Note that created/deleted/updated events returned by [List Calendar Events](/reference/calendar_events_list) will only reflect events within 1 day prior and 28 days into the future. For more info on this, see [here](#how-does-the-time-window-of-events-returned-from-recall-work) .*
+*Note that created/deleted/updated events returned by [List Calendar Events](/reference/calendar_events_list.md) will only reflect events within 1 day prior and 28 days into the future. For more info on this, see [here](#how-does-the-time-window-of-events-returned-from-recall-work) .*
 
 # 2\. Figure out recording status of an event
 
@@ -35,14 +35,14 @@ After events have been synced, for each calendar event, you should decide whethe
 
 [](#3-addremove-bot-from-the-event)
 
-Based on the recording status of the calendar event, you should send request to either [Add Bot](/reference/calendar_events_bot_create) or [Remove Bot](/reference/calendar_events_bot_destroy) endpoint. For the case where a bot is already scheduled for the event, but the event's time was updated, you should call the [Schedule Bot for Calendar Event](/reference/calendar_events_bot_create) api.
+Based on the recording status of the calendar event, you should send request to either [Add Bot](/reference/calendar_events_bot_create.md) or [Remove Bot](/reference/calendar_events_bot_destroy.md) endpoint. For the case where a bot is already scheduled for the event, but the event's time was updated, you should call the [Schedule Bot for Calendar Event](/reference/calendar_events_bot_create.md) api.
 
 The response object will contain the updated calendar event. The `bots` field will contain reference to bots(if any) that are scheduled to join the calendar event along with relevant metadata (`deduplication_key`, `start_time`, `meeting_url`).
 
-1.  [Add Bot](/reference/calendar_events_bot_create)
+1.  [Add Bot](/reference/calendar_events_bot_create.md)
 - Use `deduplication_key` to share bots across multiple calendar events. More on this in de-duplicating bots section below.
 - Use `bot_config` to specify the configuration for the bot. Incase multiple requests are made for the same calendar event, the config supplied in most recent request will get applied to the bot. For each request, include complete `bot_config` required (**this endpoint does not support partial updates**). This allows you to have custom bot configuration based on the calendar event.
-2.  [Remove Bot](/reference/calendar_events_bot_destroy)
+2.  [Remove Bot](/reference/calendar_events_bot_destroy.md)
 - Delete scheduled bot for this event. The bot will only get deleted if it is not shared by any other calendar event(as a result of de-duplication).
 
 > **CALLOUT**:
@@ -88,7 +88,7 @@ In some cases a single calendar event is re-used by the user by moving it forwar
 
 [](#pre-poned-event)
 
-A calendar event that is marked for recording in the future can get preponed to start in near future (<5m) from now. In such cases the response for [Add Bot](/reference/calendar_events_bot_create) endpoint can return with a `507`, this is due to not enough bots being available in the ad-hoc bot pool(the originally scheduled bot cannot be used in such cases as it's not ready to join the call in the updated time). We recommend, you retry the [Add Bot](/reference/calendar_events_bot_create) endpoint request in such cases.
+A calendar event that is marked for recording in the future can get preponed to start in near future (<5m) from now. In such cases the response for [Add Bot](/reference/calendar_events_bot_create.md) endpoint can return with a `507`, this is due to not enough bots being available in the ad-hoc bot pool(the originally scheduled bot cannot be used in such cases as it's not ready to join the call in the updated time). We recommend, you retry the [Add Bot](/reference/calendar_events_bot_create.md) endpoint request in such cases.
 
 ## Updating Scheduled Bots
 
@@ -117,7 +117,7 @@ When a user wants to disconnect their calendar, there are two ways they can do t
 
 We **highly recommend** having a button or other trigger in your app that allows users to disconnect their calendar.
 
-When they trigger this, you should call [Delete Calendar](/reference/calendars_destroy) using their calendar ID, which will immediately clean up bots scheduled to their calendar.
+When they trigger this, you should call [Delete Calendar](/reference/calendars_destroy.md) using their calendar ID, which will immediately clean up bots scheduled to their calendar.
 
 **Removing the OAuth connection from their Google/Microsoft account**
 
@@ -131,8 +131,8 @@ For this reason, we highly recommend allowing users to delete their calendars fr
 
 [](#handling-rate-limits)
 
-Both the [Schedule Bot For Calendar Event](/reference/calendar_events_bot_create) and [Delete Bot From Calendar Event](/reference/calendar_events_bot_destroy) endpoints have their own respective rate limits (seen in the links above). Incase you are observing rate limit errors (returned as `Status Code: 429`) please review your integration to ensure
-- Requests for events that are in the past are not being triggered (e.g triggering [Delete Bot From Calendar Event](/reference/calendar_events_bot_destroy) for events that have already ended)
+Both the [Schedule Bot For Calendar Event](/reference/calendar_events_bot_create.md) and [Delete Bot From Calendar Event](/reference/calendar_events_bot_destroy.md) endpoints have their own respective rate limits (seen in the links above). Incase you are observing rate limit errors (returned as `Status Code: 429`) please review your integration to ensure
+- Requests for events that are in the past are not being triggered (e.g triggering [Delete Bot From Calendar Event](/reference/calendar_events_bot_destroy.md) for events that have already ended)
 - Request for events in the future are triggered in chronological order(this ensures most recent event schedules are updated first)
 
 If you are experiencing rate limits issues even post these, please reach out to us for further assistance.
@@ -152,7 +152,7 @@ The calendar delete operation ensures bots that are scheduled for all future mee
 
 [](#the-bot-join-time-does-not-update-if-the-calendar-events-time-is-changed-how-should-this-be-handled-)
 
-You will receive [calendar sync events](/reference/calendar-v2-webhooks#calendar-sync-events) webhook whenever an event is updated for a calendar. This update can be change of one or more attributes of the calendar event e.g start time, attendees, meeting url etc.
+You will receive [calendar sync events](/reference/calendar-v2-webhooks#calendar-sync-events.md) webhook whenever an event is updated for a calendar. This update can be change of one or more attributes of the calendar event e.g start time, attendees, meeting url etc.
 For each of these webhook(s), you should re-fetch the calendar event and follow the below steps
 
 1.  Figure out if event should be recorded based on updated data. [https://recallai.readme.io/reference/scheduling-guide#2-figure-out-recording-status-of-an-event](https://recallai.readme.io/reference/scheduling-guide#2-figure-out-recording-status-of-an-event)
@@ -177,11 +177,11 @@ The calendar integration only supports fetching events from the user's primary c
 
 Recall will fire a `calendar.sync_events` webhook whenever a change to the calendar's events is made.
 
-However, the window in which calendar events are synced to Recall, and thus, will be displayed in any `updated_at__gte` queries to [List Calendar Events](/reference/calendar_events_list), is as follows:
+However, the window in which calendar events are synced to Recall, and thus, will be displayed in any `updated_at__gte` queries to [List Calendar Events](/reference/calendar_events_list.md), is as follows:
 - **Future events:** 28 days
 
 If events are scheduled outside of the 28 days, we will send a webhook as soon as the event enters the 28 day window. This ensures you don't miss any current or future events
 
-For example, if a user makes a change to a calendar event 28 days in the future, this event will not appear when calling [List Calendar Events](/reference/calendar_events_list). When the event is within 28 days from the current time, the event will appear in List Calendar Events and you will receive a webhook notification about the event
+For example, if a user makes a change to a calendar event 28 days in the future, this event will not appear when calling [List Calendar Events](/reference/calendar_events_list.md). When the event is within 28 days from the current time, the event will appear in List Calendar Events and you will receive a webhook notification about the event
 
-Since bots need not be scheduled outside of this window, Recall only stores and updates events within this sliding time window. If your app requires you to fetch events outside of this window, for example, to display events in your UI, then you can use the underlying OAuth token for the [calendar](/reference/calendars_retrieve) and fetch these directly from the meeting provider as needed.
+Since bots need not be scheduled outside of this window, Recall only stores and updates events within this sliding time window. If your app requires you to fetch events outside of this window, for example, to display events in your UI, then you can use the underlying OAuth token for the [calendar](/reference/calendars_retrieve.md) and fetch these directly from the meeting provider as needed.

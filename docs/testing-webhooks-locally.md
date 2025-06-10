@@ -3,7 +3,7 @@ title: "Testing Webhooks LocallyMoon (Dark Mode)Sun (Light Mode)"
 description: "Test receiving and verifying Bot status event webhooks locally"
 source_file: "docs/testing-webhooks-locally.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:12.169Z"
+converted_at: "2025-06-10T14:47:11.766Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:
@@ -12,7 +12,7 @@ api_parameters_count: "0"
 
 Prerequisite
 
-Before you can receive bot status change events locally, make sure you've set up [Local Webhook Development](/docs/local-webhook-development).
+Before you can receive bot status change events locally, make sure you've set up [Local Webhook Development](/docs/local-webhook-development.md).
 
 # Configuration
 
@@ -179,7 +179,7 @@ ngrok http --domain my-static-domain.ngrok-free.app 3000
 [](#create-a-bot)
 
 1.  Start an instant Google Meet call: [https://meet.google.com/](https://meet.google.com/)
-2.  Call [Create Bot](/reference/bot_create), setting `meeting_url` to the URL of the meeting you just created.
+2.  Call [Create Bot](/reference/bot_create.md), setting `meeting_url` to the URL of the meeting you just created.
 3.  As the bot joins the call and starts recording, you should see your server receive the webhook events and verify their signatures successfully.
 
 ```

@@ -3,7 +3,7 @@ title: "Zoom OAuth Setup: Legacy ScopesMoon (Dark Mode)Sun (Light Mode)"
 description: "📘 Legacy scopes: This guide is only for Zoom apps using Zoom's Legacy scopes. For Zoom apps created after March 21, 2024, see Zoom OAuth Setup: Granular Scopes . Requesting the Required Scopes You'll need to request a few scopes on your OAuth app in order to use this integration. If you already hav..."
 source_file: "docs/integration-guide-zoom-oauth-legacy-scopes.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.612Z"
+converted_at: "2025-06-10T14:47:11.223Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:
@@ -14,7 +14,7 @@ Legacy scopes
 
 This guide is only for Zoom apps using Zoom's Legacy scopes.
 
-For Zoom apps created after March 21, 2024, see [Zoom OAuth Setup: Granular Scopes](/docs/integration-guide-zoom-oauth).
+For Zoom apps created after March 21, 2024, see [Zoom OAuth Setup: Granular Scopes](/docs/integration-guide-zoom-oauth.md).
 
 ## Requesting the Required Scopes
 
@@ -24,7 +24,7 @@ You'll need to request a few scopes on your OAuth app in order to use this integ
 
 If you already have an existing OAuth app and you're already having your users grant OAuth permission on Zoom, you can request the scopes on that app.
 
-Otherwise, if you've [created Zoom SDK credentials to authenticate the bot](/reference/zoom-sdk-app-submission-guide), you can request the scopes on that app. You don't need to create a separate OAuth app, as the SDK app can also provide OAuth functionality.
+Otherwise, if you've [created Zoom SDK credentials to authenticate the bot](/reference/zoom-sdk-app-submission-guide.md), you can request the scopes on that app. You don't need to create a separate OAuth app, as the SDK app can also provide OAuth functionality.
 
 Select the following scopes
 
@@ -66,7 +66,7 @@ You'll provide this in the `webhook_secret` parameter in the next step.
 
 [](#create-the-zoom-oauth-app-in-recall)
 
-The next step is to create your Zoom OAuth App in Recall by calling the [Create Zoom OAuth App](/reference/zoom_oauth_apps_create) endpoint.
+The next step is to create your Zoom OAuth App in Recall by calling the [Create Zoom OAuth App](/reference/zoom_oauth_apps_create.md) endpoint.
 
 > **CALLOUT**:
 
@@ -120,7 +120,7 @@ Important: Zoom OAuth integration and bot behavior
 
 Configuring webhooks does **not** cause bots to automatically join Zoom meetings. It simply gives Recall the *ability* to automatically fetch join tokens for any bots that you choose to send to these meetings.
 
-To actually create a bot and send it to a meeting, they still must be created through the [Create Bot](/reference/bot_create) endpoint or via the [Calendar Integration](/docs/calendar-integration).
+To actually create a bot and send it to a meeting, they still must be created through the [Create Bot](/reference/bot_create.md) endpoint or via the [Calendar Integration](/docs/calendar-integration.md).
 
 The following are instructions to configure webhooks:
 

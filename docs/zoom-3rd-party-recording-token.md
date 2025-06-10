@@ -3,7 +3,7 @@ title: "Zoom 3rd Party Recording TokenMoon (Dark Mode)Sun (Light Mode)"
 description: "Enable Zoom bots to record without using local recording permissions."
 source_file: "docs/zoom-3rd-party-recording-token.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:12.237Z"
+converted_at: "2025-06-10T14:47:11.832Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:
@@ -25,7 +25,7 @@ This is particularly useful for larger enterprises that cannot allow allow local
 [](#setup)
 - * *
 
-In practice, implementing this feature is done through an account-level Zoom OAuth application, which is supported through Recall's [Zoom OAuth Integration](/docs/zoom-oauth-integration).
+In practice, implementing this feature is done through an account-level Zoom OAuth application, which is supported through Recall's [Zoom OAuth Integration](/docs/zoom-oauth-integration.md).
 
 > **CALLOUT**:
 
@@ -33,7 +33,7 @@ In practice, implementing this feature is done through an account-level Zoom OAu
 
 Native bots
 
-Currently, Zoom only supports this through the SDK used by [Zoom Native Bots](/docs/zoom-native-bots).
+Currently, Zoom only supports this through the SDK used by [Zoom Native Bots](/docs/zoom-native-bots.md).
 
 More info on this can be found below.
 
@@ -154,7 +154,7 @@ This is required to keep the personal meeting ID of the user in sync.
 
 [](#5-implement-the-oauth-flow)
 
-Now that you have your app setup, the last step is to enable your users to authorize their accounts. The OAuth flow for the 3rd party recording token is the exact same as the normal Zoom OAuth integration, which you can find a guide for [here](/docs/recall-managed-oauth).
+Now that you have your app setup, the last step is to enable your users to authorize their accounts. The OAuth flow for the 3rd party recording token is the exact same as the normal Zoom OAuth integration, which you can find a guide for [here](/docs/recall-managed-oauth.md).
 
 Once a Zoom account goes through this flow and connects your OAuth app, Recall will continually sync Zoom meetings for all users in the account. 3rd party tokens will automatically be provided for any of the synced Zoom meetings for the account, and bots will be able to record without local recording permissions.
 
@@ -177,9 +177,9 @@ Once they've gone through the OAuth flow and authorized their Zoom account, 3rd 
 [](#bot-configuration)
 - * *
 
-Since the 3rd party recording token is only supported by the [Zoom Native Bot](/docs/zoom-native-bots), if you're currently using the default Web bot, you'll need to add one additional parameter.
+Since the 3rd party recording token is only supported by the [Zoom Native Bot](/docs/zoom-native-bots.md), if you're currently using the default Web bot, you'll need to add one additional parameter.
 
-For bots using the 3rd party recording token, you **must** configure your [Create Bot](/reference/bot_create) requests to specify native Zoom bots by setting the `variant.zoom` parameter to `native`:
+For bots using the 3rd party recording token, you **must** configure your [Create Bot](/reference/bot_create.md) requests to specify native Zoom bots by setting the `variant.zoom` parameter to `native`:
 
 ```
 curl --request POST \

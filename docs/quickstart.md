@@ -3,7 +3,7 @@ title: "Quickstart: Record a meeting using a botMoon (Dark Mode)Sun (Light Mode)
 description: "Learn how to send a bot to a meeting and retrieve the recording."
 source_file: "docs/quickstart.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.816Z"
+converted_at: "2025-06-10T14:47:11.423Z"
 api_parameters_count: "0"
 ---
 # 1\. Initial setup
@@ -22,7 +22,7 @@ We recommend using Google Meet for this quickstart. You can create one quickly b
 
 [](#3-send-a-bot-to-the-meeting)
 
-Use the [Create Bot](/reference/bot_create) endpoint to send a bot to a meeting.
+Use the [Create Bot](/reference/bot_create.md) endpoint to send a bot to a meeting.
 - Swap the `$RECALLAI_API_KEY` placeholder in `Authorization` with your API key
 - Swap the `$RECALLAI_REGION` placeholder with the region associated with your Recall account (e.g. `us-west-2`, `us-east-1`, `eu-central-1`, or `ap-northeast-1`)
 - Swap the placeholder in `$MEETING_URL` with the meeting URL from the previous step.
@@ -104,15 +104,15 @@ Once the meeting is done, Recall begins processing the video recording. This typ
 
 When the recording is ready to be downloaded, the bot status changes to `done`.
 
-The best way to retrieve this is via **webhooks**. See the [Webhook Overview](/reference/webhooks-overview) for details.
+The best way to retrieve this is via **webhooks**. See the [Webhook Overview](/reference/webhooks-overview.md) for details.
 
-If you can't use webhooks for some reason, you can manually **poll** [Retrieve Bot](/reference/bot_retrieve) to see the bot status.
+If you can't use webhooks for some reason, you can manually **poll** [Retrieve Bot](/reference/bot_retrieve.md) to see the bot status.
 
 # 7\. Retrieve the recording
 
 [](#7-retrieve-the-recording)
 
-To retrieve the recording the bot created, use the [Retrieve Bot](/reference/bot_retrieve) endpoint.
+To retrieve the recording the bot created, use the [Retrieve Bot](/reference/bot_retrieve.md) endpoint.
 - Swap the `$RECALLAI_API_KEY` placeholder in `Authorization` with your API key
 - Swap the `$RECALLAI_REGION` placeholder with the region associated with your Recall account (e.g. `us-west-2`, `us-east-1`, `eu-central-1`, or `ap-northeast-1`)
 - Swap the Bot ID with the id you saved in Step 3.
@@ -158,7 +158,7 @@ JSON
 
 Recall deletes the recording files after 7 days, indicated by `expires_at` on the recording.
 
-In practice, you should download the recording and upload to your own servers right after you receive the `bot.done` [Bot Webhook](/docs/bot-status-change-events).
+In practice, you should download the recording and upload to your own servers right after you receive the `bot.done` [Bot Webhook](/docs/bot-status-change-events.md).
 
 # 8\. Retrieve the transcript
 
@@ -192,7 +192,7 @@ JSON
 
 ```
 
-The response will be in [the following format](/docs/download-schemas#json-transcript-download-url)
+The response will be in [the following format](/docs/download-schemas#json-transcript-download-url.md)
 
 # Next steps
 
@@ -200,19 +200,19 @@ The response will be in [the following format](/docs/download-schemas#json-trans
 
 Now that you have a sense of how to work with Recall's API, here are a few things to try next:
 
-### [Real-time transcription](/reference/real-time-transcription)
+### [Real-time transcription](/reference/real-time-transcription.md)
 
 [](#real-time-transcription)
 
 This will allow your bot to transcribe conversations in real-time, allowing you to react to conversation data as soon as it's spoken.
 
-### [Asynchronous transcription](/reference/asynchronous-transcription)
+### [Asynchronous transcription](/reference/asynchronous-transcription.md)
 
 [](#asynchronous-transcription)
 
 This will allow you to transcribe conversations after they've ended.
 
-### [Zoom Setup](/reference/zoom-overview)
+### [Zoom Setup](/reference/zoom-overview.md)
 
 [](#zoom-setup)
 

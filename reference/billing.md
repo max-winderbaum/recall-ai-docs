@@ -3,7 +3,7 @@ title: "Get UsageMoon (Dark Mode)Sun (Light Mode)"
 description: "Get bot usage statistics This endpoint is rate limited to: 5 requests per min per workspace"
 source_file: "reference/billing.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:12.643Z"
+converted_at: "2025-06-10T14:47:12.238Z"
 api_parameters_count: "3"
 ---
 ## GET https://us-east-1.recall.ai/api/v1/billing/usage/

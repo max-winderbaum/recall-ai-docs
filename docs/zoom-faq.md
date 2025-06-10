@@ -3,14 +3,14 @@ title: "Zoom FAQMoon (Dark Mode)Sun (Light Mode)"
 description: "Frequently asked questions about Zoom bots."
 source_file: "docs/zoom-faq.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:12.266Z"
+converted_at: "2025-06-10T14:47:11.860Z"
 api_parameters_count: "0"
 ---
 ## What if Zoom returns an internal error?
 
 [](#what-if-zoom-returns-an-internal-error)
 
-On rare occasions, your bot may fail to enter a call with a `zoom_internal_error` [sub code](/docs/sub-codes).
+On rare occasions, your bot may fail to enter a call with a `zoom_internal_error` [sub code](/docs/sub-codes.md).
 
 Unfortunately this means something went wrong on Zoom's end, and we have limited visibility into the underlying error. We do our best to handle these errors internally through retries but on rare occasions this error can cause a bot to fail.
 

@@ -3,7 +3,7 @@ title: "Teams OverviewMoon (Dark Mode)Sun (Light Mode)"
 description: "Overview of Microsoft Teams Bots."
 source_file: "docs/microsoft-teams.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.733Z"
+converted_at: "2025-06-10T14:47:11.339Z"
 api_parameters_count: "0"
 ---
 # Setup

@@ -3,7 +3,7 @@ title: "OverviewMoon (Dark Mode)Sun (Light Mode)"
 description: "Sign-In your Teams bots into a Microsoft account."
 source_file: "docs/microsoft-teams-bot-login.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.719Z"
+converted_at: "2025-06-10T14:47:11.326Z"
 api_parameters_count: "0"
 ---
 By default the Teams bot will join meeting as an anonymous guest participant.
@@ -17,7 +17,7 @@ To overcome these limitations, you can configure your Teams bots to sign into a 
 [](#important-considerations)
 
 There are some important things to be aware of when using Microsoft Teams bots:
-- **The bot name *cannot* be overridden:** Signed in Teams bots get their name from the Teams account used to authenticate the bot, which overrides the `bot_name` parameter in [Create Bot](/reference/bot_create).
+- **The bot name *cannot* be overridden:** Signed in Teams bots get their name from the Teams account used to authenticate the bot, which overrides the `bot_name` parameter in [Create Bot](/reference/bot_create.md).
 - **Signed in bots only work for [Business Microsoft Teams](https://recallai.readme.io/docs/personal-vs-business-ms-teams#business-ms-teams) meetings.**
 
 > **CALLOUT**:

@@ -3,7 +3,7 @@ title: "Start RecordingMoon (Dark Mode)Sun (Light Mode)"
 description: "Instructs the bot to start recording the meeting. This will restart the current recording if one is already in progress. This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/bot_start_recording_create.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:13.402Z"
+converted_at: "2025-06-10T14:47:12.970Z"
 api_parameters_count: "66"
 ---
 ## POST https://us-east-1.recall.ai/api/v1/bot/{id}/start_recording/
@@ -22,7 +22,7 @@ When you invoke this endpoint, any options you include in the POST request will 
 
 Tip: To ensure that your manual recordings match your bot's settings, explicitly specify all desired recording options in your request.
 
-For more information on bot recording behavior using this endpoint, see [Recording Control](/docs/recording-control#start--stop-recording)
+For more information on bot recording behavior using this endpoint, see [Recording Control](/docs/recording-control#start--stop-recording.md)
 ## Parameters
 
 | Name | Type | Required | Description |

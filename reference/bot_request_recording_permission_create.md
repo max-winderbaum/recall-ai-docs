@@ -3,7 +3,7 @@ title: "Request Recording PermissionMoon (Dark Mode)Sun (Light Mode)"
 description: "Zoom Only: Request recording permission from the host. This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/bot_request_recording_permission_create.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:13.194Z"
+converted_at: "2025-06-10T14:47:12.772Z"
 api_parameters_count: "66"
 ---
 ## POST https://us-east-1.recall.ai/api/v1/bot/{id}/request_recording_permission/

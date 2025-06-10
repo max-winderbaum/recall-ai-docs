@@ -3,15 +3,15 @@ title: "AI TranscriptionMoon (Dark Mode)Sun (Light Mode)"
 description: "Use one of Recall's AI transcription partners to generate meeting transcripts"
 source_file: "docs/ai-transcription.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:10.964Z"
+converted_at: "2025-06-10T14:47:10.593Z"
 api_parameters_count: "0"
 ---
 In addition to meeting caption transcriptions, Recall also integrates with several AI transcription partners as a solution for producing transcripts, as well as meeting intelligence such as summarization and sentiment analysis.
 
 There are two options for transcription when using one of our AI transcription partners:
 
-1.  **[Real-time transcription](/docs/real-time-transcription)** : Transcript is generated in real-time.
-2.  **[Async Transcription](/docs/async-transcription)**: Transcript is generated after the call has completed.
+1.  **[Real-time transcription](/docs/real-time-transcription.md)** : Transcript is generated in real-time.
+2.  **[Async Transcription](/docs/async-transcription.md)**: Transcript is generated after the call has completed.
 
 Both methods have pros and cons, and which you choose will ultimately depend on your use case.
 
@@ -46,4 +46,4 @@ To use a given transcription provider, you can add an API key for the provider i
 
 ## 👍
 
-Once your credentials are set, you're ready to create your first [Real-Time](/docs/real-time-transcription) or [Async](/docs/async-transcription) transcript.
+Once your credentials are set, you're ready to create your first [Real-Time](/docs/real-time-transcription.md) or [Async](/docs/async-transcription.md) transcript.

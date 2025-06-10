@@ -3,7 +3,7 @@ title: "AuthenticationMoon (Dark Mode)Sun (Light Mode)"
 description: "Start making requests to the Recall API."
 source_file: "reference/authentication.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:12.623Z"
+converted_at: "2025-06-10T14:47:12.217Z"
 api_parameters_count: "0"
 ---
 Start making requests to the Recall API.

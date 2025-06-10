@@ -3,7 +3,7 @@ title: "List Slack TeamsMoon (Dark Mode)Sun (Light Mode)"
 description: "List all Slack Team Integrations This endpoint is rate limited to: 60 requests per min per workspace"
 source_file: "reference/slack-teams.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:14.973Z"
+converted_at: "2025-06-10T14:47:14.522Z"
 api_parameters_count: "13"
 ---
 ## GET https://us-east-1.recall.ai/api/v2/slack-teams/
@@ -16,9 +16,9 @@ List all Slack Team Integrations This endpoint is rate limited to: 60 requests p
 
 Relevant Links
 
-[Slack Huddles Overview](/docs/slack-huddles)
+[Slack Huddles Overview](/docs/slack-huddles.md)
 
-[Slack Bot Setup](/docs/slack-bot-setup)
+[Slack Bot Setup](/docs/slack-bot-setup.md)
 ## Parameters
 
 | Name | Type | Required | Description |

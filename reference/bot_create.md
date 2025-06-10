@@ -3,7 +3,7 @@ title: "Create BotMoon (Dark Mode)Sun (Light Mode)"
 description: "Create a new bot. This endpoint is rate limited to: 60 requests per min per workspace"
 source_file: "reference/bot_create.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:12.757Z"
+converted_at: "2025-06-10T14:47:12.344Z"
 api_parameters_count: "66"
 ---
 ## POST https://us-east-1.recall.ai/api/v1/bot/
@@ -13,9 +13,9 @@ Create a new bot
 > **Rate Limiting**: 60 requests per min per workspace
 
 For more info on configuring bots:
-- [Automatic Leaving Behavior](/docs/automatic-leaving-behavior)
-- [Output an Image](/docs/output-video-in-meetings)
-- [Real-Time Transcription](/docs/real-time-transcription)
+- [Automatic Leaving Behavior](/docs/automatic-leaving-behavior.md)
+- [Output an Image](/docs/output-video-in-meetings.md)
+- [Real-Time Transcription](/docs/real-time-transcription.md)
 
 > **CALLOUT**:
 
@@ -23,7 +23,7 @@ For more info on configuring bots:
 
 Meeting URL response shape
 
-Meeting URL's are currently improperly reflected in the API spec for **meeting URL's in responses**. For proper meeting URL shapes in API responses, please see [Meeting URL's](/docs/meeting-urls).
+Meeting URL's are currently improperly reflected in the API spec for **meeting URL's in responses**. For proper meeting URL shapes in API responses, please see [Meeting URL's](/docs/meeting-urls.md).
 
 `meeting_url`'s that are provided as a **parameter** to the API are reflected accurately in the API spec as strings.
 ## Parameters

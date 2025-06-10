@@ -3,7 +3,7 @@ title: "Bot FundamentalsMoon (Dark Mode)Sun (Light Mode)"
 description: "Scheduled vs. Ad Hoc Bots There are two different ways of using bots: Ad Hoc (\"On-demand\") bots - Bot joins call immediately. Very occasionally, the call to Create Bot may return a HTTP 507 . In this rare case, you can retry the call to Create Bot. Scheduled bots - Bot is scheduled to join a call in..."
 source_file: "docs/bot-fundamentals.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.046Z"
+converted_at: "2025-06-10T14:47:10.670Z"
 api_parameters_count: "0"
 ---
 # Scheduled vs. Ad Hoc Bots
@@ -12,7 +12,7 @@ api_parameters_count: "0"
 
 There are two different ways of using bots:
 
-1.  Ad Hoc ("On-demand") bots - Bot joins call immediately. Very occasionally, the call to [Create Bot](/reference/bot_create) may return a [HTTP 507](https://recallai.readme.io/reference/errors#adhoc-bot-pool-errors). In this rare case, you can retry the call to Create Bot.
+1.  Ad Hoc ("On-demand") bots - Bot joins call immediately. Very occasionally, the call to [Create Bot](/reference/bot_create.md) may return a [HTTP 507](https://recallai.readme.io/reference/errors#adhoc-bot-pool-errors). In this rare case, you can retry the call to Create Bot.
 2.  Scheduled bots - Bot is scheduled to join a call in the future, and is guaranteed to join.
 
 **We highly recommend you use scheduled bots whenever possible.**
@@ -44,7 +44,7 @@ Depending on your app's requirements and use case, you'll likely want to use a c
 
 [](#calling-the-create-bot-endpoint-directly)
 
-This is the most manual way to send a bot to a meeting, where you simply call the [Create Bot](/reference/bot_create) endpoint directly.
+This is the most manual way to send a bot to a meeting, where you simply call the [Create Bot](/reference/bot_create.md) endpoint directly.
 
 While it's the easiest to get started with and the most flexible, there may be a better way to create bots depending on your use case.
 

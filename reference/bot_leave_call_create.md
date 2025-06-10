@@ -3,7 +3,7 @@ title: "Remove Bot From CallMoon (Dark Mode)Sun (Light Mode)"
 description: "Removes the bot from the meeting. This is irreversable. This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/bot_leave_call_create.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:12.841Z"
+converted_at: "2025-06-10T14:47:12.426Z"
 api_parameters_count: "66"
 ---
 ## POST https://us-east-1.recall.ai/api/v1/bot/{id}/leave_call/

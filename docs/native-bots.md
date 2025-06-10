@@ -3,7 +3,7 @@ title: "Native BotsMoon (Dark Mode)Sun (Light Mode)"
 description: "Bots come in two varieties: Native and Web . Web bots: The default meeting bot. Recommended for a vast majority of use cases. Native bots: A distinct type of bot that enables native-specific features specifically for Zoom. Only for a small minority of use cases. Web bots are enabled by default and t..."
 source_file: "docs/native-bots.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.739Z"
+converted_at: "2025-06-10T14:47:11.347Z"
 api_parameters_count: "0"
 ---
 Bots come in two varieties: **Native** and **Web**.
@@ -18,7 +18,7 @@ Web bots are enabled by default and typically work well for most use cases. If y
 
 [](#how-to-configure-native-bots)
 
-You can configure a Zoom Native bot through the `variant` parameter in your [Create Bot](/reference/bot_create) request:
+You can configure a Zoom Native bot through the `variant` parameter in your [Create Bot](/reference/bot_create.md) request:
 
 cURL
 
@@ -44,9 +44,9 @@ curl --request POST \
 [](#limitations)
 
 Currently Zoom Native bots have the following limitations:
-- Cannot [Output Audio](/reference/bot_output_audio_create)
-- Cannot [Receive Chat Messages](/docs/receiving-chat-messages)
-- Cannot [Output Media](/reference/bot_output_media_create)
+- Cannot [Output Audio](/reference/bot_output_audio_create.md)
+- Cannot [Receive Chat Messages](/docs/receiving-chat-messages.md)
+- Cannot [Output Media](/reference/bot_output_media_create.md)
 - Cannot receive audio from dialed-in participants\*
 
 *\*Limitation of Zoom Meeting SDK for Linux*

@@ -3,7 +3,7 @@ title: "WebhooksMoon (Dark Mode)Sun (Light Mode)"
 description: "Overview of Recall webhooks."
 source_file: "reference/webhooks-overview.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:15.505Z"
+converted_at: "2025-06-10T14:47:15.049Z"
 api_parameters_count: "0"
 ---
 Overview of Recall webhooks.
@@ -17,8 +17,8 @@ There are a few different types of webhooks to be aware of. You may find yoursel
 [](#status-changes)
 
 These are sent using Svix and can be setup via your [Recall Webhook Dashboard](https://api.recall.ai/dashboard/webhooks/). These include the following
-- **[Bot Status Change Events](/docs/bot-status-change-events)**
-- **[Recording Webhooks](/docs/recording-webhooks)**
+- **[Bot Status Change Events](/docs/bot-status-change-events.md)**
+- **[Recording Webhooks](/docs/recording-webhooks.md)**
 
 
 
@@ -27,7 +27,7 @@ These are sent using Svix and can be setup via your [Recall Webhook Dashboard](h
 [](#calendar-integration)
 
 These are sent using Svix and can be setup via your [Recall Webhook Dashboard](https://api.recall.ai/dashboard/webhooks/)
-- **[Calendar (V2) Events](/docs/calendar-v2-webhooks)**
+- **[Calendar (V2) Events](/docs/calendar-v2-webhooks.md)**
 
 
 
@@ -35,8 +35,8 @@ These are sent using Svix and can be setup via your [Recall Webhook Dashboard](h
 
 [](#realtime-endpoints)
 
-These are used to deliver data from bots in realtime, these must be configured on a per bot basis via the [Create Bot](/reference/bot_create) endpoint. They are not configurable via the Recall webhook dashboard.
-- [Realtime Endpoints](/docs/real-time-endpoints)
+These are used to deliver data from bots in realtime, these must be configured on a per bot basis via the [Create Bot](/reference/bot_create.md) endpoint. They are not configurable via the Recall webhook dashboard.
+- [Realtime Endpoints](/docs/real-time-endpoints.md)
 - [Table of Contents](#)
 - -   [Status Changes](#status-changes)
 - [Calendar Integration](#calendar-integration)

@@ -3,7 +3,7 @@ title: "Update Zoom OAuth AppMoon (Dark Mode)Sun (Light Mode)"
 description: "Update an existing Zoom OAuth App This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/zoom_oauth_apps_partial_update.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:15.747Z"
+converted_at: "2025-06-10T14:47:15.287Z"
 api_parameters_count: "7"
 ---
 ## PATCH https://us-east-1.recall.ai/api/v2/zoom-oauth-apps/{id}/

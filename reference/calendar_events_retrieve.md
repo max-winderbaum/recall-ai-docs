@@ -3,7 +3,7 @@ title: "Retrieve Calendar EventMoon (Dark Mode)Sun (Light Mode)"
 description: "Get a calendar event instance. This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/calendar_events_retrieve.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:13.674Z"
+converted_at: "2025-06-10T14:47:13.242Z"
 api_parameters_count: "16"
 ---
 ## GET https://us-east-1.recall.ai/api/v2/calendar-events/{id}/
@@ -16,13 +16,13 @@ Get a calendar event instance
 
 ## 📘
 
-For more information, see [Calendar V2](/docs/v2).
+For more information, see [Calendar V2](/docs/v2.md).
 
 ## `raw` field
 
 [](#raw-field)
 
-Examples of the platform-specific `raw` field data can be found at [Calendar Event Platform Data](/reference/calendar-event-platform-data).
+Examples of the platform-specific `raw` field data can be found at [Calendar Event Platform Data](/reference/calendar-event-platform-data.md).
 ## Parameters
 
 | Name | Type | Required | Description |

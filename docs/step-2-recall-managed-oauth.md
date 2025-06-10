@@ -3,7 +3,7 @@ title: "Step 2: Recall-Managed OAuthMoon (Dark Mode)Sun (Light Mode)"
 description: "OAuth your customers' Zoom Account using Recall-managed OAuth."
 source_file: "docs/step-2-recall-managed-oauth.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:12.083Z"
+converted_at: "2025-06-10T14:47:11.686Z"
 api_parameters_count: "0"
 ---
 The last step in the Zoom OAuth integration process is to actually direct your users through the OAuth authorization flow.
@@ -11,7 +11,7 @@ The last step in the Zoom OAuth integration process is to actually direct your u
 Since Recall-managed OAuth manages access and refresh tokens for you, the only two implementation steps necessary are:
 
 1.  Directing the user to a Zoom OAuth URL
-2.  Creating a [Zoom OAuth Credential](/reference/zoom_oauth_credentials_create) in Recall using the `code` received in the OAuth callback
+2.  Creating a [Zoom OAuth Credential](/reference/zoom_oauth_credentials_create.md) in Recall using the `code` received in the OAuth callback
 
 > **CALLOUT**:
 
@@ -27,7 +27,7 @@ In production, this should be done programmatically in your app, for example by 
 
 Under **Basic Information**, add an OAuth Redirect URL (the OAuth Allow List will be automatically updated).
 
-For testing purposes, this can be any URL, though it can be convenient to use a placeholder for a server endpoint that will handle passing this authorization code to Recall for when you implement the end to end user flow. We recommend using a service like Ngrok that can forward requests to your localhost. See this [guide](/docs/local-webhook-development#ngrok-setup) to get set up with Ngrok.
+For testing purposes, this can be any URL, though it can be convenient to use a placeholder for a server endpoint that will handle passing this authorization code to Recall for when you implement the end to end user flow. We recommend using a service like Ngrok that can forward requests to your localhost. See this [guide](/docs/local-webhook-development#ngrok-setup.md) to get set up with Ngrok.
 
 In the example below, this is set to: `https://my-static-domain.ngrok-free.app/oauth-callback/zoom`
 
@@ -110,7 +110,7 @@ The redirect URI specified in the query parameter must match **exactly** the red
 
 [](#calling-the-recall-api)
 
-Now that the user has authorized their account, we can use the OAuth code to register them in the Recall API by calling the [Create Zoom OAuth Credential](/reference/zoom_oauth_credentials_create) endpoint.
+Now that the user has authorized their account, we can use the OAuth code to register them in the Recall API by calling the [Create Zoom OAuth Credential](/reference/zoom_oauth_credentials_create.md) endpoint.
 
 Shell
 
@@ -158,12 +158,12 @@ The redirect URI sent in this request must match EXACTLY the redirect URI regist
 
 When a user revokes their OAuth permissions, their Zoom OAuth Credential will be marked with a `status` of `unhealthy` in Recall.
 
-If the user tries to re-authorize your app, you should trigger [Create Zoom OAuth Credential](/reference/zoom_oauth_credentials_create) endpoint with the new authorization code in payload. Recall will update the existing credential instead of creating a new. Depending on the validity of the request the credential's status will also be updated.
+If the user tries to re-authorize your app, you should trigger [Create Zoom OAuth Credential](/reference/zoom_oauth_credentials_create.md) endpoint with the new authorization code in payload. Recall will update the existing credential instead of creating a new. Depending on the validity of the request the credential's status will also be updated.
 
-Note: This means the `POST` request to [Create Zoom OAuth Credential](/reference/zoom_oauth_credentials_create) can return existing credential in response(instead of always creating a new credential) and you should adjust your integration to handle this.
+Note: This means the `POST` request to [Create Zoom OAuth Credential](/reference/zoom_oauth_credentials_create.md) can return existing credential in response(instead of always creating a new credential) and you should adjust your integration to handle this.
 
 Alternatively(**not recommended**), you can choose to delete the `unhealthy` credential and run the authorization flow from scratch for the user. This needs to be done in the exact order as listed below:
 
-1.  Remove `unhealthy` credential using [Delete the credential](/reference/zoom_oauth_credentials_destroy)
+1.  Remove `unhealthy` credential using [Delete the credential](/reference/zoom_oauth_credentials_destroy.md)
 2.  Prompt the user to re-authenticate your application
-3.  Create fresh credential using [Create Zoom OAuth Credential](/reference/zoom_oauth_credentials_create)
+3.  Create fresh credential using [Create Zoom OAuth Credential](/reference/zoom_oauth_credentials_create.md)

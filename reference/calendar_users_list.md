@@ -3,7 +3,7 @@ title: "List Calendar UsersMoon (Dark Mode)Sun (Light Mode)"
 description: "List all calendar users created for the account. This endpoint is rate limited to: 60 requests per min per workspace"
 source_file: "reference/calendar_users_list.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:13.894Z"
+converted_at: "2025-06-10T14:47:13.459Z"
 api_parameters_count: "8"
 ---
 ## GET https://us-east-1.recall.ai/api/v1/calendar/users/
@@ -16,7 +16,7 @@ List all calendar users created for the account
 
 ## 📘
 
-For more information, see [Calendar V1](/docs/calendar-v1-1).
+For more information, see [Calendar V1](/docs/calendar-v1-1.md).
 ## Parameters
 
 | Name | Type | Required | Description |

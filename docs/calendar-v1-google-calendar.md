@@ -3,7 +3,7 @@ title: "Google CalendarMoon (Dark Mode)Sun (Light Mode)"
 description: "Recall allows your users to sync their google calendar and set auto recording preferences for their meetings. Creating Google OAuth 2.0 Client To enable this feature, first setup an OAuth2.0 client following the steps below. Obtain Google OAuth 2.0 client credentials. You can follow the steps provid..."
 source_file: "docs/calendar-v1-google-calendar.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.196Z"
+converted_at: "2025-06-10T14:47:10.815Z"
 api_parameters_count: "0"
 ---
 Recall allows your users to sync their google calendar and set auto recording preferences for their meetings.

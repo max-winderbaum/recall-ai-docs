@@ -3,7 +3,7 @@ title: "Zoom OAuth SetupMoon (Dark Mode)Sun (Light Mode)"
 description: "Set up the Recall Zoom OAuth integration."
 source_file: "docs/integration-guide-zoom-oauth.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.624Z"
+converted_at: "2025-06-10T14:47:11.235Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:
@@ -14,7 +14,7 @@ Granular scopes
 
 Zoom introduced new "granular" scopes in April 2024 to replace their Legacy scopes. Existing apps are unaffected, but any newly created apps will use these new granular scopes.
 
-For previously created apps using Legacy scopes, see [Zoom OAuth Setup](/docs/integration-guide-zoom-oauth-legacy-scopes).
+For previously created apps using Legacy scopes, see [Zoom OAuth Setup](/docs/integration-guide-zoom-oauth-legacy-scopes.md).
 
 # 1\. Zoom App Setup
 
@@ -154,7 +154,7 @@ Fill out the details, copied from the last step, and make sure to select User-ma
 
 [](#create-the-app-via-the-api)
 
-You can alternatively create the Zoom OAuth App in Recall by using the [Create Zoom OAuth App](/reference/zoom_oauth_apps_create) endpoint.
+You can alternatively create the Zoom OAuth App in Recall by using the [Create Zoom OAuth App](/reference/zoom_oauth_apps_create.md) endpoint.
 
 The body should include:
 - `kind`: `user_level` or `account_level` depending on your app

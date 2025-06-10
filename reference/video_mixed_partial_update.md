@@ -3,7 +3,7 @@ title: "Update Video MixedMoon (Dark Mode)Sun (Light Mode)"
 description: "This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/video_mixed_partial_update.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:15.360Z"
+converted_at: "2025-06-10T14:47:14.898Z"
 api_parameters_count: "11"
 ---
 ## PATCH https://us-east-1.recall.ai/api/v1/video_mixed/{id}/

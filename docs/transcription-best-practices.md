@@ -3,7 +3,7 @@ title: "Transcription Best PracticesMoon (Dark Mode)Sun (Light Mode)"
 description: "There are a few common issues you can run into when enabling transcription for your meeting bots. Below are some common transcription questions along with answers and resources to go deeper: Q: How do I improve transcription quality? Recall does not have direct control over the quality of the transc..."
 source_file: "docs/transcription-best-practices.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:12.177Z"
+converted_at: "2025-06-10T14:47:11.774Z"
 api_parameters_count: "0"
 ---
 There are a few common issues you can run into when enabling transcription for your meeting bots. Below are some common transcription questions along with answers and resources to go deeper:
@@ -28,11 +28,11 @@ There are two types of transcription model: real-time and asynchronous. Asynchro
 
 Real-time vs. async in the Recall API
 
-To transcribe a meeting using asynchronous transcription, you need to call the [Create Transcript](/reference/https://docs.recall.ai/reference/recording_create_transcript_create) endpoint. If you’re setting up transcription in your [Create Bot](/reference/bot_create) request, it means you’re using a real-time transcription model instead of an async transcription model.
+To transcribe a meeting using asynchronous transcription, you need to call the [Create Transcript](/reference/https://docs.recall.ai/reference/recording_create_transcript_create.md) endpoint. If you’re setting up transcription in your [Create Bot](/reference/bot_create.md) request, it means you’re using a real-time transcription model instead of an async transcription model.
 
 Related resources:
 
-[Async Transcription](/docs/asynchronous-transcription) | [Real-Time Transcription](/docs/real-time-transcription)
+[Async Transcription](/docs/asynchronous-transcription.md) | [Real-Time Transcription](/docs/real-time-transcription.md)
 
 
 
@@ -46,7 +46,7 @@ There are also cases where people switch back and forth between multiple languag
 
 Related resources:
 
-[Automatic Language Detection](/docs/real-time-transcription#languages)
+[Automatic Language Detection](/docs/real-time-transcription#languages.md)
 
 
 
@@ -54,7 +54,7 @@ Related resources:
 
 [](#add-custom-configuration-based-on-your-use-case)
 
-It’s worth investigating the different parameters available to you through the different providers. For example, if the transcript is consistently misspelling a company name or a certain proper noun, many transcription providers offer a “custom vocabulary” feature that allows you to specify the correct spelling. You can view all the supported parameters for the different transcription providers in our API Reference pages for [Create Bot](/reference/bot_create) and [Create Transcript](/reference/recording_create_transcript_create). You can also browse the documentation of your chosen transcription provider directly.
+It’s worth investigating the different parameters available to you through the different providers. For example, if the transcript is consistently misspelling a company name or a certain proper noun, many transcription providers offer a “custom vocabulary” feature that allows you to specify the correct spelling. You can view all the supported parameters for the different transcription providers in our API Reference pages for [Create Bot](/reference/bot_create.md) and [Create Transcript](/reference/recording_create_transcript_create.md). You can also browse the documentation of your chosen transcription provider directly.
 
 Related resources:
 
@@ -78,7 +78,7 @@ Perfect diarization transcribes the audio streams of each meeting participant se
 
 Related resources:
 
-[Perfect Diarization](/docs/perfect-diarization)
+[Perfect Diarization](/docs/perfect-diarization.md)
 
 
 
@@ -100,7 +100,7 @@ Since the transcription provider doesn't have access to the names of the speaker
 
 Related resources:
 
-[Machine Diarization](/docs/diarization#machine-diarization)
+[Machine Diarization](/docs/diarization#machine-diarization.md)
 
 
 

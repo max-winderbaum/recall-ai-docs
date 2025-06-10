@@ -3,7 +3,7 @@ title: "Recording ControlMoon (Dark Mode)Sun (Light Mode)"
 description: "Control when your bot records using the Pause/Resume and Start/Stop recording endpoints."
 source_file: "docs/recording-control.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.939Z"
+converted_at: "2025-06-10T14:47:11.544Z"
 api_parameters_count: "0"
 ---
 Some use cases require having more granular control over when a bot records.
@@ -34,9 +34,9 @@ The pause and resume recording endpoints allow you to control when a bot is reco
 
 These endpoints are the recommended approach for generating a continuous recording of separate segments of a meeting.
 
-[Pause Recording](/reference/bot_pause_recording_create) pauses the current recording.
+[Pause Recording](/reference/bot_pause_recording_create.md) pauses the current recording.
 
-[Resume Recording](/reference/bot_resume_recording_create) resumes the *same* recording.
+[Resume Recording](/reference/bot_resume_recording_create.md) resumes the *same* recording.
 
 The result is a single recording file containing video/audio only from segments where the bot was not paused.
 
@@ -61,9 +61,9 @@ The timestamps in the transcript align with the recorded video, which includes t
 [](#start--stop-recording)
 - * *
 
-[Start Recording](/reference/bot_start_recording_create) triggers the bot to start recording. If a bot is already recording when this endpoint is called, a *new* recording will begin, overwriting the old recording.
+[Start Recording](/reference/bot_start_recording_create.md) triggers the bot to start recording. If a bot is already recording when this endpoint is called, a *new* recording will begin, overwriting the old recording.
 
-[Stop Recording](/reference/bot_stop_recording_create) stops the current recording of the bot and creates a new recording entry in the `recordings` field of the [bot](/reference/bot_retrieve).
+[Stop Recording](/reference/bot_stop_recording_create.md) stops the current recording of the bot and creates a new recording entry in the `recordings` field of the [bot](/reference/bot_retrieve.md).
 
 > **CALLOUT**:
 
@@ -71,7 +71,7 @@ The timestamps in the transcript align with the recorded video, which includes t
 
 Accessing individual recordings
 
-In the [Retrieve Bot](/reference/bot_retrieve) response, the `recordings` field will contain the separate recordings, and you can access the corresponding video for each in the `media_shortcuts.video_mixed.data.download_url` field.
+In the [Retrieve Bot](/reference/bot_retrieve.md) response, the `recordings` field will contain the separate recordings, and you can access the corresponding video for each in the `media_shortcuts.video_mixed.data.download_url` field.
 
 For a single, contiguous recording of multiple recording segments, you should use [Pause & Resume Recording](#pauseresume-recording) .
 
@@ -85,5 +85,5 @@ For example, if you require everyone in the call to manually opt-in to recording
 
 In this case, you can:
 
-1.  Set `recording_config.start_recording_on` to `manual` when calling [Create Bot](/reference/bot_create)
-2.  Have a check in your application's logic to call [Start Recording](/reference/bot_start_recording_create) if and when your start recording criteria have been met.
+1.  Set `recording_config.start_recording_on` to `manual` when calling [Create Bot](/reference/bot_create.md)
+2.  Have a check in your application's logic to call [Start Recording](/reference/bot_start_recording_create.md) if and when your start recording criteria have been met.

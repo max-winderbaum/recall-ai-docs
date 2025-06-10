@@ -3,7 +3,7 @@ title: "IdempotencyMoon (Dark Mode)Sun (Light Mode)"
 description: "Making idempotent requests"
 source_file: "reference/idempotency.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:14.404Z"
+converted_at: "2025-06-10T14:47:13.958Z"
 api_parameters_count: "0"
 ---
 Making idempotent requests
@@ -56,7 +56,7 @@ If you reuse a key for two different actions (even if they involve the same reso
 
 Idempotency and 507s
 
-If you receive a [507 error](/reference/errors#adhoc-bot-pool-errors) due to a depleted ad-hoc bot pool, make sure to use a different idempotency key when retrying.
+If you receive a [507 error](/reference/errors#adhoc-bot-pool-errors.md) due to a depleted ad-hoc bot pool, make sure to use a different idempotency key when retrying.
 
 Otherwise, retries will be processed as duplicates of the initial request, and you will continue to receive a 507 response.
 - [Table of Contents](#)

@@ -3,7 +3,7 @@ title: "Google Meet OverviewMoon (Dark Mode)Sun (Light Mode)"
 description: "Google Meet Bots Overview"
 source_file: "docs/google-meet.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.508Z"
+converted_at: "2025-06-10T14:47:11.115Z"
 api_parameters_count: "0"
 ---
 # Setup
@@ -40,7 +40,7 @@ By default, Google Meet bots need to be **manually admitted** into calls and wil
 
 Any signed in participant in the host's Google Workspace can let the bot in.
 
-If you want the bot to automatically join Google Meet calls, the bot must be [Authenticated](/docs/google-meet-login-getting-started).
+If you want the bot to automatically join Google Meet calls, the bot must be [Authenticated](/docs/google-meet-login-getting-started.md).
 
 Authenticated bots are still subject to any waiting room settings enabled by the host.
 

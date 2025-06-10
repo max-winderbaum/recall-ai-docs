@@ -3,7 +3,7 @@ title: "Retrieve Slack TeamMoon (Dark Mode)Sun (Light Mode)"
 description: "This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/slack_teams_retrieve.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:15.094Z"
+converted_at: "2025-06-10T14:47:14.642Z"
 api_parameters_count: "39"
 ---
 ## GET https://us-east-1.recall.ai/api/v2/slack-teams/{id}/
@@ -16,9 +16,9 @@ This endpoint is rate limited to: 300 requests per min per workspace
 
 Relevant Links
 
-[Slack Huddles Overview](/docs/slack-huddles)
+[Slack Huddles Overview](/docs/slack-huddles.md)
 
-[Slack Bot Setup](/docs/slack-bot-setup)
+[Slack Bot Setup](/docs/slack-bot-setup.md)
 ## Parameters
 
 | Name | Type | Required | Description |

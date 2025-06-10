@@ -3,7 +3,7 @@ title: "Webex OverviewMoon (Dark Mode)Sun (Light Mode)"
 description: "Send meeting bots to Webex calls."
 source_file: "docs/webex.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:12.224Z"
+converted_at: "2025-06-10T14:47:11.820Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:
@@ -14,7 +14,7 @@ Setup required
 
 Webex bots are not supported "out-of-the-box" and require some initial setup.
 
-To start sending bots to Webex calls, follow the [Webex Bot Setup](/docs/webex-bot-setup) guide.
+To start sending bots to Webex calls, follow the [Webex Bot Setup](/docs/webex-bot-setup.md) guide.
 
 
 
@@ -39,7 +39,7 @@ Active speaker events will only be available if the meeting host:
 
 Webex only supports a single, combined stream of audio.
 
-`automatic_audio_output` in [Create Bot](/reference/bot_create) is not supported.
+`automatic_audio_output` in [Create Bot](/reference/bot_create.md) is not supported.
 
 ## Video limitations
 
@@ -53,4 +53,4 @@ The current behavior is video of the active speaker in the call (prominent) + up
 
 [](#caption-limitations)
 
-Captions through Webex's native transcription service are currently not supported. To transcribe a conversation in real-time on a Webex meeting, you'll need to use one of the [AI Transcription Providers](/docs/ai-transcription#ai-transcription-providers).
+Captions through Webex's native transcription service are currently not supported. To transcribe a conversation in real-time on a Webex meeting, you'll need to use one of the [AI Transcription Providers](/docs/ai-transcription#ai-transcription-providers.md).

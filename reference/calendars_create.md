@@ -3,7 +3,7 @@ title: "Create CalendarMoon (Dark Mode)Sun (Light Mode)"
 description: "Create a new calendar. This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/calendars_create.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:13.917Z"
+converted_at: "2025-06-10T14:47:13.481Z"
 api_parameters_count: "12"
 ---
 ## POST https://us-east-1.recall.ai/api/v2/calendars/
@@ -16,7 +16,7 @@ Create a new calendar
 
 ## 📘
 
-For more information, see [Calendar V2](/docs/v2).
+For more information, see [Calendar V2](/docs/v2.md).
 ## Parameters
 
 | Name | Type | Required | Description |

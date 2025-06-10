@@ -3,7 +3,7 @@ title: "Automatic Leaving BehaviorMoon (Dark Mode)Sun (Light Mode)"
 description: "Control when your bot should automatically leave calls."
 source_file: "docs/automatic-leaving-behavior.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.013Z"
+converted_at: "2025-06-10T14:47:10.637Z"
 api_parameters_count: "0"
 ---
 There are certain scenarios where you might want your bot to automatically leave calls.
@@ -19,7 +19,7 @@ Some of these include:
 
 [](#default-values)
 
-To control the behavior of bots leaving calls, you can configure the `automatic_leave` object when calling [Create Bot](/reference/bot_create).
+To control the behavior of bots leaving calls, you can configure the `automatic_leave` object when calling [Create Bot](/reference/bot_create.md).
 
 Recall automatically sets sensible defaults when a parameter isn't provided. The defaults (in seconds) for are as follows:
 

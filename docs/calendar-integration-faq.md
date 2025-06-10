@@ -3,7 +3,7 @@ title: "Calendar Integration FAQMoon (Dark Mode)Sun (Light Mode)"
 description: "Calendar Integration FAQ"
 source_file: "docs/calendar-integration-faq.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.155Z"
+converted_at: "2025-06-10T14:47:10.778Z"
 api_parameters_count: "0"
 ---
 # How far into the future are calendar events synced in the API?
@@ -27,7 +27,7 @@ You may prefer a user flow where you can invite an email (eg. [notetaker@yourdom
 You can accomplish this with the Recall Calendar Integration by:
 
 1.  Creating an email on your end (e.g. [notetaker@yourdomain.com](mailto:notetaker@yourdomain.com))
-2.  Connecting that user to the [Recall calendar integration](/reference/calendar-integration)
+2.  Connecting that user to the [Recall calendar integration](/reference/calendar-integration.md)
 3.  Setting the calendar integration to automatically record every meeting on the calendar
 
 This will assign a meeting bot to all events that your chosen email address is invited to.

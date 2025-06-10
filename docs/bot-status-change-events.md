@@ -3,7 +3,7 @@ title: "Bot WebhooksMoon (Dark Mode)Sun (Light Mode)"
 description: "Use bot webhook events to trigger server logic and create a real-time experience."
 source_file: "docs/bot-status-change-events.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.120Z"
+converted_at: "2025-06-10T14:47:10.745Z"
 api_parameters_count: "0"
 ---
 Recall uses bot status changes to capture the lifecycle of a bot.
@@ -72,7 +72,7 @@ We may add additional Status Change event codes
 
 You should not treat the `data.code` and `data.sub_code` as an enum, as we may add values in the future without prior notice. We will never remove values without notifying all our customers and a long depreciation period, as we consider removing values a breaking change.
 
-The list of `sub_code` & corresponding descriptions can be found here [here](/docs/sub-codes#fatal-sub-codes).
+The list of `sub_code` & corresponding descriptions can be found here [here](/docs/sub-codes#fatal-sub-codes.md).
 
 ## Bot Status Transition Diagram
 

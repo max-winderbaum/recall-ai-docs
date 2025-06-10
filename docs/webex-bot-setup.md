@@ -3,7 +3,7 @@ title: "Webex Bot SetupMoon (Dark Mode)Sun (Light Mode)"
 description: "Follow these to set up Webex bots for your Recall account."
 source_file: "docs/webex-bot-setup.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:12.219Z"
+converted_at: "2025-06-10T14:47:11.814Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:
@@ -46,4 +46,4 @@ Setup complete
 
 You can now start creating Webex bots 🎉
 
-Try it out by sending your first bot to a Webex call using the [Create Bot](/reference/bot_create) endpoint.
+Try it out by sending your first bot to a Webex call using the [Create Bot](/reference/bot_create.md) endpoint.

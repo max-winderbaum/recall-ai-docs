@@ -3,7 +3,7 @@ title: "Common Zoom Recording ErrorsMoon (Dark Mode)Sun (Light Mode)"
 description: "Common situations in Zoom that prevent a bot from recording."
 source_file: "docs/common-zoom-recording-errors.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.294Z"
+converted_at: "2025-06-10T14:47:10.911Z"
 api_parameters_count: "0"
 ---
 # Host was not present
@@ -32,7 +32,7 @@ If the end user that created the meeting is not showing up as the host, one of t
 
 If the host's global local recording setting is disabled, the bot will fail to record.
 
-In this case, the bot will have a Recording Permission Denied event with a `zoom_local_recording_disabled` [Sub Code](/docs/sub-codes).
+In this case, the bot will have a Recording Permission Denied event with a `zoom_local_recording_disabled` [Sub Code](/docs/sub-codes.md).
 
 **How to fix:** Host should enable their global user-level local recording setting in their Zoom user settings:
 
@@ -46,7 +46,7 @@ In this case, the bot will have a Recording Permission Denied event with a `zoom
 
 In this case, the host has their **global** local recording setting enabled, but they can't grant participants permission to record locally, which is needed for a bot to record.
 
-The bot will emit a Recording Permission Denied event with a `zoom_local_recording_request_disabled` [Sub Code](/docs/sub-codes).
+The bot will emit a Recording Permission Denied event with a `zoom_local_recording_request_disabled` [Sub Code](/docs/sub-codes.md).
 
 **How to fix:** Host should enable this setting by checking the boxes labelled:
 - Internal meeting participants
@@ -62,7 +62,7 @@ The bot will emit a Recording Permission Denied event with a `zoom_local_recordi
 
 If the host has the proper user-level recording settings set up properly on the Zoom website, but has disabled the option to allow participants to request local recording *within the call*, the bot will not be able to record.
 
-In this case, the bot will emit a Recording Permission Denied event with a `zoom_local_recording_request_disabled_by_host` [Sub Code](/docs/sub-codes).
+In this case, the bot will emit a Recording Permission Denied event with a `zoom_local_recording_request_disabled_by_host` [Sub Code](/docs/sub-codes.md).
 
 **How to fix:** Host should enable this setting within the call:
 
@@ -72,7 +72,7 @@ In this case, the bot will emit a Recording Permission Denied event with a `zoom
 
 [](#zoom-internal-error)
 
-On rare occasions, your bot may fail to enter a call with a `zoom_internal_error` [sub code](/docs/sub-codes).
+On rare occasions, your bot may fail to enter a call with a `zoom_internal_error` [sub code](/docs/sub-codes.md).
 
 Unfortunately this means something went wrong on Zoom's end, and we have limited visibility into the underlying error. We do our best to handle these errors internally through retries but on rare occasions this error can cause a bot to fail.
 

@@ -3,7 +3,7 @@ title: "Signed-In Google Google Meet BotsMoon (Dark Mode)Sun (Light Mode)"
 description: "Sign in your Google Meet bots to a Google Account"
 source_file: "docs/google-meet-login-getting-started.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.500Z"
+converted_at: "2025-06-10T14:47:11.108Z"
 api_parameters_count: "0"
 ---
 By default the Google Meet bot will join meeting as guest participant.
@@ -29,7 +29,7 @@ In order to avoid these, Recall supports authenticating your Google Meet bots by
 
 Bot name **not** configurable
 
-Since authenticated Google meet bots get their name from the Google account used to authenticate the bot, this overrides the `bot_name` parameter in [Create Bot endpoint](/reference/bot_create).
+Since authenticated Google meet bots get their name from the Google account used to authenticate the bot, this overrides the `bot_name` parameter in [Create Bot endpoint](/reference/bot_create.md).
 
 # Setup
 
@@ -60,7 +60,7 @@ To control whether or not Meet bots should **always** sign in (vs. only when the
 
 **Alternative: Create the Login Group through the API:**
 
-You can also use the [Create Login Group endpoint](/reference/google_login_groups_create) to add a login group.
+You can also use the [Create Login Group endpoint](/reference/google_login_groups_create.md) to add a login group.
 - `name` - Allows you to set a name to the login group (for e.g `Production Primary`)
 - `login_mode` - Set whether bots using this login group should always login or only if required.
 
@@ -156,7 +156,7 @@ The easiest way to do this is in the explorer UI:
 - [(EU) eu-central-1](https://eu-central-1.recall.ai/dashboard/explorer/google-login?tab=logins)
 - [(JP) ap-northeast-1](https://ap-northeast-1.recall.ai/dashboard/explorer/google-login?tab=logins)
 
-You can also use the [Create Login Endpoint](/reference/google_logins_create):
+You can also use the [Create Login Endpoint](/reference/google_logins_create.md):
 - `group_id` - Set this to the `id` of the login group created in Step 1.
 - `sso_v2_workspace_domain` - Set this to the domain of the Google workspace created in Step 2
 - `sso_v2_private_key` - Set this to the private key you generated in Step 2
@@ -166,7 +166,7 @@ You can also use the [Create Login Endpoint](/reference/google_logins_create):
 
 ***Note: We recommend calling this endpoint using Postman, Insomnia, or a related tool, as cURL and the request sender in our docs are known to cause issues with PEM strings. Use form-data so you don't have to re-format the strings.***
 
-Verify that the login has been successfully created using the [Retrieve Google Login Group endpoint](/reference/google_login_groups_retrieve). The `logins` field in response should include the login created above.
+Verify that the login has been successfully created using the [Retrieve Google Login Group endpoint](/reference/google_login_groups_retrieve.md). The `logins` field in response should include the login created above.
 
 ## 4\. Verify Bot Join Call
 
@@ -214,13 +214,13 @@ The easiest way to do this is in the explorer UI:
 - [(EU) eu-central-1](https://eu-central-1.recall.ai/dashboard/explorer/google-login?tab=logins)
 - [(JP) ap-northeast-1](https://ap-northeast-1.recall.ai/dashboard/explorer/google-login?tab=logins)
 
-You can also use the [Create Login Endpoint](/reference/google_logins_create) to add the login in Recall.
+You can also use the [Create Login Endpoint](/reference/google_logins_create.md) to add the login in Recall.
 
 ### Verify Multiple Logins
 
 [](#verify-multiple-logins)
 
-To verify that all logins added to a login group work correctly, you can schedule multiple bots (same as the number of logins associated with a login group) to join a test Google Meet call at the same time(use the `join_at` parameter in the [Create Bot](/reference/bot_create) request).
+To verify that all logins added to a login group work correctly, you can schedule multiple bots (same as the number of logins associated with a login group) to join a test Google Meet call at the same time(use the `join_at` parameter in the [Create Bot](/reference/bot_create.md) request).
 
 > **CALLOUT**:
 
@@ -247,4 +247,4 @@ To ensure authenticated Google accounts can join calls, make sure the language i
 
 ![](https://files.readme.io/ea2a771-______.png)
 
-*Other Questions? Check out the [Authenticated Bots FAQ](/docs/google-meet-faq).*
+*Other Questions? Check out the [Authenticated Bots FAQ](/docs/google-meet-faq.md).*

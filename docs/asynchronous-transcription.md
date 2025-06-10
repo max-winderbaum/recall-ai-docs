@@ -3,14 +3,14 @@ title: "Asynchronous TranscriptionMoon (Dark Mode)Sun (Light Mode)"
 description: "In addition to real-time transcription, Recall.ai also supports transcribing asynchronously after the call has ended. Quicklinks Create Async Transcript Webhooks Quickstart Receive the recording.done webhook You'll be notified when a given recording is ready for transcription by receiving a recordin..."
 source_file: "docs/asynchronous-transcription.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:10.997Z"
+converted_at: "2025-06-10T14:47:10.623Z"
 api_parameters_count: "0"
 ---
 In addition to real-time transcription, Recall.ai also supports transcribing asynchronously after the call has ended.
 
 **Quicklinks**
-- [Create Async Transcript](/reference/recording_create_transcript_create)
-- [Webhooks](/reference/webhooks-overview)
+- [Create Async Transcript](/reference/recording_create_transcript_create.md)
+- [Webhooks](/reference/webhooks-overview.md)
 
 # Quickstart
 
@@ -53,7 +53,7 @@ Upon receiving this, you can kick off an async transcript job, assuming your rec
 
 [](#start-an-async-transcription-job)
 
-To kick off an asynchronous transcription job, call the [Create Async Transcript](/reference/recording_create_transcript_create) endpoint.
+To kick off an asynchronous transcription job, call the [Create Async Transcript](/reference/recording_create_transcript_create.md) endpoint.
 
 At minimum, you must specify a `provider` configuration that should be used to transcribe the recording.
 
@@ -78,7 +78,7 @@ curl --request POST \
 ```
 
 *In this example, we choose AssemblyAI as the provider, and configure the language as English.
-For a full list of providers and their options, please see the [Create Async Transcript](/reference/recording_create_transcript_create) API reference.*
+For a full list of providers and their options, please see the [Create Async Transcript](/reference/recording_create_transcript_create.md) API reference.*
 
 > **CALLOUT**:
 
@@ -132,7 +132,7 @@ JSON
 
 [](#fetching-the-transcript)
 
-Once you receive the `transcript.done` webhook, you can fetch the transcript data by calling [Retrieve Transcript](/reference/transcript_retrieve) endpoint using its ID:
+Once you receive the `transcript.done` webhook, you can fetch the transcript data by calling [Retrieve Transcript](/reference/transcript_retrieve.md) endpoint using its ID:
 
 cURL
 

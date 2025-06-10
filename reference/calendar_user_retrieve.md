@@ -3,7 +3,7 @@ title: "Get Calendar UserMoon (Dark Mode)Sun (Light Mode)"
 description: "This endpoint is rate limited to: 120 requests per min per calendar_user"
 source_file: "reference/calendar_user_retrieve.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:13.850Z"
+converted_at: "2025-06-10T14:47:13.414Z"
 api_parameters_count: "14"
 ---
 ## GET https://us-east-1.recall.ai/api/v1/calendar/user/
@@ -14,7 +14,7 @@ This endpoint is rate limited to: 120 requests per min per calendar_user
 
 ## 📘
 
-For more information, see [Calendar V1](/docs/calendar-v1-1).
+For more information, see [Calendar V1](/docs/calendar-v1-1.md).
 ## Parameters
 
 | Name | Type | Required | Description |

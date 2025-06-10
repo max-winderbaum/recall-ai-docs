@@ -3,7 +3,7 @@ title: "List RecordingsMoon (Dark Mode)Sun (Light Mode)"
 description: "This endpoint is rate limited to: 60 requests per min per workspace"
 source_file: "reference/recording.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:14.756Z"
+converted_at: "2025-06-10T14:47:14.309Z"
 api_parameters_count: "20"
 ---
 ## GET https://us-east-1.recall.ai/api/v1/recording/

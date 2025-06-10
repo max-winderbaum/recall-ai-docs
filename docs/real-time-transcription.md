@@ -3,9 +3,9 @@ title: "Real-Time TranscriptionMoon (Dark Mode)Sun (Light Mode)"
 description: "Generate meeting transcripts in real-time."
 source_file: "docs/real-time-transcription.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.863Z"
+converted_at: "2025-06-10T14:47:11.470Z"
 api_parameters_count: "0"
 ---
 Real-time transcription is currently available for bots.
 
-For a full guide on setting this up, please see [Bot Real-time Transcription](/docs/bot-real-time-transcription).
+For a full guide on setting this up, please see [Bot Real-time Transcription](/docs/bot-real-time-transcription.md).

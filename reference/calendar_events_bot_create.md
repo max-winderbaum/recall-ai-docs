@@ -3,7 +3,7 @@ title: "Schedule Bot For Calendar EventMoon (Dark Mode)Sun (Light Mode)"
 description: "Schedule a bot for a calendar event. This endpoint will return the updated calendar event in response. This endpoint is rate limited to: 600 requests per min per workspace"
 source_file: "reference/calendar_events_bot_create.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:13.608Z"
+converted_at: "2025-06-10T14:47:13.177Z"
 api_parameters_count: "17"
 ---
 ## POST https://us-east-1.recall.ai/api/v2/calendar-events/{id}/bot/
@@ -12,7 +12,7 @@ Schedule a bot for a calendar event. This endpoint will return the updated calen
 
 > **Rate Limiting**: 600 requests per min per workspace
 
-**For more information, see [Calendar V2](/docs/v2).**
+**For more information, see [Calendar V2](/docs/v2.md).**
 
 > **CALLOUT**:
 
@@ -28,7 +28,7 @@ When calling this endpoint for an event that already has a bot scheduled, the ex
 
 Meeting URL response shape
 
-Meeting URL's are currently improperly reflected in the API spec for **meeting URL's in responses**. For proper meeting URL shapes in API responses, please see [Meeting URL's](/docs/meeting-urls).
+Meeting URL's are currently improperly reflected in the API spec for **meeting URL's in responses**. For proper meeting URL shapes in API responses, please see [Meeting URL's](/docs/meeting-urls.md).
 
 `meeting_url`'s that are provided as a **parameter** to the API are reflected accurately in the API spec as strings.
 

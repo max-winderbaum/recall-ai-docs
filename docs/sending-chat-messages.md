@@ -3,7 +3,7 @@ title: "Sending Chat MessagesMoon (Dark Mode)Sun (Light Mode)"
 description: "Platform Support Platform Available Supported Recipients Limitations Zoom ✅ everyone , host , everyone_except_host 4096 character limit Google Meet ✅ everyone 500 character limit Microsoft Teams ✅ everyone 4096 character limit Slack Huddles ✅ everyone Cisco Webex ❌ 📘 Note about Microsoft Teams: The..."
 source_file: "docs/sending-chat-messages.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:12.002Z"
+converted_at: "2025-06-10T14:47:11.609Z"
 api_parameters_count: "0"
 ---
 # Platform Support
@@ -29,7 +29,7 @@ The Teams chat window may not be available for bots by default, due to the organ
 For bots to be able to send chat messages in Teams calls, they must have access to the chat. To have access to the chat, one of two things must happen:
 
 1.  The tenant has configured their meeting chat settings to allow **anyone** to chat.
-2.  The tenant allows authenticated users to chat **and** you're using [Signed-In Microsoft Teams Bots](/docs/microsoft-teams-bot-login).
+2.  The tenant allows authenticated users to chat **and** you're using [Signed-In Microsoft Teams Bots](/docs/microsoft-teams-bot-login.md).
 
 # How to send chat messages
 
@@ -37,15 +37,15 @@ For bots to be able to send chat messages in Teams calls, they must have access 
 
 There are two ways to have bots send chat messages:
 
-1.  **Providing an automatic chat configuration when [Creating a Bot](/reference/bot_create)**
-2.  **Calling the [Send Chat Message](/reference/bot_send_chat_message_create) endpoint**
+1.  **Providing an automatic chat configuration when [Creating a Bot](/reference/bot_create.md)**
+2.  **Calling the [Send Chat Message](/reference/bot_send_chat_message_create.md) endpoint**
 
 ## Providing an automatic chat configuration
 
 [](#providing-an-automatic-chat-configuration)
 - * *
 
-When creating a bot, you can provide a `chat` object in the [Create Bot](/reference/bot_create) request body with two parameters that act as hooks for automatically sending chat messages:
+When creating a bot, you can provide a `chat` object in the [Create Bot](/reference/bot_create.md) request body with two parameters that act as hooks for automatically sending chat messages:
 - `on_bot_join`
 - `on_participant_join`
 
@@ -74,7 +74,7 @@ When creating a bot, you can provide a `chat` object in the [Create Bot](/refere
 [](#using-the-send-chat-messages-endpoint)
 - * *
 
-For more control over when bots send chat messages, Recall also provides an [endpoint](/reference/bot_send_chat_message_create) to send chat messages.
+For more control over when bots send chat messages, Recall also provides an [endpoint](/reference/bot_send_chat_message_create.md) to send chat messages.
 
 Keep in mind that this endpoint has the same [platform limitations](#platform-limitations) outlined above.
 
@@ -82,11 +82,11 @@ Keep in mind that this endpoint has the same [platform limitations](#platform-li
 
 [](#send-a-chat-message-to-a-specific-participant-zoom-only)
 
-Using the [Send Chat Message](/reference/bot_send_chat_message_create) endpoint also has the benefit of being able to send chat messages as DM's to specific participants.
+Using the [Send Chat Message](/reference/bot_send_chat_message_create.md) endpoint also has the benefit of being able to send chat messages as DM's to specific participants.
 
 **Example: Send a message via DM to a specific Zoom participant**
 
-1.  First, you need the ID of the participant you'd like to send the DM to. For example, you can get this from the `meeting_participants` array in the [Retrieve Bot](/reference/bot_retrieve) response:
+1.  First, you need the ID of the participant you'd like to send the DM to. For example, you can get this from the `meeting_participants` array in the [Retrieve Bot](/reference/bot_retrieve.md) response:
 
     JSON
 
@@ -110,7 +110,7 @@ Using the [Send Chat Message](/reference/bot_send_chat_message_create) endpoint 
 
     ```
 
-2.  Now, to send a DM to John Doe, I can use his ID when calling [Send Chat Message](/reference/bot_send_chat_message_create):
+2.  Now, to send a DM to John Doe, I can use his ID when calling [Send Chat Message](/reference/bot_send_chat_message_create.md):
 
     cURL
 

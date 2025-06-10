@@ -3,7 +3,7 @@ title: "FAQs: WebhooksMoon (Dark Mode)Sun (Light Mode)"
 description: "Retry schedule for bot status change webhooks events."
 source_file: "docs/faq-webhooks.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.455Z"
+converted_at: "2025-06-10T14:47:11.064Z"
 api_parameters_count: "0"
 ---
 ## 1\. How are webhooks retried?
@@ -31,7 +31,7 @@ Bot status change webhooks are sent via Svix and follow [their retry schedule](h
 
 ## 📘
 
-This retry schedule only applies to webhooks sent through svix, and does not include [Real-Time Webhook Endpoints](/docs/real-time-webhook-endpoints).
+This retry schedule only applies to webhooks sent through svix, and does not include [Real-Time Webhook Endpoints](/docs/real-time-webhook-endpoints.md).
 
 
 

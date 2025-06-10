@@ -3,14 +3,14 @@ title: "Bot Async TranscriptionMoon (Dark Mode)Sun (Light Mode)"
 description: "In addition to real-time transcription, Recall.ai also supports transcribing asynchronously after the call has ended. Quicklinks Create Async Transcript Bot Webhooks Quickstart Receive the recording.done webhook You'll be notified when a bot's recording is completed for transcription by receiving a ..."
 source_file: "docs/bot-async-transcription.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.028Z"
+converted_at: "2025-06-10T14:47:10.652Z"
 api_parameters_count: "0"
 ---
 In addition to real-time transcription, Recall.ai also supports transcribing asynchronously after the call has ended.
 
 **Quicklinks**
-- [Create Async Transcript](/reference/recording_create_transcript_create)
-- [Bot Webhooks](/docs/bot-status-change-events)
+- [Create Async Transcript](/reference/recording_create_transcript_create.md)
+- [Bot Webhooks](/docs/bot-status-change-events.md)
 
 # Quickstart
 
@@ -53,7 +53,7 @@ Upon receiving this, you can kick off an async transcript job, assuming your rec
 
 [](#start-an-async-transcription-job)
 
-To kick off an asynchronous transcription job, call the [Create Async Transcript](/reference/recording_create_transcript_create) endpoint using the `id` of the recording from the webhook payload. For bot(s) that generate multiple recordings you will receive a `recording.done` per completed recording.
+To kick off an asynchronous transcription job, call the [Create Async Transcript](/reference/recording_create_transcript_create.md) endpoint using the `id` of the recording from the webhook payload. For bot(s) that generate multiple recordings you will receive a `recording.done` per completed recording.
 
 At minimum, you must specify a `provider` configuration that should be used to transcribe the recording.
 
@@ -78,7 +78,7 @@ curl --request POST \
 ```
 
 *In this example, we choose AssemblyAI as the provider, and configure the language as English.
-For a full list of providers and their options, please see the [Create Async Transcript](/reference/recording_create_transcript_create) API reference.*
+For a full list of providers and their options, please see the [Create Async Transcript](/reference/recording_create_transcript_create.md) API reference.*
 
 > **CALLOUT**:
 
@@ -98,7 +98,7 @@ Incase you run into this limit for a recording, remediation steps are to delete 
 
 [](#the-transcriptdone-webhook)
 
-If the async transcription job completes successfully, you will receive a `transcript.done` [Status Change Event](/docs/status-change-webhooks) when it completes:
+If the async transcription job completes successfully, you will receive a `transcript.done` [Status Change Event](/docs/status-change-webhooks.md) when it completes:
 
 JSON
 
@@ -132,9 +132,9 @@ JSON
 
 [](#fetching-the-transcript)
 
-Once you receive the `transcript.done` webhook, you can call the [Retrieve Bot](/reference/bot_retrieve) endpoint using the bot ID, and download the transcript within the bot's `recordings.media_shortcuts.transcript.data.download_url`.
+Once you receive the `transcript.done` webhook, you can call the [Retrieve Bot](/reference/bot_retrieve.md) endpoint using the bot ID, and download the transcript within the bot's `recordings.media_shortcuts.transcript.data.download_url`.
 
-You can also fetch the transcript directly by calling [Retrieve Transcript](/reference/transcript_retrieve) endpoint using its ID:
+You can also fetch the transcript directly by calling [Retrieve Transcript](/reference/transcript_retrieve.md) endpoint using its ID:
 
 cURL
 
@@ -190,7 +190,7 @@ JSON
 
 [](#the-transcripterror-webhook)
 
-If an async transcription job fails, you will receive a `transcript.failed` [Status Change Webhook](/docs/status-change-webhooks) event notifying you about the failure:
+If an async transcription job fails, you will receive a `transcript.failed` [Status Change Webhook](/docs/status-change-webhooks.md) event notifying you about the failure:
 
 JSON
 

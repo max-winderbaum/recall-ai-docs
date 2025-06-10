@@ -3,7 +3,7 @@ title: "Zoom OverviewMoon (Dark Mode)Sun (Light Mode)"
 description: "This section covers everything Zoom bot integrations. Zoom Bot Types Recall has two Zoom bot types: Web (Default, Recommended) One audio stream with active speaker events Native Separate audio streams per participant &amp; dial-in participants not supported Limitations We support all features in Zoo..."
 source_file: "docs/zoom-overview.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:12.303Z"
+converted_at: "2025-06-10T14:47:11.896Z"
 api_parameters_count: "0"
 ---
 This section covers everything Zoom bot integrations.

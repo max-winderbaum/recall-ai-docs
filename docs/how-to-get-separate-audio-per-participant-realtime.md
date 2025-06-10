@@ -3,7 +3,7 @@ title: "How to get Separate Audio per Participant (Realtime)Moon (Dark Mode)Sun 
 description: "Receive audio data for each participant in realtime over websocket"
 source_file: "docs/how-to-get-separate-audio-per-participant-realtime.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.550Z"
+converted_at: "2025-06-10T14:47:11.157Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:

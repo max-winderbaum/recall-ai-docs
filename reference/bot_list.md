@@ -3,7 +3,7 @@ title: "List BotsMoon (Dark Mode)Sun (Light Mode)"
 description: "Get a list of all bots This endpoint is rate limited to: 60 requests per min per workspace"
 source_file: "reference/bot_list.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:12.869Z"
+converted_at: "2025-06-10T14:47:12.452Z"
 api_parameters_count: "38"
 ---
 ## GET https://us-east-1.recall.ai/api/v1/bot/
@@ -16,12 +16,12 @@ Get a list of all bots This endpoint is rate limited to: 60 requests per min per
 
 Meeting URL response shape
 
-Meeting URL's are currently improperly reflected in the API spec for **meeting URL's in responses**. For proper meeting URL shapes in API responses, please see [Meeting URL's](/docs/meeting-urls).
+Meeting URL's are currently improperly reflected in the API spec for **meeting URL's in responses**. For proper meeting URL shapes in API responses, please see [Meeting URL's](/docs/meeting-urls.md).
 
 `meeting_url`'s that are provided as a **parameter** to the API are reflected accurately in the API spec as strings.
 
 **Relevant links:**
-- [Meeting Metadata & Participants](/docs/meeting-metadata-and-participants)
+- [Meeting Metadata & Participants](/docs/meeting-metadata-and-participants.md)
 
 # Custom Metadata Filtering
 

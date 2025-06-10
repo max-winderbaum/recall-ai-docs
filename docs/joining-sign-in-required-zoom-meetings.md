@@ -3,7 +3,7 @@ title: "Sign-In Required Zoom MeetingsMoon (Dark Mode)Sun (Light Mode)"
 description: "Sign in your Zoom bots using a ZAK token."
 source_file: "docs/joining-sign-in-required-zoom-meetings.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.633Z"
+converted_at: "2025-06-10T14:47:11.243Z"
 api_parameters_count: "0"
 ---
 [Zoom Web bots](https://recallai.readme.io/reference/zoom#zoom-web) will emit a `fatal`error indicating "Sign In Required" if they attempt to join a Zoom meeting where the host has enabled "Only Authenticated Users can Join".

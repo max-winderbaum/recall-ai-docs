@@ -3,7 +3,7 @@ title: "Slack Huddle Bots OverviewMoon (Dark Mode)Sun (Light Mode)"
 description: "This section covers everything you need to know about Recall.ai’s Slack integration, from setting up the Slack app to capturing Slack Huddle data with bots and the Slack Huddle Bots. Seamlessly manage meetings, automate workflows, and power AI-driven applications within Slack. Why Slack Huddle Data ..."
 source_file: "docs/slack-huddle-bots-overview.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:12.053Z"
+converted_at: "2025-06-10T14:47:11.657Z"
 api_parameters_count: "0"
 ---
 This section covers everything you need to know about Recall.ai’s Slack integration, from setting up the Slack app to capturing Slack Huddle data with bots and the Slack Huddle Bots. Seamlessly manage meetings, automate workflows, and power AI-driven applications within Slack.

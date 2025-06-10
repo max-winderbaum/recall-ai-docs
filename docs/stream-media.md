@@ -3,7 +3,7 @@ title: "Stream Audio/Video from Webpage to a MeetingMoon (Dark Mode)Sun (Light M
 description: "Use Recall.ai's Output Media API to stream audio and video from a webpage directly to a meeting"
 source_file: "docs/stream-media.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:12.115Z"
+converted_at: "2025-06-10T14:47:11.716Z"
 api_parameters_count: "0"
 ---
 Recall supports streaming a webpage's audio and video to meetings via the bot's camera and microphone. This set of APIs is the perfect combination to build interactive AI agents that listen to the meeting and react in realtime. Some of our customers use this functionality to build AI-powered sales agents, coaches, recruiters, meeting planners and more.
@@ -38,11 +38,11 @@ The following video demonstration shows an example of a bot reacting in real tim
 
 ## 🚧
 
-Streaming Media incompatible with [`automatic_video_output`](/docs/output-video-in-meetings) and [`automatic_audio_output`](/docs/output-audio-in-meetings)
+Streaming Media incompatible with [`automatic_video_output`](/docs/output-video-in-meetings.md) and [`automatic_audio_output`](/docs/output-audio-in-meetings.md)
 
-Bot Media Output cannot currently be used with [`automatic_video_output`](/docs/output-video-in-meetings) or [`automatic_audio_output`](/docs/output-audio-in-meetings).
+Bot Media Output cannot currently be used with [`automatic_video_output`](/docs/output-video-in-meetings.md) or [`automatic_audio_output`](/docs/output-audio-in-meetings.md).
 
-The [Output Video](/reference/bot_output_video_create) and [Output Audio](/reference/bot_output_audio_create) endpoints must also **not** be used if your bot is streaming a webpage's contents to the meeting.
+The [Output Video](/reference/bot_output_video_create.md) and [Output Audio](/reference/bot_output_audio_create.md) endpoints must also **not** be used if your bot is streaming a webpage's contents to the meeting.
 
 # Quickstart
 
@@ -53,17 +53,17 @@ The [Output Video](/reference/bot_output_video_create) and [Output Audio](/refer
 
 [](#streaming-a-webpages-audiovideo-to-a-meeting)
 
-### Method 1: Using `output_media` in [Create Bot](/reference/bot_create)
+### Method 1: Using `output_media` in [Create Bot](/reference/bot_create.md)
 
 [](#method-1-using-output_media-in--create-bot)
 
-You can use the `output_media` configuration in the [Create Bot](/reference/bot_create) endpoint to stream the audio and video contents of a webpage to your meeting.
+You can use the `output_media` configuration in the [Create Bot](/reference/bot_create.md) endpoint to stream the audio and video contents of a webpage to your meeting.
 
 `output_media` takes the following parameters:
 - `kind`: The type of media to stream (currently only `webpage` is supported)
 - `config`: The webpage configuration (currently only supports `url`)
 
-Let's look at an example call to [Create Bot](/reference/bot_create):
+Let's look at an example call to [Create Bot](/reference/bot_create.md):
 
 JSON
 
@@ -86,11 +86,11 @@ JSON
 
 The example above tells Recall to create a bot that will continuously stream the contents of [recall.ai](https://www..recall.ai) to the provided meeting URL.
 
-### Method 2: Using the [Output Media](/reference/bot_output_media_create) endpoint
+### Method 2: Using the [Output Media](/reference/bot_output_media_create.md) endpoint
 
 [](#method-2-using-the-output-media-endpoint)
 
-You can choose to start outputting media by calling the [Output Media](/reference/bot_output_media_create) endpoint at any point when the bot is in a call.
+You can choose to start outputting media by calling the [Output Media](/reference/bot_output_media_create.md) endpoint at any point when the bot is in a call.
 
 The parameters for the request are the same as the `output_media` configuration.
 
@@ -121,7 +121,7 @@ curl --request POST \
 
 [](#stopping-media-output)
 
-You can stop the bot media output at any point while the bot is streaming media to a call by calling the [Stop Output Media](/reference/bot_output_video_destroy) endpoint.
+You can stop the bot media output at any point while the bot is streaming media to a call by calling the [Stop Output Media](/reference/bot_output_video_destroy.md) endpoint.
 
 **Example cURL:**
 
@@ -165,7 +165,7 @@ ws.onclose = () => {
 
 ```
 
-The websocket messages coming from the `/api/v1/transcript` endpoint have the same shape as the `data` object in [Real-time transcription](/docs/real-time-transcription#events) .
+The websocket messages coming from the `/api/v1/transcript` endpoint have the same shape as the `data` object in [Real-time transcription](/docs/real-time-transcription#events.md) .
 
 
 
@@ -249,7 +249,7 @@ The streaming media functionality runs in isolation from the bot producing the f
 | web_4_core | 2250 millicores | 5250MB |
 | native | ❌ Unsupported | ❌ Unsupported |
 
-To enable this, you can specify 4-core bots in your [Create Bot](/reference/bot_create) request by using the `variant` parameter:
+To enable this, you can specify 4-core bots in your [Create Bot](/reference/bot_create.md) request by using the `variant` parameter:
 
 JSON
 

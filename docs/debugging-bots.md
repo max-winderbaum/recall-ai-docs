@@ -3,7 +3,7 @@ title: "Debugging BotsMoon (Dark Mode)Sun (Light Mode)"
 description: "Figure out why your bot didn't behave as expected."
 source_file: "docs/debugging-bots.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.327Z"
+converted_at: "2025-06-10T14:47:10.942Z"
 api_parameters_count: "0"
 ---
 There are a number of places a bot can run into trouble, and it's not always obvious why a bot was unable to join a call or failed to record.
@@ -33,13 +33,13 @@ https://us-east-1.recall.ai/dashboard/explorer/bot/{BOT_ID}
 
 ## 📘
 
-[Bot Status Changes](/docs/bot-status-change-events) capture the lifecycle of a bot and expose it via the API and webhook events.
+[Bot Status Changes](/docs/bot-status-change-events.md) capture the lifecycle of a bot and expose it via the API and webhook events.
 
 Besides the typical, default behavior of a bot joining a call, starting recording, and so on, bots can also contain status changes that provide insight into the errors when a bot fails to record or is unable to join a call.
 
-Status changes with a **`fatal`** code will have a **`sub_code`** explaining the reason that the error occurred. A list of all possible sub codes can be found at [Bot Sub Codes](/reference/subcodes).
+Status changes with a **`fatal`** code will have a **`sub_code`** explaining the reason that the error occurred. A list of all possible sub codes can be found at [Bot Sub Codes](/reference/subcodes.md).
 
-To see a bot's status changes, call the [Retrieve Bot](/reference/bot_retrieve) endpoint and view the `status_changes` array in the bot object:
+To see a bot's status changes, call the [Retrieve Bot](/reference/bot_retrieve.md) endpoint and view the `status_changes` array in the bot object:
 
 JSON
 
@@ -91,6 +91,6 @@ They're particularly useful for:
 - Seeing why a bot was unable to join a call if it's unclear from its `status_changes`
 - Checking on a bot that appears to be in a weird or unknown state
 
-To get a list of screenshots associated with a bot, you can call [List Bot Screenshots](/reference/bot_screenshots_list).
+To get a list of screenshots associated with a bot, you can call [List Bot Screenshots](/reference/bot_screenshots_list.md).
 
 **Note: Zoom Native bots do not provide debug screenshots.**

@@ -3,7 +3,7 @@ title: "Output an ImageMoon (Dark Mode)Sun (Light Mode)"
 description: "Output an image for your bot to customize the experience."
 source_file: "docs/output-video-in-meetings.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.773Z"
+converted_at: "2025-06-10T14:47:11.378Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:
@@ -14,7 +14,7 @@ api_parameters_count: "0"
 
 While you may be interested in changing the bot's *image*, the means to do this is by using the bot's video output, similar to how meeting platforms output a static image as a participant's video when a participant's camera is off.
 
-MP4s and GIFs can be output via [Output Media](/docs/stream-media).
+MP4s and GIFs can be output via [Output Media](/docs/stream-media.md).
 
 # Platform Support
 
@@ -52,8 +52,8 @@ Since meeting platforms have constraints around video output resolution, your im
 
 There are two different ways to change the bot's video output:
 
-1.  Using the `automatic_video_output` configuration when calling [Create Bot](/reference/bot_create)
-2.  Calling the [Output Video](/reference/bot_output_video_create) endpoint
+1.  Using the `automatic_video_output` configuration when calling [Create Bot](/reference/bot_create.md)
+2.  Calling the [Output Video](/reference/bot_output_video_create.md) endpoint
 
 > **CALLOUT**:
 
@@ -63,13 +63,13 @@ Which method should I choose?
 
 If you simply want to output an image when a bot is in the call, the `automatic_video_output` is a convenient way to achieve this, since no additional API calls are needed.
 
-For use cases that require more granular control over when the bot's video is updated, you can use the [Output Video](/reference/bot_output_video_create) endpoint.
+For use cases that require more granular control over when the bot's video is updated, you can use the [Output Video](/reference/bot_output_video_create.md) endpoint.
 
 ### Method 1: Using `automatic_video_output`
 
 [](#method-1-using-automatic_video_output)
 
-[Create Bot](/reference/bot_create) has two options for configuring video using the `automatic_video_output` object:
+[Create Bot](/reference/bot_create.md) has two options for configuring video using the `automatic_video_output` object:
 - `in_call_not_recording`
 - `in_call_recording`
 
@@ -85,7 +85,7 @@ Let's say I want the bot to display this image once it begins recording (`in_cal
 
 To do this, I first need to convert this image to a b64 string using an [online tool](https://base64.guru/converter/encode/image/jpg) or a CLI tool like [ffmpeg](https://ffmpeg.org/).
 
-Once I have the b64 encoded string, I can now provide it as the `kind` parameter in the `automatic_video_output.in_call_recording` config when calling [Create Bot](/reference/bot_create):
+Once I have the b64 encoded string, I can now provide it as the `kind` parameter in the `automatic_video_output.in_call_recording` config when calling [Create Bot](/reference/bot_create.md):
 
 JSON
 
@@ -110,11 +110,11 @@ Now once the bot joins the call and begins recording, it will automatically disp
 
 Automatically updating the bot's image using `automatic_video_output.in_call_recording`
 
-### Method 2: Using the [Output Video](/reference/bot_output_video_create) endpoint
+### Method 2: Using the [Output Video](/reference/bot_output_video_create.md) endpoint
 
 [](#method-2-using-the-output-video-endpoint)
 
-If you need more granular control over when the image on the bot is updated, you can call the [Output Video](/reference/bot_output_video_create) endpoint at any point when the bot is in a call.
+If you need more granular control over when the image on the bot is updated, you can call the [Output Video](/reference/bot_output_video_create.md) endpoint at any point when the bot is in a call.
 
 The parameters for the request are the same as the automatic video output configuration.
 

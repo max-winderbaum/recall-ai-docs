@@ -3,10 +3,10 @@ title: "Step 3: Testing Your Zoom OAuth IntegrationMoon (Dark Mode)Sun (Light Mo
 description: "Test and debug your Zoom OAuth integration."
 source_file: "docs/step-3-testing-your-zoom-oauth-integration.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:12.092Z"
+converted_at: "2025-06-10T14:47:11.694Z"
 api_parameters_count: "0"
 ---
-Once you've gone through the [Zoom OAuth Setup](/docs/integration-guide-zoom-oauth) and either [Recall-Managed](/docs/recall-managed-oauth) or [Customer Managed OAuth](/docs/customer-managed-oauth), you should test your integration.
+Once you've gone through the [Zoom OAuth Setup](/docs/integration-guide-zoom-oauth.md) and either [Recall-Managed](/docs/recall-managed-oauth.md) or [Customer Managed OAuth](/docs/customer-managed-oauth.md), you should test your integration.
 
 This guide walks you through the questions to answer to ensure your integration is working properly.
 
@@ -16,7 +16,7 @@ This guide walks you through the questions to answer to ensure your integration 
 
 Use your own Zoom account or a test account and ensure it can go through the OAuth flow as expected.
 
-After going through the flow, call the [List Zoom OAuth Credentials](/reference/zoom_oauth_credentials_list) endpoint and ensure your credentials are being created in Recall properly.
+After going through the flow, call the [List Zoom OAuth Credentials](/reference/zoom_oauth_credentials_list.md) endpoint and ensure your credentials are being created in Recall properly.
 
 ## Are Zoom Meetings Synchronized Properly?
 
@@ -26,7 +26,7 @@ You can make a request to the List Zoom Meeting to OAuth Credential Mappings end
 
 To test if your meetings are being created properly in Recall for your OAuth'ed Zoom account:
 - Create a new meeting
-- Call [List Zoom Meeting to OAuth Credential Mappings](/reference/zoom_meetings_to_credentials_list)
+- Call [List Zoom Meeting to OAuth Credential Mappings](/reference/zoom_meetings_to_credentials_list.md)
 - Ensure the meeting exists in the response
 
 Any meetings in this list will be automatically recorded by bots sent to them.
@@ -64,7 +64,7 @@ curl -X GET <https://us-east-1.recall.ai/api/v2/zoom-meetings-to-credentials>
 Since you've confirmed your Zoom account is registered with the Recall Zoom OAuth integration, and that all your upcoming meetings are be automatically synced, any bots sent to these meetings should be able to record automatically.
 
 1.  Create an instant Zoom meeting (make sure the account is the same as the one you OAuth'ed)
-2.  Sending a bot to the meeting by calling [Create Bot](/reference/bot_create)
+2.  Sending a bot to the meeting by calling [Create Bot](/reference/bot_create.md)
 3.  Make sure the bot joins the meeting, and records properly with no popup.
 
 # Bot Logs
@@ -72,7 +72,7 @@ Since you've confirmed your Zoom account is registered with the Recall Zoom OAut
 [](#bot-logs)
 - * *
 
-There are a few [Bot Logs](/docs/debugging-bots#bot-logs) related to Zoom specifically:
+There are a few [Bot Logs](/docs/debugging-bots#bot-logs.md) related to Zoom specifically:
 - `zoom_join_token_fetch_using_zoom_oauth_failed`
 - `zoom_third_party_recording_token_fetch_using_zoom_oauth_failed`
 

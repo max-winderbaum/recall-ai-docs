@@ -3,7 +3,7 @@ title: "Real-Time Webhook EndpointsMoon (Dark Mode)Sun (Light Mode)"
 description: "Real-time webhook endpoints allow you to subscribe to a variety of participant events. These are particularly useful for creating real-time experiences by triggering logic on your server when specific user actions are taken. Event Types Real-time webhook endpoints can subscribe to all of the followi..."
 source_file: "docs/real-time-webhook-endpoints.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.892Z"
+converted_at: "2025-06-10T14:47:11.499Z"
 api_parameters_count: "0"
 ---
 Real-time webhook endpoints allow you to subscribe to a variety of participant events.
@@ -40,7 +40,7 @@ Real-time webhook endpoints can subscribe to all of the following events:
 
 [](#bots)
 
-To configure a [Create Bot](/reference/bot_create) request with a real-time webhook endpoint, you must provide a real-time endpoint object in the `recording_config.real_time_endpoints` array.
+To configure a [Create Bot](/reference/bot_create.md) request with a real-time webhook endpoint, you must provide a real-time endpoint object in the `recording_config.real_time_endpoints` array.
 
 The object should have a `type` of `webhook` and a `config` object specifying a `url` and `events`:
 

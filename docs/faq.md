@@ -3,7 +3,7 @@ title: "Bots FAQMoon (Dark Mode)Sun (Light Mode)"
 description: "Frequently asked questions about bots"
 source_file: "docs/faq.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.464Z"
+converted_at: "2025-06-10T14:47:11.073Z"
 api_parameters_count: "0"
 ---
 ## What does the sub code `timeout_exceeded_only_bots_in_call` mean ?
@@ -28,9 +28,9 @@ We are exploring alternative heuristics for bot detection to improve this furthe
 
 If you're implementing a pricing model where your customers have a fixed number of recording hours, you'll want to keep track of how many hours each customer is using. There are a few steps to this:
 
-1.  When calling [Create Bot](/reference/bot_create), keep track of which user the returned bot ID belongs to
+1.  When calling [Create Bot](/reference/bot_create.md), keep track of which user the returned bot ID belongs to
 2.  When the bot completes, you'll get a `done` bot status webhook, containing the bot ID
-3.  You can then call [Retrieve Bot](/reference/bot_retrieve) with that bot ID, and inspect the `status_changes` field
+3.  You can then call [Retrieve Bot](/reference/bot_retrieve.md) with that bot ID, and inspect the `status_changes` field
 4.  You can calculate the total time the bot recorded for by calculating the difference between timestamps of the `joining_call` event and the `done` event.
 
 ## Why am I not getting transcription?
@@ -39,7 +39,7 @@ If you're implementing a pricing model where your customers have a fixed number 
 
 The bot does not do transcription by default -- you must enable real-time transcription when you create the bot, or you must request async transcription once the bot has completed recording.
 
-If you want real-time transcription, you must specify `recording_config.transcript` when [Creating the Bot](/reference/bot_create).
+If you want real-time transcription, you must specify `recording_config.transcript` when [Creating the Bot](/reference/bot_create.md).
 
 ## Is bot data encrypted?
 
@@ -59,7 +59,7 @@ If your use case requires bots to show up exactly at a specific time (e.g. the t
 
 [](#how-do-i-update-a-lot-of-bots-at-once)
 
-Currently we don't have a batch update endpoint, so the recommended approach is to update each bot ID using the [Update Scheduled Bot](/reference/bot_partial_update) endpoint (or the [Schedule Bot For Calendar Event](/reference/calendar_events_bot_create) endpoint if using the Calendar V2 integration).
+Currently we don't have a batch update endpoint, so the recommended approach is to update each bot ID using the [Update Scheduled Bot](/reference/bot_partial_update.md) endpoint (or the [Schedule Bot For Calendar Event](/reference/calendar_events_bot_create.md) endpoint if using the Calendar V2 integration).
 
 Keep in mind that these endpoints are rate limited to 600 requests/min.
 

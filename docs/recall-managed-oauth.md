@@ -3,7 +3,7 @@ title: "Recall-Managed OAuthMoon (Dark Mode)Sun (Light Mode)"
 description: "OAuth your customers' Zoom Account using Recall-managed OAuth."
 source_file: "docs/recall-managed-oauth.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.914Z"
+converted_at: "2025-06-10T14:47:11.520Z"
 api_parameters_count: "0"
 ---
 The last step in the Zoom OAuth integration process is to actually direct your users through the OAuth authorization flow.
@@ -11,7 +11,7 @@ The last step in the Zoom OAuth integration process is to actually direct your u
 Since Recall-managed OAuth manages access and refresh tokens for you, the only two implementation steps necessary are:
 
 1.  Directing the user to a Zoom OAuth URL
-2.  Creating a [Zoom OAuth Credential](/reference/zoom_oauth_credentials_create) in Recall using the `code` received in the OAuth callback
+2.  Creating a [Zoom OAuth Credential](/reference/zoom_oauth_credentials_create.md) in Recall using the `code` received in the OAuth callback
 
 > **CALLOUT**:
 
@@ -27,7 +27,7 @@ In production, this should be done programmatically in your app, for example by 
 
 Under **Basic Information**, add an OAuth Redirect URL (the OAuth Allow List will be automatically updated).
 
-For testing purposes, this can be any URL, though it can be convenient to use a placeholder for a server endpoint that will handle passing this authorization code to Recall for when you implement the end to end user flow. We recommend using a service like Ngrok that can forward requests to your localhost. See this [guide](/docs/local-webhook-development#ngrok-setup) to get set up with Ngrok.
+For testing purposes, this can be any URL, though it can be convenient to use a placeholder for a server endpoint that will handle passing this authorization code to Recall for when you implement the end to end user flow. We recommend using a service like Ngrok that can forward requests to your localhost. See this [guide](/docs/local-webhook-development#ngrok-setup.md) to get set up with Ngrok.
 
 In the example below, this is set to: `https://my-static-domain.ngrok-free.app/oauth-callback/zoom`
 
@@ -110,7 +110,7 @@ The redirect URI specified in the query parameter must match **exactly** the red
 
 [](#calling-the-recall-api)
 
-Now that the user has authorized their account, we can use the OAuth code to register them in the Recall API by calling the [Create Zoom OAuth Credential](/reference/zoom_oauth_credentials_create) endpoint.
+Now that the user has authorized their account, we can use the OAuth code to register them in the Recall API by calling the [Create Zoom OAuth Credential](/reference/zoom_oauth_credentials_create.md) endpoint.
 
 Shell
 
@@ -170,7 +170,7 @@ Deauthorization notifications are sent only for public Zoom apps; apps published
 
 If the user tries to re-authenticate to your app, currently you must handle this case by recreating their credentials.
 
-In this case, your logic directing a user through the OAuth flow should add a code path for handling a `400` response from [Create Zoom OAuth Credential](/reference/zoom_oauth_credentials_create) with a `conflicting_zoom_account_id` in the body:
+In this case, your logic directing a user through the OAuth flow should add a code path for handling a `400` response from [Create Zoom OAuth Credential](/reference/zoom_oauth_credentials_create.md) with a `conflicting_zoom_account_id` in the body:
 - If your app is an account-managed app, it will return the following:
 
 JSON
@@ -196,6 +196,6 @@ JSON
 
 You can then:
 
-1.  Find the old credential by using the [List Zoom OAuth Credentials](/reference/zoom_oauth_credentials_list) api. You can use the `conflicting_zoom_account_id` or `conflicting_zoom_user_id` to query the existing OAuth credential
-2.  [Delete the credential](/reference/zoom_oauth_credentials_destroy) using the old Zoom OAuth Credential ID
-3.  [Recreate](/reference/zoom_oauth_credentials_create) the credentials
+1.  Find the old credential by using the [List Zoom OAuth Credentials](/reference/zoom_oauth_credentials_list.md) api. You can use the `conflicting_zoom_account_id` or `conflicting_zoom_user_id` to query the existing OAuth credential
+2.  [Delete the credential](/reference/zoom_oauth_credentials_destroy.md) using the old Zoom OAuth Credential ID
+3.  [Recreate](/reference/zoom_oauth_credentials_create.md) the credentials

@@ -3,14 +3,14 @@ title: "Bot RecordingMoon (Dark Mode)Sun (Light Mode)"
 description: "Configure a bot to record an mp4 When calling Create Bot , you can configure a bot to generate a recording artifact by specifying this in the recording_config object: curl -X POST \"https://us-east-1.recall.ai/api/v1/bot/\" \ -H \"Authorization: $RECALLAI_API_KEY\" \ -H \"accept: application/json\" \ -H \"..."
 source_file: "docs/receive-a-recording.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.921Z"
+converted_at: "2025-06-10T14:47:11.527Z"
 api_parameters_count: "0"
 ---
 # Configure a bot to record an mp4
 
 [](#configure-a-bot-to-record-an-mp4)
 
-When calling [Create Bot](/reference/bot_create), you can configure a bot to generate a recording artifact by specifying this in the `recording_config` object:
+When calling [Create Bot](/reference/bot_create.md), you can configure a bot to generate a recording artifact by specifying this in the `recording_config` object:
 
 cURL
 
@@ -34,7 +34,7 @@ curl -X POST "https://us-east-1.recall.ai/api/v1/bot/" \
 
 [](#fetch-a-recording)
 
-Once the bot's call has completed, you'll receive a `done` [Bot Status Change Webhook](/docs/status-change-webhooks-setup-verification), upon which you can call the [Retrieve Bot](/reference/bot_retrieve) endpoint:
+Once the bot's call has completed, you'll receive a `done` [Bot Status Change Webhook](/docs/status-change-webhooks-setup-verification.md), upon which you can call the [Retrieve Bot](/reference/bot_retrieve.md) endpoint:
 
 cURL
 
@@ -45,7 +45,7 @@ curl -X GET "https://us-east-1.recall.ai/api/v1/bot/{BOT_ID}/" \
 
 ```
 
-In the response, the `recordings` field will be populated a recording object (or multiple if using the [Stop Recording](/reference/bot_stop_recording_create) & [Start Recording](/reference/bot_start_recording_create) endpoints).
+In the response, the `recordings` field will be populated a recording object (or multiple if using the [Stop Recording](/reference/bot_stop_recording_create.md) & [Start Recording](/reference/bot_start_recording_create.md) endpoints).
 
 The `media_shortcuts` field will have shortcuts to recording media objects, including the `video_mixed`. The `data.download_url` on this to will contain a pre-signed S3 link to download the recording.
 

@@ -3,7 +3,7 @@ title: "Meeting Participants & EventsMoon (Dark Mode)Sun (Light Mode)"
 description: "Most recordings typically have associated meeting participants and participant events. Recall.ai's API exposes these through a variety of endpoints outlined below. Participants Recall.ai records and exposes participants for recordings automatically, so no configuration is needed. Retrieving Particip..."
 source_file: "docs/meeting-participants-events.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.688Z"
+converted_at: "2025-06-10T14:47:11.295Z"
 api_parameters_count: "0"
 ---
 Most recordings typically have associated meeting participants and participant events. Recall.ai's API exposes these through a variety of endpoints outlined below.
@@ -19,13 +19,13 @@ Recall.ai records and exposes participants for recordings automatically, so no c
 
 [](#retrieving-participants)
 
-The response schema can be found at [Participants Download Schema](/docs/download-urls#json-participant-download-url).
+The response schema can be found at [Participants Download Schema](/docs/download-urls#json-participant-download-url.md).
 
 ### Retrieve participants for a bot
 
 [](#retrieve-participants-for-a-bot)
 
-After calling the [Retrieve Bot](/reference/bot_retrieve) endpoint, the `recordings` in the response will contain a `media_shortcuts` object.
+After calling the [Retrieve Bot](/reference/bot_retrieve.md) endpoint, the `recordings` in the response will contain a `media_shortcuts` object.
 
 In this object, you can download the participants by accessing the `participant_events.data.participants_download_url`:
 
@@ -53,7 +53,7 @@ In this object, you can download the participants by accessing the `participant_
 
 [](#retrieve-participants-for-a-recording)
 
-To retrieve a given recording's list of participants, you can call the [List Participant Events](/reference/participant_events_list) endpoint, using the bot's corresponding recording ID:
+To retrieve a given recording's list of participants, you can call the [List Participant Events](/reference/participant_events_list.md) endpoint, using the bot's corresponding recording ID:
 
 cURL
 
@@ -88,7 +88,7 @@ JSON
 
 ```
 
-Then you can query the `participants_download_url` and you will receive the data in JSON format as seen in [this schema](/docs/download-schemas#json-participant-download-url)
+Then you can query the `participants_download_url` and you will receive the data in JSON format as seen in [this schema](/docs/download-schemas#json-participant-download-url.md)
 
 # Participant Events
 
@@ -103,7 +103,7 @@ Recall.ai exposes participant events as an artifact of a recording.
 
 To configure a bot to record participant events, no configuration is needed, since the default is to generate this artifact.
 
-You can also explicitly set this by providing an `participant_events` object in your [Create Bot](/reference/bot_create) request's `recording_config`:
+You can also explicitly set this by providing an `participant_events` object in your [Create Bot](/reference/bot_create.md) request's `recording_config`:
 
 CSS
 
@@ -128,11 +128,11 @@ curl --request POST \
 
 [](#retrieving-events)
 
-To retrieve a bot's participant events, you can call the [Retrieve Bot](/reference/bot_retrieve) and access the `media_shorcuts.participant_events.data.participant_events_download_url` in the recording object.
+To retrieve a bot's participant events, you can call the [Retrieve Bot](/reference/bot_retrieve.md) and access the `media_shorcuts.participant_events.data.participant_events_download_url` in the recording object.
 
-The response schema can be found [Download URL Schemas: Participant Events](/docs/download-urls#json-participant-event-download-url).
+The response schema can be found [Download URL Schemas: Participant Events](/docs/download-urls#json-participant-event-download-url.md).
 
-To retrieve all participant events for a specific **recording**, use the [List Participant Events](/reference/participant_events_list) endpoint while specifying a `recording_id`:
+To retrieve all participant events for a specific **recording**, use the [List Participant Events](/reference/participant_events_list.md) endpoint while specifying a `recording_id`:
 
 ```
 curl --request GET \
@@ -187,4 +187,4 @@ The `data.download_url` will be populated with a pre-signed URL where you can do
 
 Meeting platforms don't expose participant emails for security reasons, so bots aren't able to capture participant emails just by being present in the call.
 
-To map participants to their corresponding email addresses, you can use the [Recall Calendar Integration](/docs/calendar-integration), or implement a calendar integration of your own.
+To map participants to their corresponding email addresses, you can use the [Recall Calendar Integration](/docs/calendar-integration.md), or implement a calendar integration of your own.

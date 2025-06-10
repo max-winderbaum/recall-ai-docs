@@ -3,7 +3,7 @@ title: "Best PracticesMoon (Dark Mode)Sun (Light Mode)"
 description: "Add a Zoom OAuth Because of Zoom's new bot requirements , we highly recommend you have your users OAuth their Zoom account for the best user experience. The best way we've seen this be done is by having a \"Connect your Zoom\" button in your product onboarding. An example onboarding flow where the use..."
 source_file: "reference/product-best-practices.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:14.624Z"
+converted_at: "2025-06-10T14:47:14.176Z"
 api_parameters_count: "0"
 ---
 Add a Zoom OAuth Because of Zoom's new bot requirements , we highly recommend you have your users OAuth their Zoom account for the best user experience. The best way we've seen this be done is by having a "Connect your Zoom" button in your product onboarding. An example onboarding flow where the use...

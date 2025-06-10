@@ -3,7 +3,7 @@ title: "Zoom Breakout Rooms (Beta)Moon (Dark Mode)Sun (Light Mode)"
 description: "Seamlessly capture conversation data from breakout rooms in Zoom"
 source_file: "docs/zoom-breakout-rooms.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:12.252Z"
+converted_at: "2025-06-10T14:47:11.847Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:
@@ -44,7 +44,7 @@ If you're using breakout rooms with the legacy participant ID system, please rea
 - **One Bot per Room:**
     Since a human cannot be present in multiple breakout rooms simultaneously, each Recall.ai bot instance is limited to a single breakout room. To monitor multiple breakout rooms concurrently, deploy a separate bot for each room.
 - **When did the Bot join the room?**
-    When a Bot leaves a room and joins another (main session or breakout room), from the bots perspective all participants will leave and participants that are in the new room will join. This is seen in [participant metadata](/docs/meeting-metadata-and-participants) as everyone leaving and participants in the new room joining.
+    When a Bot leaves a room and joins another (main session or breakout room), from the bots perspective all participants will leave and participants that are in the new room will join. This is seen in [participant metadata](/docs/meeting-metadata-and-participants.md) as everyone leaving and participants in the new room joining.
 
 ## Automating Bot Deployment
 

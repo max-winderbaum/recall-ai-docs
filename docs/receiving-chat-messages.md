@@ -3,7 +3,7 @@ title: "Receiving Chat MessagesMoon (Dark Mode)Sun (Light Mode)"
 description: "Platform Support Platform Supported Limitations Zoom ✅ Receiving chat messages in the Zoom Native Bot is not currently supported Google Meet ✅ Microsoft Teams ✅ Bots can only receive chat messages if the meeting chat is accessible to anonymous participants. Cisco Webex ❌ Slack Huddles ❌ Setup &amp; ..."
 source_file: "docs/receiving-chat-messages.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.930Z"
+converted_at: "2025-06-10T14:47:11.536Z"
 api_parameters_count: "0"
 ---
 # Platform Support
@@ -22,7 +22,7 @@ api_parameters_count: "0"
 
 [](#setup--configuration)
 
-To receive chat message webhooks, set a [Real-Time Webhook Endpoint](/docs/real-time-webhook-endpoints) with the `participant_events.chat_message` event when calling [Create Bot](/reference/bot_create):
+To receive chat message webhooks, set a [Real-Time Webhook Endpoint](/docs/real-time-webhook-endpoints.md) with the `participant_events.chat_message` event when calling [Create Bot](/reference/bot_create.md):
 
 cURL
 

@@ -3,10 +3,10 @@ title: "Receive Real-Time Audio From BotMoon (Dark Mode)Sun (Light Mode)"
 description: "Receive real-time audio from a bot."
 source_file: "docs/real-time-audio-protocol.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.827Z"
+converted_at: "2025-06-10T14:47:11.435Z"
 api_parameters_count: "0"
 ---
-To receive raw audio in real-time from a bot, you can leverage [Real-Time Websocket Endpoints](/docs/real-time-websocket-endpoints).
+To receive raw audio in real-time from a bot, you can leverage [Real-Time Websocket Endpoints](/docs/real-time-websocket-endpoints.md).
 
 # Quickstart
 
@@ -96,9 +96,9 @@ console.log('WebSocket server started on port 3456');
 
 ```
 
-For details on how to verify connections, see [Verifying Real-Time Websocket Endpoints](/docs/real-time-websocket-endpoints#verification).
+For details on how to verify connections, see [Verifying Real-Time Websocket Endpoints](/docs/real-time-websocket-endpoints#verification.md).
 
-Once you have a basic server running locally, you'll want to expose it publicly through a tunneling tool such as [ngrok](https://ngrok.com/). For a full setup guide, see [Local Webhook Development](/docs/local-webhook-development).
+Once you have a basic server running locally, you'll want to expose it publicly through a tunneling tool such as [ngrok](https://ngrok.com/). For a full setup guide, see [Local Webhook Development](/docs/local-webhook-development.md).
 
 ## Start a meeting
 
@@ -114,7 +114,7 @@ For simplicity, go to [meet.new](https://meet.new) in a new tab to start an inst
 
 Now it's time to send a bot to a meeting while configuring a real-time websocket endpoint.
 
-To do this, call the [Create Bot](/reference/bot_create) endpoint while providing a real-time endpoint object where:
+To do this, call the [Create Bot](/reference/bot_create.md) endpoint while providing a real-time endpoint object where:
 - **`type`:** `websocket`
 - **`config.url`:** Your publicly exposed ngrok tunnel URL
 - **`config.events`:** An array including the `audio_mixed_raw.data` event
@@ -226,7 +226,7 @@ If a participant is *unmuted* but silent, you will receive empty audio packets.
 
 Since bots are participants, if there are other bots in a call, the bot will receive audio from the bot like any other participant.
 
-Since bots are muted by default, unless another bot is [outputting audio](/reference/bot_output_audio_create), the bot will not receive audio packets from other bots.
+Since bots are muted by default, unless another bot is [outputting audio](/reference/bot_output_audio_create.md), the bot will not receive audio packets from other bots.
 
 ## What is the retry behavior?
 

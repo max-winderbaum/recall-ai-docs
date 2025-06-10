@@ -3,7 +3,7 @@ title: "Video LayoutsMoon (Dark Mode)Sun (Light Mode)"
 description: "Configure the video layout for your bot's recording."
 source_file: "docs/video-layouts.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:12.210Z"
+converted_at: "2025-06-10T14:47:11.806Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:
@@ -12,7 +12,7 @@ api_parameters_count: "0"
 
 Control the video layout
 
-When calling [Create Bot](/reference/bot_create), you can control the view configuration by using the `recording_config.video_mixed_layout` parameter.
+When calling [Create Bot](/reference/bot_create.md), you can control the view configuration by using the `recording_config.video_mixed_layout` parameter.
 
 | Parameter | Values | Default |
 | --- | --- | --- |

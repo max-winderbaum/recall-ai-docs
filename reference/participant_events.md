@@ -3,7 +3,7 @@ title: "List Participant EventsMoon (Dark Mode)Sun (Light Mode)"
 description: "This endpoint is rate limited to: 60 requests per min per workspace"
 source_file: "reference/participant_events.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:14.528Z"
+converted_at: "2025-06-10T14:47:14.084Z"
 api_parameters_count: "14"
 ---
 ## GET https://us-east-1.recall.ai/api/v1/participant_events/

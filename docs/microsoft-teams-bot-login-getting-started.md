@@ -3,7 +3,7 @@ title: "Setup GuideMoon (Dark Mode)Sun (Light Mode)"
 description: "Setup guide to sign in your bot to a Microsoft Teams account."
 source_file: "docs/microsoft-teams-bot-login-getting-started.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.711Z"
+converted_at: "2025-06-10T14:47:11.320Z"
 api_parameters_count: "0"
 ---
 By default the Teams bot will join meeting as guest participant. This can lead to bot not able to join meetings which only allow signed in users.
@@ -18,7 +18,7 @@ Bot name cannot be overridden
 
 One important caveat to using signed-in Microsoft Teams bots is that they get their name from the Microsoft Teams account used to authenticate the bot.
 
-This overrides the `bot_name` parameter in [Create Bot endpoint](/reference/bot_create).
+This overrides the `bot_name` parameter in [Create Bot endpoint](/reference/bot_create.md).
 
 Follow these steps to setup authenticated bots for Microsoft Teams.
 

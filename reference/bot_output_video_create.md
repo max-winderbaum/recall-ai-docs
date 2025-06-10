@@ -3,7 +3,7 @@ title: "Output VideoMoon (Dark Mode)Sun (Light Mode)"
 description: "Causes the bot to start outputting video. This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/bot_output_video_create.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:13.080Z"
+converted_at: "2025-06-10T14:47:12.658Z"
 api_parameters_count: "68"
 ---
 ## POST https://us-east-1.recall.ai/api/v1/bot/{id}/output_video/
@@ -16,9 +16,9 @@ Causes the bot to start outputting video
 
 ## 📘
 
-For more information on configuring bots to output an image, see [Output an Image](/docs/output-video-in-meetings).
+For more information on configuring bots to output an image, see [Output an Image](/docs/output-video-in-meetings.md).
 
-Outputting video and gifs is not supported through this endpoint. To output dynamic content, please see the [Output Media](/docs/stream-media) API.
+Outputting video and gifs is not supported through this endpoint. To output dynamic content, please see the [Output Media](/docs/stream-media.md) API.
 ## Parameters
 
 | Name | Type | Required | Description |

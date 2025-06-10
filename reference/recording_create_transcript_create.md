@@ -3,7 +3,7 @@ title: "Create Async TranscriptMoon (Dark Mode)Sun (Light Mode)"
 description: "This endpoint is rate limited to: 5 requests per min per bot"
 source_file: "reference/recording_create_transcript_create.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:14.782Z"
+converted_at: "2025-06-10T14:47:14.333Z"
 api_parameters_count: "29"
 ---
 ## POST https://us-east-1.recall.ai/api/v1/recording/{id}/create_transcript/

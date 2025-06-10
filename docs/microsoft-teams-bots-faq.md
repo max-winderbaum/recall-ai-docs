@@ -3,7 +3,7 @@ title: "Microsoft Teams: FAQMoon (Dark Mode)Sun (Light Mode)"
 description: "Frequently asked questions: Microsoft Teams bots"
 source_file: "docs/microsoft-teams-bots-faq.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.725Z"
+converted_at: "2025-06-10T14:47:11.333Z"
 api_parameters_count: "0"
 ---
 ## Why does the bot have Unverified after the name?
@@ -26,6 +26,6 @@ This means that, by default, bot that join a Teams meetings hosted at teams.micr
 
 **How to remove the unverified tag**
 
-If you wish to remove this tag in favor of the `(External)` tag, you can authenticate Teams bots as outlined in [Microsoft Teams Bot Login](/docs/microsoft-teams-bot-login-getting-started).
+If you wish to remove this tag in favor of the `(External)` tag, you can authenticate Teams bots as outlined in [Microsoft Teams Bot Login](/docs/microsoft-teams-bot-login-getting-started.md).
 
 Microsoft Tenants can specify trusted organizations by following [these steps](https://learn.microsoft.com/en-us/microsoftteams/trusted-organizations-external-meetings-chat?tabs=organization-settings).

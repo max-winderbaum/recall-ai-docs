@@ -3,12 +3,12 @@ title: "Real-Time Websocket EndpointsMoon (Dark Mode)Sun (Light Mode)"
 description: "Receive recording data and events in real-time via websockets"
 source_file: "docs/real-time-websocket-endpoints.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.903Z"
+converted_at: "2025-06-10T14:47:11.509Z"
 api_parameters_count: "0"
 ---
-In addition to [Webhooks](/docs/real-time-webhook-endpoints), Recall.ai supports receiving data in real-time via a websocket connection.
+In addition to [Webhooks](/docs/real-time-webhook-endpoints.md), Recall.ai supports receiving data in real-time via a websocket connection.
 
-You can register a websocket real-time endpoint during data source creation (for instance, when [Creating a Bot](/reference/bot_create), specifying the specific events you want to receive.
+You can register a websocket real-time endpoint during data source creation (for instance, when [Creating a Bot](/reference/bot_create.md), specifying the specific events you want to receive.
 
 # Event Types
 
@@ -42,7 +42,7 @@ Real-time websocket endpoints can subscribe to all of the following events:
 
 [](#bots)
 
-To configure a real-time websocket endpoint for a bot, add a real time endpoint to your [Create Bot](/reference/bot_create) request with the `type` set to `websocket`:
+To configure a real-time websocket endpoint for a bot, add a real time endpoint to your [Create Bot](/reference/bot_create.md) request with the `type` set to `websocket`:
 
 cURL
 

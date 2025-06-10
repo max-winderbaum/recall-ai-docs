@@ -3,7 +3,7 @@ title: "Technical Questions & DetailsMoon (Dark Mode)Sun (Light Mode)"
 description: "Follow these guidelines before submitting your Zoom SDK App for review."
 source_file: "docs/zoom-sdk-review-guidelines.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:12.314Z"
+converted_at: "2025-06-10T14:47:11.907Z"
 api_parameters_count: "0"
 ---
 As part of submitting your Zoom SDK App, you must answer some questions regarding your app's technology, security, and privacy.
@@ -111,7 +111,7 @@ Recall.ai's is considered a "fourth party". You should check "Yes". A text box w
 
 [](#question-11)
 
-The Recall.ai service does not mandate any retention, as you can delete any captured data immediately using the [Delete Bot Media](/reference/bot_delete_media_create) endpoint. Answer depending on the retention the rest of your application requires.
+The Recall.ai service does not mandate any retention, as you can delete any captured data immediately using the [Delete Bot Media](/reference/bot_delete_media_create.md) endpoint. Answer depending on the retention the rest of your application requires.
 
 ### Question 12 - 15
 
@@ -132,7 +132,7 @@ Your usage of the Recall.ai service does not affect any of these answers.
 
 By default, you don't need to request **any** scopes, since the SDK credentials are only used for the bot to authenticate itself.
 
-If you want to use the [Recall Zoom OAuth Integration](/reference/zoom-oauth-integration), and you don't have an existing OAuth app already in the marketplace, you can request the [scopes outlined here](/reference/zoom-oauth-integration#1-requesting-the-required-scopes)
+If you want to use the [Recall Zoom OAuth Integration](/reference/zoom-oauth-integration.md), and you don't have an existing OAuth app already in the marketplace, you can request the [scopes outlined here](/reference/zoom-oauth-integration#1-requesting-the-required-scopes.md)
 
 If you are not using the Recall Zoom OAuth Integration, **do not** request any additional scopes as they will be unused. Zoom will not approve your app during review if you have unused scopes, and this is the #1 cause of app denials we see during the review process.
 
@@ -185,7 +185,7 @@ Zoom is looking to verify a few things when conducting the test:
 
 We recommend putting together the test plan with a Loom/video walkthrough. It can sometimes be difficult to explain what your app is doing in text, in a way that the Zoom app reviewer will understand. Including a short video tutorial can avoid unnecessary back-and-forth due to misunderstandings.
 
-We have 2 recommended test plan outlines, depending on if you're using the [Recall Zoom OAuth Integration](/reference/zoom-oauth-getting-started).
+We have 2 recommended test plan outlines, depending on if you're using the [Recall Zoom OAuth Integration](/reference/zoom-oauth-getting-started.md).
 
 ## Test Plan Outline - Not using Recall Zoom OAuth Integration
 

@@ -3,7 +3,7 @@ title: "Getting Started: Zoom OAuth IntegrationMoon (Dark Mode)Sun (Light Mode)"
 description: "Requesting the Required Scopes You'll need to request a few scopes on your OAuth app in order to use this integration. If you already have an existing OAuth app and you're already having your users grant OAuth permission on Zoom, you can request the scopes on that app. Otherwise, if you've created Z..."
 source_file: "reference/zoom-oauth-getting-started.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:15.610Z"
+converted_at: "2025-06-10T14:47:15.134Z"
 api_parameters_count: "0"
 ---
 ## GET https://api.recall.ai/api/v2/zoom-oauth-apps/

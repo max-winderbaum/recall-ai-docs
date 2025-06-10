@@ -3,7 +3,7 @@ title: "List Zoom OAuth AppsMoon (Dark Mode)Sun (Light Mode)"
 description: "Get a list of all Zoom OAuth Apps. This endpoint is rate limited to: 60 requests per min per workspace"
 source_file: "reference/zoom_oauth_apps_list.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:15.726Z"
+converted_at: "2025-06-10T14:47:15.266Z"
 api_parameters_count: "16"
 ---
 ## GET https://us-east-1.recall.ai/api/v2/zoom-oauth-apps/
@@ -16,7 +16,7 @@ Get a list of all Zoom OAuth Apps
 
 ## 📘
 
-For more information, see [Zoom OAuth Integration](/docs/zoom-oauth-integration)
+For more information, see [Zoom OAuth Integration](/docs/zoom-oauth-integration.md)
 ## Parameters
 
 | Name | Type | Required | Description |

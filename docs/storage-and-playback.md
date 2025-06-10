@@ -3,12 +3,12 @@ title: "Storage and PlaybackMoon (Dark Mode)Sun (Light Mode)"
 description: "All bots follow Recall's data retention policy."
 source_file: "docs/storage-and-playback.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:12.101Z"
+converted_at: "2025-06-10T14:47:11.702Z"
 api_parameters_count: "0"
 ---
 By default, all media associated with a recording is retained for 7 days following the end of a call, after which it's deleted **permanently**.
 
-This data can also be deleted at any point by calling [Delete Bot Media](/reference/bot_delete_media_create) or [Delete Recording](/reference/recording_destroy).
+This data can also be deleted at any point by calling [Delete Bot Media](/reference/bot_delete_media_create.md) or [Delete Recording](/reference/recording_destroy.md).
 
 # Recording Media
 
@@ -36,7 +36,7 @@ Custom metadata and the meeting URL are not deleted upon media expiration/deleti
 
 [](#custom-storage-duration)
 
-Recall supports specifying custom retention for the recordings captured by a bot via the `recording_config.retention` field in [Create Bot](/reference/bot_create) request. Two retention types are supported
+Recall supports specifying custom retention for the recordings captured by a bot via the `recording_config.retention` field in [Create Bot](/reference/bot_create.md) request. Two retention types are supported
 
 1.  **Timed**
     Allows you to specify a custom retention duration in hours via the required `hours` property (e.g., hours: 72 for 3 days). The recording will expire after the specified number of hours from creation.
@@ -76,7 +76,7 @@ If you have any questions regarding the pricing, please reach out to us in Slack
 
 [](#media-expiration)
 
-The media expiration date for a given recording can be found in the `expires_at` field of the [Recording](/reference/recording_retrieve):
+The media expiration date for a given recording can be found in the `expires_at` field of the [Recording](/reference/recording_retrieve.md):
 
 ```
 {
@@ -91,13 +91,13 @@ The media expiration date for a given recording can be found in the `expires_at`
 
 [](#the-recordingdeleted-webhook)
 
-When a recording reaches its expiration date and is deleted, you will receive a `recording.deleted` [Status Change Webhook](/docs/status-change-webhooks) to notify you of this.
+When a recording reaches its expiration date and is deleted, you will receive a `recording.deleted` [Status Change Webhook](/docs/status-change-webhooks.md) to notify you of this.
 
 ## Manually deleting media
 
 [](#manually-deleting-media)
 
-You can also delete a recording's media at any point through the API by calling the [Delete Recording](/reference/recording_destroy) endpoint.
+You can also delete a recording's media at any point through the API by calling the [Delete Recording](/reference/recording_destroy.md) endpoint.
 
 
 

@@ -3,7 +3,7 @@ title: "Zoom OAuth FAQsMoon (Dark Mode)Sun (Light Mode)"
 description: "Frequently asked questions: Zoom OAuth integration"
 source_file: "docs/zoom-oauth-faqs.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:12.281Z"
+converted_at: "2025-06-10T14:47:11.875Z"
 api_parameters_count: "0"
 ---
 ## Can we use our existing Zoom OAuth app so users don’t need to OAuth twice?
@@ -12,7 +12,7 @@ api_parameters_count: "0"
 
 Yes. You can use your existing Zoom OAuth app, as long as it has all required scopes.
 
-If you want to manage the OAuth tokens on your end, instead of having Recall manage the tokens, you can follow the instructions for [Customer Managed OAuth](/docs/customer-managed-oauth).
+If you want to manage the OAuth tokens on your end, instead of having Recall manage the tokens, you can follow the instructions for [Customer Managed OAuth](/docs/customer-managed-oauth.md).
 
 ## Will we be able to get the join token for local recording with Zoom workspace-level OAuth?
 
@@ -26,7 +26,7 @@ Zoom Meeting SDK apps only provide user-level OAuth, so you will need to create 
 
 [](#will-we-be-able-to-get-the-customers-access-token-if-we-use-recall-managed-oauth)
 
-Yes. You can use the [Get Access Token](/reference/zoom_oauth_credentials_access_token_retrieve) endpoint to fetch the customer's access token, if you're using Recall Managed OAuth. Access tokens generated for Zoom OAuth applications expire after 1 hour.
+Yes. You can use the [Get Access Token](/reference/zoom_oauth_credentials_access_token_retrieve.md) endpoint to fetch the customer's access token, if you're using Recall Managed OAuth. Access tokens generated for Zoom OAuth applications expire after 1 hour.
 
 ## What scopes should I request for an Account Level OAuth app?
 

@@ -3,7 +3,7 @@ title: "Schedule Bot For Calendar EventMoon (Dark Mode)Sun (Light Mode)"
 description: "Schedule a bot for a calendar event. This endpoint will return the updated calendar event in response. This endpoint is rate limited to: 600 requests per min per workspace"
 source_file: "reference/calendar_events_bot_destroy.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:13.629Z"
+converted_at: "2025-06-10T14:47:13.198Z"
 api_parameters_count: "16"
 ---
 ## POST https://us-east-1.recall.ai/api/v2/calendar-events/{id}/bot/
@@ -12,7 +12,7 @@ Schedule a bot for a calendar event. This endpoint will return the updated calen
 
 > **Rate Limiting**: 600 requests per min per workspace
 
-For more information, see [Calendar V2 Scheduling Guide](/docs/scheduling-guide#3-addremove-bot-from-the-event).
+For more information, see [Calendar V2 Scheduling Guide](/docs/scheduling-guide#3-addremove-bot-from-the-event.md).
 
 
 > **CALLOUT**:

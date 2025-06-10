@@ -3,14 +3,14 @@ title: "Customer Managed OAuthMoon (Dark Mode)Sun (Light Mode)"
 description: "Manage users' OAuth tokens on your server and provide them to Recall"
 source_file: "docs/customer-managed-oauth.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.308Z"
+converted_at: "2025-06-10T14:47:10.925Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:
 
 ## ℹ️
 
-In general, we recommend using [Recall-Managed OAuth](/docs/recall-managed-oauth) unless:
+In general, we recommend using [Recall-Managed OAuth](/docs/recall-managed-oauth.md) unless:
 - You already have an integration with the Zoom OAuth API.
 - You need to call the Zoom API endpoints for other functionality in your app.
 
@@ -58,7 +58,7 @@ def handle_request(request):
 
 [](#registering-the-callback-url-in-the-recall-api)
 
-You'll want to call the [Create Zoom OAuth Credential](/reference/zoom_oauth_credentials_create) endpoint, providing the publicly accessible callback URL. This endpoint will make a request to the provided endpoint, and validate that the token returned is valid and meets the requirements.
+You'll want to call the [Create Zoom OAuth Credential](/reference/zoom_oauth_credentials_create.md) endpoint, providing the publicly accessible callback URL. This endpoint will make a request to the provided endpoint, and validate that the token returned is valid and meets the requirements.
 
 When the token is returned, Recall builds a mapping between the user and this callback URL. This is how we know when to call this particular URL when we need an access token for a specific user.
 

@@ -3,7 +3,7 @@ title: "Delete Bot MediaMoon (Dark Mode)Sun (Light Mode)"
 description: "Deletes bot media stored by Recall. This is irreversable. This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/bot_delete_media_create.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:12.789Z"
+converted_at: "2025-06-10T14:47:12.376Z"
 api_parameters_count: "66"
 ---
 ## DELETE https://us-east-1.recall.ai/api/v1/bot/{id}/delete_media/
@@ -16,7 +16,7 @@ Deletes bot media stored by Recall. This is irreversable
 
 ## 📘
 
-For more information about bot media, see [Data Retention](/docs/data-retention).
+For more information about bot media, see [Data Retention](/docs/data-retention.md).
 ## Parameters
 
 | Name | Type | Required | Description |

@@ -3,7 +3,7 @@ title: "Meeting MetadataMoon (Dark Mode)Sun (Light Mode)"
 description: "Recall.ai exposes metadata for a given meeting as media object on a recording. Examples of meeting metadata include meeting title and unique identifiers, though the specific metadata available depends on the platform. Configuration To configure a bot to record meeting metadata, provide a meeting_met..."
 source_file: "docs/meeting-metadata-and-participants.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.669Z"
+converted_at: "2025-06-10T14:47:11.278Z"
 api_parameters_count: "0"
 ---
 Recall.ai exposes metadata for a given meeting as media object on a recording.
@@ -14,7 +14,7 @@ Examples of meeting metadata include meeting title and unique identifiers, thoug
 
 [](#configuration)
 
-To configure a bot to record meeting metadata, provide a `meeting_metadata` object in your [Create Bot](/reference/bot_create) request's `recording_config`:
+To configure a bot to record meeting metadata, provide a `meeting_metadata` object in your [Create Bot](/reference/bot_create.md) request's `recording_config`:
 
 cURL
 
@@ -50,9 +50,9 @@ curl --request POST \
 | Slack Huddles | ✅ |  |
 
 To retrieve meeting metadata for a recording, you can either:
-- Call [Retrieve Bot](/reference/bot_retrieve) and access the metadata in `shortcuts.meeting_metadata.data` in the recording object
-- Call [Retrieve Meeting Metadata](/reference/meeting_metadata_retrieve), using the ID of the meeting metadata artifact
-- Call [List Meeting Metadata](/reference/meeting_metadata_list), filtering to a specific recording ID
+- Call [Retrieve Bot](/reference/bot_retrieve.md) and access the metadata in `shortcuts.meeting_metadata.data` in the recording object
+- Call [Retrieve Meeting Metadata](/reference/meeting_metadata_retrieve.md), using the ID of the meeting metadata artifact
+- Call [List Meeting Metadata](/reference/meeting_metadata_list.md), filtering to a specific recording ID
 
 
 

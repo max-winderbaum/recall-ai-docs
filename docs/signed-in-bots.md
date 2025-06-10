@@ -3,7 +3,7 @@ title: "Signed-In BotsMoon (Dark Mode)Sun (Light Mode)"
 description: "Sign in your bots to an account before joining meetings."
 source_file: "docs/signed-in-bots.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:12.025Z"
+converted_at: "2025-06-10T14:47:11.630Z"
 api_parameters_count: "0"
 ---
 Recall supports signing bots into various meeting platform accounts prior to joining calls.

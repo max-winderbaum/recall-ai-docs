@@ -3,7 +3,7 @@ title: "Receive Real-Time Video: WebsocketsMoon (Dark Mode)Sun (Light Mode)"
 description: "Receive real-time video streams from a bot via websockets."
 source_file: "docs/real-time-video.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.876Z"
+converted_at: "2025-06-10T14:47:11.483Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:
@@ -12,14 +12,14 @@ api_parameters_count: "0"
 
 Video websockets are optimized for those doing real-time AI video analysis, providing 360p PNG image frames at 2fps.
 
-If you're looking to receive real time video for human consumption instead, refer to [Real-time Video: RTMP](/docs/stream-real-time-video-rtmp) guide.
+If you're looking to receive real time video for human consumption instead, refer to [Real-time Video: RTMP](/docs/stream-real-time-video-rtmp.md) guide.
 
 # Quickstart
 
 [](#quickstart)
 - * *
 
-To receive raw audio in real-time from a bot, you can leverage [Real-Time Websocket Endpoints](/docs/real-time-websocket-endpoints).
+To receive raw audio in real-time from a bot, you can leverage [Real-Time Websocket Endpoints](/docs/real-time-websocket-endpoints.md).
 
 ## Setup a websocket endpoint
 
@@ -112,9 +112,9 @@ console.log('WebSocket server started on port 3456');
 
 ```
 
-For details on how to verify connections, see [Verifying Real-Time Websocket Endpoints](/docs/real-time-websocket-endpoints#verification).
+For details on how to verify connections, see [Verifying Real-Time Websocket Endpoints](/docs/real-time-websocket-endpoints#verification.md).
 
-Once you have a basic server running locally, you'll want to expose it publicly through a tunneling tool such as [ngrok](https://ngrok.com/). For a full setup guide, see [Local Webhook Development](/docs/local-webhook-development).
+Once you have a basic server running locally, you'll want to expose it publicly through a tunneling tool such as [ngrok](https://ngrok.com/). For a full setup guide, see [Local Webhook Development](/docs/local-webhook-development.md).
 
 ## Start a meeting
 
@@ -130,7 +130,7 @@ For simplicity, go to [meet.new](https://meet.new) in a new tab to start an inst
 
 Now it's time to send a bot to a meeting while configuring a real-time websocket endpoint.
 
-To do this, call the [Create Bot](/reference/bot_create) endpoint while providing a real-time endpoint object where:
+To do this, call the [Create Bot](/reference/bot_create.md) endpoint while providing a real-time endpoint object where:
 - **`type`:** `websocket`
 - **`config.url`:** Your publicly exposed ngrok tunnel URL
 - **`config.events`:** An array including the `video_separate_png.data` event

@@ -3,7 +3,7 @@ title: "API ErrorsMoon (Dark Mode)Sun (Light Mode)"
 description: "API Error Codes Recall's API uses the following HTTP codes: Error Code Meaning 200 OK -- Everything worked as expected. 201 Bot created successfully. 400 There was something wrong with your request. Check the response body for a detailed error message. For the error message reference, go here . 401 ..."
 source_file: "reference/errors.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:14.048Z"
+converted_at: "2025-06-10T14:47:13.611Z"
 api_parameters_count: "0"
 ---
 API Error Codes Recall's API uses the following HTTP codes: Error Code Meaning 200 OK -- Everything worked as expected. 201 Bot created successfully. 400 There was something wrong with your request. Check the response body for a detailed error message. For the error message reference, go here . 401 ...
@@ -58,7 +58,7 @@ You can avoid the HTTP 507 error entirely by using [scheduled bots](https://reca
 
 [](#fatal-errors)
 
-When you get a [Bot Status Change Webhook Event](/docs/bot-status-change-events) from a bot with status `fatal`, you can check the `data.status.sub_code` field to get a description of the error. The complete list for possible `sub_code` can be found here [Bot Error Codes](/docs/sub-codes#fatal-sub-codes)
+When you get a [Bot Status Change Webhook Event](/docs/bot-status-change-events.md) from a bot with status `fatal`, you can check the `data.status.sub_code` field to get a description of the error. The complete list for possible `sub_code` can be found here [Bot Error Codes](/docs/sub-codes#fatal-sub-codes.md)
 
 ## 403 Request Blocked
 

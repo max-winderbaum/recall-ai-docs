@@ -3,7 +3,7 @@ title: "DiarizationMoon (Dark Mode)Sun (Light Mode)"
 description: "Diarization is the process of determining which speaker each word of a transcript belongs to. There are 2 ways you can diarize a transcript through Recall. Diarization types Speaker Timeline Diarization This is the default diarization mode for Recall. Recall captures the \"active speaker timeline\" ge..."
 source_file: "docs/diarization.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.399Z"
+converted_at: "2025-06-10T14:47:11.010Z"
 api_parameters_count: "0"
 ---
 Diarization is the process of determining which speaker each word of a transcript belongs to. There are 2 ways you can diarize a transcript through Recall.

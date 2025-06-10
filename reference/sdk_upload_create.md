@@ -3,7 +3,7 @@ title: "Create Desktop SDK UploadMoon (Dark Mode)Sun (Light Mode)"
 description: "Create a new Desktop SDK upload. This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/sdk_upload_create.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:14.911Z"
+converted_at: "2025-06-10T14:47:14.461Z"
 api_parameters_count: "10"
 ---
 ## POST https://us-east-1.recall.ai/api/v1/sdk-upload/

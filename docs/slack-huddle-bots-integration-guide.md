@@ -3,7 +3,7 @@ title: "Slack Huddle Bots Integration GuideMoon (Dark Mode)Sun (Light Mode)"
 description: "This guide walks you through integrating a Slack bot with Recall.ai to capture Slack Huddle data. You’ll set up a bot, configure webhooks, and activate it to join a Slack workspace and listen to huddles Pre-requisites Slack Workspace : A workspace where you have permission to invite participants Dom..."
 source_file: "docs/slack-huddle-bots-integration-guide.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:12.045Z"
+converted_at: "2025-06-10T14:47:11.650Z"
 api_parameters_count: "0"
 ---
 This guide walks you through integrating a Slack bot with Recall.ai to capture Slack Huddle data. You’ll set up a bot, configure webhooks, and activate it to join a Slack workspace and listen to huddles
@@ -73,9 +73,9 @@ interface SlackTeamEvent {
 ```
 
 Next is to handle each event type that could be sent:
-- `slack_team.invited` - A customer has invited your Slack bot to their workspace. You can activate your Slack team integration by making a `PATCH` request to the [Update Slack Team](/reference/slack_teams_partial_update) api. Note that you should set the bot name, otherwise the bot will join the slack workspace as `None`
+- `slack_team.invited` - A customer has invited your Slack bot to their workspace. You can activate your Slack team integration by making a `PATCH` request to the [Update Slack Team](/reference/slack_teams_partial_update.md) api. Note that you should set the bot name, otherwise the bot will join the slack workspace as `None`
 - `slack_team.active` - Your Slack bot is active and is ready to join huddles. No action required
-- `slack_team.access_revoked` - A customer has removed your Slack bot from their Slack workspace. You can delete their Slack team integration by calling the [Delete Slack Team](/reference/slack_teams_destroy) api
+- `slack_team.access_revoked` - A customer has removed your Slack bot from their Slack workspace. You can delete their Slack team integration by calling the [Delete Slack Team](/reference/slack_teams_destroy.md) api
 
 Below is a sample of how your webhook should handle slack-related webhook events:
 
@@ -206,9 +206,9 @@ Now that you’ve invited the bot to your Slack workspace, here’s what to expe
 
 [](#how-to-get-slack-huddle-bot-data)
 
-Once the bot is online and joins Slack Huddles, Recall.ai will automatically send webhook events containing meeting data [just like it does for other meeting platforms](/docs/bot-status-change-events).
+Once the bot is online and joins Slack Huddles, Recall.ai will automatically send webhook events containing meeting data [just like it does for other meeting platforms](/docs/bot-status-change-events.md).
 
-When you receive a bot's status change event, query the bot using the [Retrieve Bot api](/reference/bot_create)
+When you receive a bot's status change event, query the bot using the [Retrieve Bot api](/reference/bot_create.md)
 
 Once you have the bot, you can check the `meeting_metadata` field on the bot which should look something like this:
 

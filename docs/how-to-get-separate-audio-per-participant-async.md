@@ -3,7 +3,7 @@ title: "How to get Separate Audio per Participant (Async)Moon (Dark Mode)Sun (Li
 description: "Produce separate audio files for each participant after the recording is complete."
 source_file: "docs/how-to-get-separate-audio-per-participant-async.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.540Z"
+converted_at: "2025-06-10T14:47:11.148Z"
 api_parameters_count: "0"
 ---
 This guide is for you if:
@@ -175,7 +175,7 @@ recall_bot = get_recall_bot({"recall_bot_id": recall_bot_id, "recall_api_key": r
 
 ```
 
-The bot will have an array of recordings in the `bot.recording` field as defined in the [Retrieve Bot](/reference/bot_retrieve) 200 response
+The bot will have an array of recordings in the `bot.recording` field as defined in the [Retrieve Bot](/reference/bot_retrieve.md) 200 response
 
 Once taken, query the recordings api for the recording id on the bot. This will return a list of medias associated to the recording:
 
@@ -249,7 +249,7 @@ separate_audio_data = get_recall_separate_audio_data({
 
 ```
 
-The `separate_audio_response` schema is defined in the [List Audio Separate](/reference/audio_separate_list) 200 response
+The `separate_audio_response` schema is defined in the [List Audio Separate](/reference/audio_separate_list.md) 200 response
 
 ## Step 3: Accessing separate participant audio
 

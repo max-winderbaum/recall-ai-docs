@@ -3,7 +3,7 @@ title: "Update Slack TeamMoon (Dark Mode)Sun (Light Mode)"
 description: "Handle updates to the SlackTeamIntegration. If the integration is in INVITED state, transition it to JOINING state. This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/slack_teams_update.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:15.121Z"
+converted_at: "2025-06-10T14:47:14.669Z"
 api_parameters_count: "39"
 ---
 ## PATCH https://us-east-1.recall.ai/api/v2/slack-teams/{id}/
@@ -18,9 +18,9 @@ Handle updates to the SlackTeamIntegration. If the integration is in INVITED sta
 
 Relevant Links
 
-[Slack Huddles Overview](/docs/slack-huddles)
+[Slack Huddles Overview](/docs/slack-huddles.md)
 
-[Slack Bot Setup](/docs/slack-bot-setup)
+[Slack Bot Setup](/docs/slack-bot-setup.md)
 ## Parameters
 
 | Name | Type | Required | Description |

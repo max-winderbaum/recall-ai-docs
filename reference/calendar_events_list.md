@@ -3,7 +3,7 @@ title: "List Calendar EventsMoon (Dark Mode)Sun (Light Mode)"
 description: "Get a list of calendar events. This endpoint is rate limited to: 60 requests per min per workspace"
 source_file: "reference/calendar_events_list.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:13.652Z"
+converted_at: "2025-06-10T14:47:13.222Z"
 api_parameters_count: "23"
 ---
 ## GET https://us-east-1.recall.ai/api/v2/calendar-events/
@@ -16,13 +16,13 @@ Get a list of calendar events
 
 ## 📘
 
-For more information, see [Calendar V2](/docs/v2).
+For more information, see [Calendar V2](/docs/v2.md).
 
 ## `raw` field
 
 [](#raw-field)
 
-Examples of the platform-specific `raw` field data can be found at [Calendar Event Platform Data](/reference/calendar-event-platform-data).
+Examples of the platform-specific `raw` field data can be found at [Calendar Event Platform Data](/reference/calendar-event-platform-data.md).
 
 A maximum of 100 events are returned. If more events exist, the response will include a `next` string with the full URL and cursor to retrieve the next page of paginated results.
 

@@ -3,7 +3,7 @@ title: "Retrieve Google LoginMoon (Dark Mode)Sun (Light Mode)"
 description: "Get an existing Google Login. This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/google_logins_retrieve.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:14.355Z"
+converted_at: "2025-06-10T14:47:13.915Z"
 api_parameters_count: "9"
 ---
 ## GET https://us-east-1.recall.ai/api/v2/google-logins/{id}/
@@ -16,7 +16,7 @@ Get an existing Google Login
 
 ## 📘
 
-For more information, see [Signed-In Google Meet Bots](/docs/google-meet-login-getting-started)
+For more information, see [Signed-In Google Meet Bots](/docs/google-meet-login-getting-started.md)
 ## Parameters
 
 | Name | Type | Required | Description |

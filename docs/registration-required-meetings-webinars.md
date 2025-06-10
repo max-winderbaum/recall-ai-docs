@@ -3,7 +3,7 @@ title: "Registration-Required Meetings & WebinarsMoon (Dark Mode)Sun (Light Mode
 description: "Send bots to Zoom registration-required meetings and webinars."
 source_file: "docs/registration-required-meetings-webinars.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.970Z"
+converted_at: "2025-06-10T14:47:11.574Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:
@@ -27,7 +27,7 @@ For a bot to join a registration-required meeting, there are two things required
 
 Once a user registers for the meeting or webinar, they will receive a meeting URL from Zoom containing a `tk` query parameter.
 
-When calling [Create Bot](/reference/bot_create), you should ensure that the `meeting_url` contains this.
+When calling [Create Bot](/reference/bot_create.md), you should ensure that the `meeting_url` contains this.
 
 ## `user_email`
 
@@ -35,7 +35,7 @@ When calling [Create Bot](/reference/bot_create), you should ensure that the `me
 
 If registration is required for a meeting or webinar, Zoom requires an email in the join request.
 
-This should be provided in the `zoom.user_email` parameter in the [Create Bot](/reference/bot_create) request:
+This should be provided in the `zoom.user_email` parameter in the [Create Bot](/reference/bot_create.md) request:
 
 JSON
 

@@ -3,14 +3,14 @@ title: "Google Meet FAQMoon (Dark Mode)Sun (Light Mode)"
 description: "Frequently asked questions about Google Meet bots."
 source_file: "docs/google-meet-faq.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.487Z"
+converted_at: "2025-06-10T14:47:11.096Z"
 api_parameters_count: "0"
 ---
 ## Can the bot skip the waiting room?
 
 [](#can-the-bot-skip-the-waiting-room)
 
-If the bot is [signed in to a Google account](/reference/google-meet-login-getting-started), and that account's email address has been added to the meeting invite, then it will be able to skip the waiting room and directly enter the meeting.
+If the bot is [signed in to a Google account](/reference/google-meet-login-getting-started.md), and that account's email address has been added to the meeting invite, then it will be able to skip the waiting room and directly enter the meeting.
 
 ## The bot shows as in\_waiting\_room, but I don't see the pop-up?
 
@@ -34,7 +34,7 @@ By default, the bot's icon in the Google Meet's participant list will be the fir
 
 ![](https://files.readme.io/b6dba0a-CleanShot_2024-06-04_at_15.48.432x.png)
 
-The only way to change this to something else is to have the bot join as a [Signed-In Google Meet Bot](/docs/google-meet-login-getting-started). If the bot is signed in, it's icon will be the profile picture of the account it's signed in to.
+The only way to change this to something else is to have the bot join as a [Signed-In Google Meet Bot](/docs/google-meet-login-getting-started.md). If the bot is signed in, it's icon will be the profile picture of the account it's signed in to.
 
 
 
@@ -91,7 +91,7 @@ No - one login can only be used by one bot to join the same meeting. While one l
 
 [](#can-i-enable-authenticated-google-meet-bots-for-some-meetings-but-use-the-default-behavior-for-others)
 
-Yes! To configure authentication behavior for Google Meet, you can use the `google_meet.login_required` parameter in [Create Bot](/reference/bot_create).
+Yes! To configure authentication behavior for Google Meet, you can use the `google_meet.login_required` parameter in [Create Bot](/reference/bot_create.md).
 
 If this parameter is absent in the request body, bots will authenticate **only if** the Google Meet is sign-in only. Otherwise, the bot will default to joining as an anonymous user.
 

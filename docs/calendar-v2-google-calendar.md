@@ -3,7 +3,7 @@ title: "Google CalendarMoon (Dark Mode)Sun (Light Mode)"
 description: "Setup OAuth 2.0 Client Create Google OAuth 2.0 client (skip if you already have one). Copy CLIENT_ID &amp; CLIENT_SECRET values. Ensure Google Calendar API is enabled for the project . Configure permission scopes to at least include calendar.events.readonly &amp; userinfo.email in OAuth Consent Scre..."
 source_file: "docs/calendar-v2-google-calendar.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.247Z"
+converted_at: "2025-06-10T14:47:10.866Z"
 api_parameters_count: "0"
 ---
 # Setup OAuth 2.0 Client

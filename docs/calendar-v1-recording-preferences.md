@@ -3,7 +3,7 @@ title: "Recording Preferences & Bot DeduplicationMoon (Dark Mode)Sun (Light Mode
 description: "Calendar V1 recording preferences and bot deduplication"
 source_file: "docs/calendar-v1-recording-preferences.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.229Z"
+converted_at: "2025-06-10T14:47:10.848Z"
 api_parameters_count: "0"
 ---
 # Recording Preferences
@@ -12,7 +12,7 @@ api_parameters_count: "0"
 
 Calendar meetings do **not** get recorded by default.
 
-The auto-recording behavior for synced calendar meetings can be configured based configured recording preferences, which can be updated via the [Update Recording Preferences](/reference/calendar_user_update) endpoint.
+The auto-recording behavior for synced calendar meetings can be configured based configured recording preferences, which can be updated via the [Update Recording Preferences](/reference/calendar_user_update.md) endpoint.
 
 ## Recording Prerequisites
 
@@ -185,7 +185,7 @@ Incase a bot is de-duplicated across multiple meetings, the `calendar_meetings` 
 If your application's business logic requires you to have 1 bot per connected calendar (i.e no deduplication). Please reach out to us and we can turn this off for your account.
 
 **Custom de-deduplication**
-The Calendar V1 APIs do not support supplying a custom de-deduplication logic. If you require this functionality, we recommend to integrate with [Calendar V2 APIs](/reference/calendar-v2-integration-guide).
+The Calendar V1 APIs do not support supplying a custom de-deduplication logic. If you require this functionality, we recommend to integrate with [Calendar V2 APIs](/reference/calendar-v2-integration-guide.md).
 
 **Deduplication Constraints**
 - User Calendars must be using the same platform for deduplication to take place. One bot is sent for each calendar platform used by participants. That means if all meeting participants are using Google Calendars, then only 1 bot will be sent. If participants are using Google Calendar and Microsoft Outlook Calendars, then two bots will be sent.

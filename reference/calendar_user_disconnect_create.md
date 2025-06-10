@@ -3,7 +3,7 @@ title: "Disconnect Calendar PlatformMoon (Dark Mode)Sun (Light Mode)"
 description: "Disconnect calendar of specific platform. This endpoint is rate limited to: 120 requests per min per calendar_user"
 source_file: "reference/calendar_user_disconnect_create.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:13.811Z"
+converted_at: "2025-06-10T14:47:13.376Z"
 api_parameters_count: "14"
 ---
 ## POST https://us-east-1.recall.ai/api/v1/calendar/user/disconnect/
@@ -16,7 +16,7 @@ Disconnect calendar of specific platform
 
 ## 📘
 
-For more information, see [Calendar V1](/docs/calendar-v1-1).
+For more information, see [Calendar V1](/docs/calendar-v1-1.md).
 ## Parameters
 
 | Name | Type | Required | Description |

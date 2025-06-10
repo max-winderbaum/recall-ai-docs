@@ -3,7 +3,7 @@ title: "/api/v2/calendar-accounts/{uuid}/Moon (Dark Mode)Sun (Light Mode)"
 description: "Recall.ai is the universal API for meeting bots."
 source_file: "reference/calendar-accounts.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:13.453Z"
+converted_at: "2025-06-10T14:47:13.021Z"
 api_parameters_count: "4"
 ---
 ## GET https://us-east-1.recall.ai/api/v2/calendar-accounts/{uuid}/

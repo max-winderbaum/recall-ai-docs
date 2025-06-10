@@ -3,7 +3,7 @@ title: "List Bot ScreenshotsMoon (Dark Mode)Sun (Light Mode)"
 description: "Get a list of all screenshots of the bot This endpoint is rate limited to: 60 requests per min per workspace"
 source_file: "reference/bot-screenshots.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:12.685Z"
+converted_at: "2025-06-10T14:47:12.278Z"
 api_parameters_count: "9"
 ---
 ## GET https://us-east-1.recall.ai/api/v1/bot/{bot_id}/screenshots/

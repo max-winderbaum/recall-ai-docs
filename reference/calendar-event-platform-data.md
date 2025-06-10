@@ -3,7 +3,7 @@ title: "Calendar Event Platform DataMoon (Dark Mode)Sun (Light Mode)"
 description: "Calendar event platform data for Calendar V2 events."
 source_file: "reference/calendar-event-platform-data.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:13.480Z"
+converted_at: "2025-06-10T14:47:13.049Z"
 api_parameters_count: "0"
 ---
 Calendar event platform data for Calendar V2 events.
@@ -13,8 +13,8 @@ Calendar event platform data for Calendar V2 events.
 ## 📘
 
 For more info, see:
-- [Calendar V2](/docs/v2)
-- [List Calendar Events](/reference/calendar_events_list)
+- [Calendar V2](/docs/v2.md)
+- [List Calendar Events](/reference/calendar_events_list.md)
 
 Examples of `raw` fields in calendar events for Outlook and Google Calendar
 

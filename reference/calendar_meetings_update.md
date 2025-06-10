@@ -3,7 +3,7 @@ title: "Update Calendar MeetingMoon (Dark Mode)Sun (Light Mode)"
 description: "Use this endpoint to update override_should_record property of the meeting. This endpoint is rate limited to: 120 requests per min per calendar_user"
 source_file: "reference/calendar_meetings_update.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:13.770Z"
+converted_at: "2025-06-10T14:47:13.336Z"
 api_parameters_count: "38"
 ---
 ## PATCH https://us-east-1.recall.ai/api/v1/calendar/meetings/{id}/
@@ -16,7 +16,7 @@ Use this endpoint to update override_should_record property of the meeting
 
 ## 📘
 
-For more information, see [Calendar V1](/docs/calendar-v1-1).
+For more information, see [Calendar V1](/docs/calendar-v1-1.md).
 ## Parameters
 
 | Name | Type | Required | Description |

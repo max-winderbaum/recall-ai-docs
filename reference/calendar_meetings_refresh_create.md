@@ -3,7 +3,7 @@ title: "Refresh Calendar MeetingsMoon (Dark Mode)Sun (Light Mode)"
 description: "Resync the calendar meetings for the user. This endpoint is rate limited to: 120 requests per min per calendar_user"
 source_file: "reference/calendar_meetings_refresh_create.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:13.720Z"
+converted_at: "2025-06-10T14:47:13.287Z"
 api_parameters_count: "28"
 ---
 ## POST https://us-east-1.recall.ai/api/v1/calendar/meetings/refresh/
@@ -18,7 +18,7 @@ Resync the calendar meetings for the user
 
 Recall keeps calendars in sync for you and you do not need to call this endpoint in order to get the most up-to-date version of users' calendars.
 
-For more information, see [Calendar V1](/docs/calendar-v1-faq#when-do-i-have-to-call-the-refresh-calendar-meetings-endpoint).
+For more information, see [Calendar V1](/docs/calendar-v1-faq#when-do-i-have-to-call-the-refresh-calendar-meetings-endpoint.md).
 ## Parameters
 
 | Name | Type | Required | Description |

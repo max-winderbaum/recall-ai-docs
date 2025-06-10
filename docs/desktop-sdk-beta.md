@@ -3,7 +3,7 @@ title: "Desktop SDKMoon (Dark Mode)Sun (Light Mode)"
 description: "The Desktop SDK lets you build a desktop app that records Zoom, Google Meet and Microsoft Teams meetings."
 source_file: "docs/desktop-sdk-beta.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.356Z"
+converted_at: "2025-06-10T14:47:10.968Z"
 api_parameters_count: "0"
 ---
 
@@ -16,7 +16,7 @@ The lifecycle of a Desktop Recording SDK recording is as follows:
 
 1.  The Desktop Recording SDK notifies your code that a Zoom meeting has started locally.
 2.  Your code makes a request to your backend for an upload token.
-3.  Your backend [creates a new Desktop SDK Upload using the Recall.ai API](/docs/desktop-sdk-beta#creating-an-sdk-upload), and returns the upload token to your desktop application.
+3.  Your backend [creates a new Desktop SDK Upload using the Recall.ai API](/docs/desktop-sdk-beta#creating-an-sdk-upload.md), and returns the upload token to your desktop application.
 4.  Your desktop code calls `startRecording` with the upload token.
 5.  Once the meeting is over, call `uploadRecording`.
 6.  Wait for the `sdk_upload.complete` webhook

@@ -3,7 +3,7 @@ title: "Setting up Signed-in Bots for Microsoft TeamsMoon (Dark Mode)Sun (Light 
 description: "How to sign in your bot into a Microsoft teams account"
 source_file: "docs/setting-up-signed-in-bots-for-microsoft-teams.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:12.017Z"
+converted_at: "2025-06-10T14:47:11.623Z"
 api_parameters_count: "0"
 ---
 **This guide is for you if:**
@@ -12,7 +12,7 @@ api_parameters_count: "0"
 
 
 **Limitations:**
-- *Signed-in bot names cannot be overridden* - Signed-in Microsoft Teams bots get their name from the Microsoft Teams account used to sign-in the bot. This overrides the `bot_name` parameter in [Create Bot endpoint](/reference/bot_create)
+- *Signed-in bot names cannot be overridden* - Signed-in Microsoft Teams bots get their name from the Microsoft Teams account used to sign-in the bot. This overrides the `bot_name` parameter in [Create Bot endpoint](/reference/bot_create.md)
 - *Signed-in Microsoft Teams bots must be in their own Organization* - Signed-in Microsoft Teams bots must be in their own organization due to global organization-level permission changes
 
 
@@ -127,7 +127,7 @@ This step will update the bot details seen in the meeting itself. You can update
 
 The bot display name and profile image cannot be overridden
 
-Regardless of what you specify in your [Create Bot](/reference/bot_create) request, the display name and profile photo will always be taken from the Microsoft account details defined in this section
+Regardless of what you specify in your [Create Bot](/reference/bot_create.md) request, the display name and profile photo will always be taken from the Microsoft account details defined in this section
 
 ### Step 3.1: Update the account details
 
@@ -201,7 +201,7 @@ By this point, you should have your Microsoft Teams Business Account login crede
 
 Now that your new bot account is set up, you can try sending your bot to a new Microsoft Teams meeting
 
-You can quickly test this by sending a bot using the interactive [Create Bot](/reference/bot_create) api docs. Make sure you use a new Teams Meeting URL and the API key from the Recall account with your Microsoft Teams Business Account login credentials
+You can quickly test this by sending a bot using the interactive [Create Bot](/reference/bot_create.md) api docs. Make sure you use a new Teams Meeting URL and the API key from the Recall account with your Microsoft Teams Business Account login credentials
 
 Note that you the bot will only sign in for meetings that require signed-in participants
 

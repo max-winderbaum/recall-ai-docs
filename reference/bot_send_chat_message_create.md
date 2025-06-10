@@ -3,7 +3,7 @@ title: "Send Chat MessageMoon (Dark Mode)Sun (Light Mode)"
 description: "Causes the bot to send a message in the meeting chat. This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/bot_send_chat_message_create.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:13.333Z"
+converted_at: "2025-06-10T14:47:12.904Z"
 api_parameters_count: "68"
 ---
 ## POST https://us-east-1.recall.ai/api/v1/bot/{id}/send_chat_message/
@@ -20,9 +20,9 @@ Causes the bot to send a message in the meeting chat
 
 In Zoom you can send a chat message as a DM to a specific participant by providing the `id` of the participant.
 
-You can get a participant's ID from the `id` field in the `meeting_participants` array when calling [Retrieve Bot](/reference/bot_retrieve).
+You can get a participant's ID from the `id` field in the `meeting_participants` array when calling [Retrieve Bot](/reference/bot_retrieve.md).
 
-**For more information, see [Chat Messages](/docs/chat-messages)**
+**For more information, see [Chat Messages](/docs/chat-messages.md)**
 ## Parameters
 
 | Name | Type | Required | Description |

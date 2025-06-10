@@ -3,14 +3,14 @@ title: "Output AudioMoon (Dark Mode)Sun (Light Mode)"
 description: "There are two primary methods of outputting audio from bots: Automatic audio output Calling the Output Audio endpoint Streaming audio into a call is can now be done with Output Media Platform Support Platform Available Zoom ✅ Google Meet ✅ Microsoft Teams ✅ Cisco Webex ✅ Slack Huddles ❌ Zoom Native ..."
 source_file: "docs/output-audio-in-meetings.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.749Z"
+converted_at: "2025-06-10T14:47:11.357Z"
 api_parameters_count: "0"
 ---
 There are two primary methods of outputting audio from bots:
 - **Automatic audio output**
-- **Calling the [Output Audio](/reference/bot_output_audio_create) endpoint**
+- **Calling the [Output Audio](/reference/bot_output_audio_create.md) endpoint**
 
-Streaming audio into a call is can now be done with [Output Media](/docs/stream-media)
+Streaming audio into a call is can now be done with [Output Media](/docs/stream-media.md)
 
 ## Platform Support
 
@@ -43,7 +43,7 @@ MP3 files can easily be converted to a b64 string using CLI tools such as [ffmpe
 
 [](#using-automatic_audio_output)
 
-[Create Bot](/reference/bot_create) accepts an `automatic_audio_output` configuration for automatically outputting audio when the bot starts recording, with the option to repeat the audio when participants join.
+[Create Bot](/reference/bot_create.md) accepts an `automatic_audio_output` configuration for automatically outputting audio when the bot starts recording, with the option to repeat the audio when participants join.
 
 `data` allows you to specify the mp3 the bot should play.
 - `kind` - The type of data encoded in the b64 string (Currently only `mp3` is supported)
@@ -99,7 +99,7 @@ Participants 2 and 3 will experience something slightly different based on the `
 
 [](#using-the-output-audio-endpoint)
 
-If your use case requires more manual control over outputting bot audio, you can use the [Output Audio](/reference/bot_output_audio_create) endpoint.
+If your use case requires more manual control over outputting bot audio, you can use the [Output Audio](/reference/bot_output_audio_create.md) endpoint.
 
 This endpoint takes the same parameters as the bot configuration objects above:
 
@@ -116,6 +116,6 @@ This endpoint takes the same parameters as the bot configuration objects above:
 
 ## 📘
 
-To use the [Output Audio](/reference/bot_output_audio_create) endpoint, currently bots must be configured with an `automatic_audio_output` in the [Create Bot](/reference/bot_create)request.
+To use the [Output Audio](/reference/bot_output_audio_create.md) endpoint, currently bots must be configured with an `automatic_audio_output` in the [Create Bot](/reference/bot_create.md)request.
 
 If you do not wish to leverage any automatic audio output, and just want to use the endpoint, we recommend adding a short silent mp3 file as the `b64_data` in this configuration.

@@ -3,7 +3,7 @@ title: "Bot Login CredentialsMoon (Dark Mode)Sun (Light Mode)"
 description: "❗️ This method for setting up authenticated Google Meet bots has been deprecated. Please refer to the guide in below link to setup authenticated Google Meet bots:: Setup Authenticated Google Meet Bot By default the Google Meet bot joins every meeting as a guest participant. This can lead to certain ..."
 source_file: "docs/bot-login-credentials.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.058Z"
+converted_at: "2025-06-10T14:47:10.682Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:
@@ -57,7 +57,7 @@ You can set up SSO V2 using the following steps:
 2.  Configure an user in your workspace which the bot will authenticate as.
     1.  Fill **username** field in the dashboard with the email address of the bot account. For e.g if the bot's account is `bot@sso.yourcompany.com` then **username = [bot@sso.yourcompany.com](mailto:bot@sso.yourcompany.com)**. **Incorrect username value will cause the bot to be stuck in joining\_call state**.
     2.  **The bot will join the meetings using the name of this google account, you can specify the name to be what makes sense for your use case.**
-    3.  This will override the `bot_name` parameter in [Create Bot](/reference/bot_create) endpoint, this is a limitation of authenticated Google Meet bots.
+    3.  This will override the `bot_name` parameter in [Create Bot](/reference/bot_create.md) endpoint, this is a limitation of authenticated Google Meet bots.
 3.  Ensure you login to the user account at least once, in order to accept the new account disclaimer.
     1.
 

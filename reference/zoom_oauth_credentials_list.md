@@ -3,7 +3,7 @@ title: "List Zoom OAuth CredentialsMoon (Dark Mode)Sun (Light Mode)"
 description: "Get a list of all Zoom OAuth Credentials This endpoint is rate limited to: 60 requests per min per workspace"
 source_file: "reference/zoom_oauth_credentials_list.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:15.874Z"
+converted_at: "2025-06-10T14:47:15.412Z"
 api_parameters_count: "15"
 ---
 ## GET https://us-east-1.recall.ai/api/v2/zoom-oauth-credentials/
@@ -15,8 +15,8 @@ Get a list of all Zoom OAuth Credentials This endpoint is rate limited to: 60 re
 ## 📘
 
 For more information, see:
-- [Recall-Managed OAuth](/docs/recall-managed-oauth#calling-the-recall-api)
-- [Customer Managed OAuth](/docs/customer-managed-oauth#registering-the-callback-url-in-the-recall-api)
+- [Recall-Managed OAuth](/docs/recall-managed-oauth#calling-the-recall-api.md)
+- [Customer Managed OAuth](/docs/customer-managed-oauth#registering-the-callback-url-in-the-recall-api.md)
 ## Parameters
 
 | Name | Type | Required | Description |

@@ -3,7 +3,7 @@ title: "Calendar V2 FAQMoon (Dark Mode)Sun (Light Mode)"
 description: "Calendar V2 FAQ"
 source_file: "docs/calendar-v2-faq.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:11.238Z"
+converted_at: "2025-06-10T14:47:10.857Z"
 api_parameters_count: "0"
 ---
 # Grouping recurring calendar events
@@ -56,8 +56,8 @@ To resolve this, the user should reconnect their calendar while ensuring to chec
 [](#aadsts7000215-error)
 
 This indicates something is wrong with your OAuth client secret, for instance:
-- **The secret expired**: In this case, you should [generate a new secret](https://learn.microsoft.com/en-us/partner-center/marketplace-offers/create-or-update-client-ids-and-secrets#update-the-client-secret-associated-with-your-client-id), and [update](/reference/calendars_partial_update) any outlook calendars with the new secret value.
-- **You've regenerated the secret, and haven't updated calendars in Recall:** In this case, you should [update](/reference/calendars_partial_update) any calendars with the new secret value.
+- **The secret expired**: In this case, you should [generate a new secret](https://learn.microsoft.com/en-us/partner-center/marketplace-offers/create-or-update-client-ids-and-secrets#update-the-client-secret-associated-with-your-client-id), and [update](/reference/calendars_partial_update.md) any outlook calendars with the new secret value.
+- **You've regenerated the secret, and haven't updated calendars in Recall:** In this case, you should [update](/reference/calendars_partial_update.md) any calendars with the new secret value.
 
 *In both scenarios, updating the calendars' `client_secret` will kick off a reconnection.*
 
@@ -85,11 +85,11 @@ This can happen when the meeting URL is a wrapped link or is a link to a meeting
 
 Refresh tokens from Microsoft OAuth are not tied to specific client secrets.
 
-This means that you can safely [update](/reference/calendars_partial_update) any calendars with the new secret, and Recall will automatically start using the new secret. End users do not need to reconnect.
+This means that you can safely [update](/reference/calendars_partial_update.md) any calendars with the new secret, and Recall will automatically start using the new secret. End users do not need to reconnect.
 
 In other words, you just need to:
 - [Generate](https://learn.microsoft.com/en-us/entra/identity/monitoring-health/recommendation-renew-expiring-application-credential?tabs=microsoft-entra-admin-center#action-plan) a new OAuth secret
-- [Update](/reference/calendars_partial_update) any calendars with the new `oauth_client_secret` value
+- [Update](/reference/calendars_partial_update.md) any calendars with the new `oauth_client_secret` value
 
 Recall will automatically handle the rest, no end user action required.
 

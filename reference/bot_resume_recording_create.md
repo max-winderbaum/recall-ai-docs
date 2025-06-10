@@ -3,7 +3,7 @@ title: "Resume RecordingMoon (Dark Mode)Sun (Light Mode)"
 description: "Instructs the bot to resume a paused recording. This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/bot_resume_recording_create.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:13.225Z"
+converted_at: "2025-06-10T14:47:12.802Z"
 api_parameters_count: "66"
 ---
 ## POST https://us-east-1.recall.ai/api/v1/bot/{id}/resume_recording/
@@ -16,7 +16,7 @@ Instructs the bot to resume a paused recording
 
 ## 📘
 
-For more information on bot recording behavior using this endpoint, see [Recording Control](/docs/recording-control#pause--resume-recording).
+For more information on bot recording behavior using this endpoint, see [Recording Control](/docs/recording-control#pause--resume-recording.md).
 ## Parameters
 
 | Name | Type | Required | Description |

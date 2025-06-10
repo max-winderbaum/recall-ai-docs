@@ -3,7 +3,7 @@ title: "List Zoom OAuth Credential LogsMoon (Dark Mode)Sun (Light Mode)"
 description: "Get a list of all Zoom OAuth Credential Logs. Any warnings or errors related to the OAuth Credential will be logged here, and this can be helpful for debugging. This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/zoom-oauth-credentials.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:15.597Z"
+converted_at: "2025-06-10T14:47:15.123Z"
 api_parameters_count: "10"
 ---
 ## GET https://us-east-1.recall.ai/api/v2/zoom-oauth-credential-logs/
@@ -17,8 +17,8 @@ Get a list of all Zoom OAuth Credential Logs. Any warnings or errors related to 
 ## 📘
 
 For more information, see:
-- [Recall-Managed OAuth](/docs/recall-managed-oauth#calling-the-recall-api)
-- [Customer Managed OAuth](/docs/customer-managed-oauth#registering-the-callback-url-in-the-recall-api)
+- [Recall-Managed OAuth](/docs/recall-managed-oauth#calling-the-recall-api.md)
+- [Customer Managed OAuth](/docs/customer-managed-oauth#registering-the-callback-url-in-the-recall-api.md)
 ## Parameters
 
 | Name | Type | Required | Description |

@@ -3,7 +3,7 @@ title: "Zoom OAuth IntegrationMoon (Dark Mode)Sun (Light Mode)"
 description: "📘 Automatic Recording Privileges: The Zoom OAuth integration is specifically for allowing bots to be able to record meetings without the host needing to manually grant recording access every meeting, as well as bypassing the waiting room. If you don't use this integration, Zoom bots will fall back ..."
 source_file: "docs/zoom-oauth-integration.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:12.287Z"
+converted_at: "2025-06-10T14:47:11.881Z"
 api_parameters_count: "0"
 ---
 > **CALLOUT**:
@@ -16,7 +16,7 @@ The Zoom OAuth integration is specifically for allowing bots to be able to recor
 
 If you don't use this integration, Zoom bots will fall back to the default behavior of prompting the host for explicit recording permission every meeting.
 
-To be compliant with Zoom's [requirements for meeting bots](/reference/zoom-new-bot-requirements), meeting bots need permission from the host to record. There are 2 ways to grant this permission:
+To be compliant with Zoom's [requirements for meeting bots](/reference/zoom-new-bot-requirements.md), meeting bots need permission from the host to record. There are 2 ways to grant this permission:
 
 1.  The host can grant permission manually
 2.  The bot can be created with a [Join Token For Local Recording](https://developers.zoom.us/docs/api/rest/reference/zoom-api/methods/#operation/meetingLocalRecordingJoinToken)
@@ -45,7 +45,7 @@ What this integration doesn't do
 
 The integration does **not** automatically send bots to calls.
 
-Bots will only be sent to calls if the bot is created with the [Create Bot](/reference/bot_create) endpoint or via the [Calendar Integration](/reference/calendar-integration).
+Bots will only be sent to calls if the bot is created with the [Create Bot](/reference/bot_create.md) endpoint or via the [Calendar Integration](/reference/calendar-integration.md).
 
 # Flow Diagrams
 

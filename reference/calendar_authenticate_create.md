@@ -3,7 +3,7 @@ title: "Get Calendar Auth TokenMoon (Dark Mode)Sun (Light Mode)"
 description: "Generate an authentication token for calendar APIs, scoped to the user. Each token has an expiry of 1 day from time of creation. This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/calendar_authenticate_create.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:13.585Z"
+converted_at: "2025-06-10T14:47:13.153Z"
 api_parameters_count: "2"
 ---
 ## GET https://us-east-1.recall.ai/api/v1/calendar/authenticate/
@@ -18,7 +18,7 @@ Generate an authentication token for calendar APIs, scoped to the user. Each tok
 
 If a calendar user with the provided `external_id` doesn't exist, it will be created.
 
-For more information, see [Calendar V1](/docs/calendar-v1-1#generate-a-calendar-auth-token).
+For more information, see [Calendar V1](/docs/calendar-v1-1#generate-a-calendar-auth-token.md).
 ## Parameters
 
 | Name | Type | Required | Description |

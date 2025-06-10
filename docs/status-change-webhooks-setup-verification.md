@@ -3,7 +3,7 @@ title: "Status Change Webhooks: Setup & VerificationMoon (Dark Mode)Sun (Light M
 description: "Start receiving and verifying bot status change webhook events."
 source_file: "docs/status-change-webhooks-setup-verification.html"
 is_api_reference: "false"
-converted_at: "2025-06-10T14:00:12.066Z"
+converted_at: "2025-06-10T14:47:11.670Z"
 api_parameters_count: "0"
 ---
 # Setup

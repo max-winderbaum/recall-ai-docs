@@ -3,7 +3,7 @@ title: "Retrieve Audio MixedMoon (Dark Mode)Sun (Light Mode)"
 description: "This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/audio_mixed_retrieve.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:12.491Z"
+converted_at: "2025-06-10T14:47:12.084Z"
 api_parameters_count: "11"
 ---
 ## GET https://us-east-1.recall.ai/api/v1/audio_mixed/{id}/

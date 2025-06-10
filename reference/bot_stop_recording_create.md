@@ -3,7 +3,7 @@ title: "Stop RecordingMoon (Dark Mode)Sun (Light Mode)"
 description: "Instructs the bot to end the current recording. This endpoint is rate limited to: 300 requests per min per workspace"
 source_file: "reference/bot_stop_recording_create.html"
 is_api_reference: "true"
-converted_at: "2025-06-10T14:00:13.433Z"
+converted_at: "2025-06-10T14:47:13.002Z"
 api_parameters_count: "66"
 ---
 ## POST https://us-east-1.recall.ai/api/v1/bot/{id}/stop_recording/
@@ -16,7 +16,7 @@ Instructs the bot to end the current recording
 
 ## 📘
 
-For more information on bot recording behavior using this endpoint, see [Recording Control](/docs/recording-control#start--stop-recording).
+For more information on bot recording behavior using this endpoint, see [Recording Control](/docs/recording-control#start--stop-recording.md).
 ## Parameters
 
 | Name | Type | Required | Description |
